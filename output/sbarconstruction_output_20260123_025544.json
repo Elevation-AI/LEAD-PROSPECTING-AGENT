@@ -1,0 +1,171 @@
+{
+    "generated_at": "2026-01-23T02:55:44.505465",
+    "source_url": "https://sbarconstruction.com",
+    "icp": {
+        "what_they_sell": "Commercial construction, renovation, and interiors services",
+        "customer_industry": "Industrial facilities, Commercial real estate, Manufacturing plants",
+        "customer_company_size": "Mid-market to Enterprise ($10M-$500M revenue)",
+        "target_buyers": [
+            "Construction Manager",
+            "Facilities Director",
+            "Operations Manager"
+        ],
+        "ideal_customer_characteristics": [
+            "Has large commercial property portfolio",
+            "Needs regular facility maintenance and renovation",
+            "Values on-time project completion and high-quality results"
+        ],
+        "customer_geography": "Western United States",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [
+                "CA",
+                "NV",
+                "AZ",
+                "OR",
+                "WA"
+            ],
+            "notes": "Licensed and operating in Western US states only"
+        }
+    },
+    "prospects_found": 18,
+    "prospects": [
+        {
+            "name": "Calpine Corporation",
+            "domain": "calpine.com",
+            "confidence": 0.87,
+            "why_good_fit": "Calpine is a service provider in the energy and power industry, which aligns with the target industry, and might need commercial construction, renovation, and interiors services for their own facilities or projects.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Menlo Group",
+            "domain": "menlocre.com",
+            "confidence": 0.62,
+            "why_good_fit": "Menlo Group is a commercial real estate brokerage that may be a buyer of the seller's construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "LevRose Commercial Real Estate",
+            "domain": "levrose.com",
+            "confidence": 0.78,
+            "why_good_fit": "Levrose is a commercial real estate advisory firm that might be a potential buyer of the seller's product if they need construction services for their clients.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Protofab, Inc.",
+            "domain": "protofabinc.com",
+            "confidence": 0.57,
+            "why_good_fit": "Protofabinc is a service provider in the industrial facilities and manufacturing plants industry, likely an end-user of construction services, and would realistically purchase the seller's product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Cisco Air Systems",
+            "domain": "ciscoair.com",
+            "confidence": 0.53,
+            "why_good_fit": "Cisco Air Systems is an end-user in the industrial facilities and commercial real estate industries that would benefit from commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Lpc",
+            "domain": "lpc.com",
+            "confidence": 0.9,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Jbbrown",
+            "domain": "jbbrown.com",
+            "confidence": 0.78,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Cresa",
+            "domain": "cresa.com",
+            "confidence": 0.77,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Northrimpdx",
+            "domain": "northrimpdx.com",
+            "confidence": 0.9,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Blackstone",
+            "domain": "blackstone.com",
+            "confidence": 0.53,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Pcl",
+            "domain": "pcl.com",
+            "confidence": 1.0,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Jacksonmain",
+            "domain": "jacksonmain.com",
+            "confidence": 0.55,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Grahambuilds",
+            "domain": "grahambuilds.com",
+            "confidence": 0.75,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Goodwin Gc",
+            "domain": "goodwin-gc.com",
+            "confidence": 0.63,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kcmre",
+            "domain": "kcmre.com",
+            "confidence": 0.75,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Calcomm",
+            "domain": "calcomm.org",
+            "confidence": 0.73,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kppm",
+            "domain": "kppm.com",
+            "confidence": 0.52,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Crowncommercialpropertymanagement",
+            "domain": "crowncommercialpropertymanagement.com",
+            "confidence": 0.47,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "Crowncommercialpropertymanagement",
+            "domain": "crowncommercialpropertymanagement.com",
+            "contacts": []
+        }
+    ],
+    "total_contacts": 0
+}

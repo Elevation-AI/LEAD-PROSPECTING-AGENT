@@ -1,0 +1,578 @@
+{
+    "generated_at": "2026-01-25T19:34:19.796801",
+    "source_url": "https://kpit.com",
+    "pipeline_version": "Agent01 + Agent02",
+    "icp": {
+        "seller_business_type": "engineering_services",
+        "what_they_sell": "Automotive software development and integration services, including ADAS, autonomous driving, body electronics, chassis, cockpit, propulsion, Vehicle.OS, E/E architecture, virtual engineering, integrated diagnostics, and data management.",
+        "customer_industry": "Automotive OEMs (car manufacturers), Electric vehicle manufacturers, Commercial vehicle manufacturers, Tier-1 automotive suppliers lacking extensive in-house software capabilities, Automotive companies transitioning to software-defined vehicles (SDV).",
+        "customer_company_size": "Mid-size to large enterprises (1000+ employees)",
+        "target_buyers": [
+            "Chief Technology Officer (CTO)",
+            "VP of Engineering",
+            "Director of Software Engineering",
+            "Head of Autonomous Driving",
+            "Head of Electric Vehicle Programs",
+            "E/E Architecture Director"
+        ],
+        "pain_points_solved": [
+            "Lack of in-house expertise in automotive software development.",
+            "Difficulty in integrating complex software systems.",
+            "Need to accelerate the development of new automotive features.",
+            "Challenges in complying with evolving automotive regulations.",
+            "High costs associated with building and maintaining in-house software teams.",
+            "Transitioning to Software Defined Vehicles (SDV)"
+        ],
+        "ideal_customer_characteristics": [
+            "Developing new vehicle platforms or features.",
+            "Outsourcing software development to accelerate time-to-market.",
+            "Facing challenges in integrating complex automotive systems.",
+            "Lacking in-house expertise in specific areas of automotive software.",
+            "Transitioning to electric or autonomous vehicle technologies.",
+            "Seeking to reduce costs associated with software development."
+        ],
+        "customer_geography": "Global",
+        "serviceable_geography": {
+            "scope": "global",
+            "countries": [
+                "USA",
+                "Germany",
+                "Sweden",
+                "India",
+                "China",
+                "Japan"
+            ],
+            "states_or_regions": [],
+            "notes": "Countries: USA, Germany, Sweden, India, China, Japan"
+        },
+        "customer_business_model": "outsourcing_oem",
+        "avoid_company_types": [
+            "Automotive software companies (COMPETITORS: Bosch, Continental, Aptiv, ZF, Elektrobit).",
+            "Tier-1 suppliers with large in-house software divisions.",
+            "IT services companies without automotive domain expertise.",
+            "Automotive consulting firms focused on strategy rather than implementation."
+        ]
+    },
+    "prospects_found": 12,
+    "prospects": [
+        {
+            "name": "General Motors",
+            "domain": "gm.com",
+            "confidence": 0.95,
+            "why_good_fit": "As an OEM, GM may outsource software development and integration for specific vehicle features or platforms, especially as they transition to electric and autonomous vehicles.",
+            "what_they_do": "General Motors designs, manufactures, and markets vehicles across various brands.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Rivian",
+            "domain": "rivian.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a relatively new EV manufacturer, Rivian likely outsources some software development and integration, especially for specialized areas like ADAS or Vehicle.OS, to accelerate development and focus on core competencies.",
+            "what_they_do": "Rivian is an electric vehicle manufacturer that designs, develops, and produces electric trucks and SUVs.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Orange EV",
+            "domain": "orangeev.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an EV manufacturer, Orange EV likely needs automotive software development and integration services for their vehicles, especially in areas like Vehicle.OS, integrated diagnostics, and data management.",
+            "what_they_do": "Orange EV manufactures and sells electric terminal trucks (yard trucks) for use in logistics and distribution centers.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "GreenPower Motor Company",
+            "domain": "greenpowermotor.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an EV manufacturer, GreenPower likely needs automotive software development and integration services for their vehicle platforms, especially as they expand their product line and potentially integrate more advanced features.",
+            "what_they_do": "GreenPower Motor Company manufactures and sells zero-emission electric vehicles, including school buses, commercial vehicles, and passenger vans.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Volkswagen Group",
+            "domain": "volkswagen-group.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large automotive OEM, Volkswagen Group may outsource software development and integration for specific projects or to accelerate innovation in areas like ADAS, autonomous driving, and electric vehicle technologies.",
+            "what_they_do": "Volkswagen Group is a multinational automotive manufacturer that designs, produces, and sells a wide range of vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ChargePoint",
+            "domain": "chargepoint.com",
+            "confidence": 0.85,
+            "why_good_fit": "ChargePoint could need automotive software development and integration services to enhance their EV charging platform, particularly in areas like Vehicle.OS integration, integrated diagnostics, or data management for their charging stations and user experience.",
+            "what_they_do": "ChargePoint provides electric vehicle (EV) charging solutions, including hardware and software, for various organizations and drivers.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Blink Charging",
+            "domain": "blinkcharging.com",
+            "confidence": 0.85,
+            "why_good_fit": "As an EV charging station provider, Blink Charging likely needs automotive software development and integration services for their charging stations, especially for Vehicle.OS, integrated diagnostics, and data management related to EV charging.",
+            "what_they_do": "Blink Charging provides EV charging stations and related services for residential and commercial use.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Amplify Cell Technologies",
+            "domain": "amplifycelltech.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a new battery cell manufacturer ramping up production, they likely need software development and integration services for various aspects of their operations, including manufacturing processes, quality control, and data management.",
+            "what_they_do": "Amplify Cell Technologies manufactures battery cells for heavy and medium-duty electric vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "International",
+            "domain": "international.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a commercial vehicle manufacturer, International could require automotive software development and integration services, especially as they transition to electrification and connected vehicle technologies, and may outsource some software development.",
+            "what_they_do": "International manufactures commercial trucks, buses, engines, and parts, and provides related services like financing and connected vehicle solutions.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Commercial Vehicle Group",
+            "domain": "cvgrp.com",
+            "confidence": 0.75,
+            "why_good_fit": "CVG is expanding into electric vehicles and may need software development and integration services for their assemblies and systems, especially given their focus on electrical systems and harnesses.",
+            "what_they_do": "Commercial Vehicle Group (CVG) is a leading supplier of electric vehicle assemblies, electrical wire harnesses, seating systems, mechanical assemblies, and plastic products primarily to the commercial vehicle, electric vehicle, ecommerce, transportation, construction equipment, industrial, and recreational vehicle markets.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "REV Group",
+            "domain": "revgroup.com",
+            "confidence": 0.75,
+            "why_good_fit": "As a manufacturer of various vehicle types, REV Group could potentially outsource software development and integration for features like ADAS, body electronics, or Vehicle.OS, especially as they develop new vehicle platforms or transition to more advanced technologies.",
+            "what_they_do": "REV Group designs and manufactures specialty vehicles including fire apparatus, emergency vehicles, commercial infrastructure vehicles, and recreational vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Knapheide",
+            "domain": "knapheide.com",
+            "confidence": 0.75,
+            "why_good_fit": "Knapheide could benefit from automotive software development and integration services to enhance their vehicle body offerings, particularly as they move towards more technologically advanced solutions and custom builds.",
+            "what_they_do": "Knapheide manufactures and upfits commercial vehicle bodies and provides add-on equipment and accessories.",
+            "source": "web_search_verified"
+        }
+    ],
+    "apollo_enriched": [
+        {
+            "company": "General Motors",
+            "domain": "gm.com",
+            "contacts": [
+                {
+                    "name": "Olga Pronina",
+                    "title": "Director of Software Engineering",
+                    "email": "olga.pronina@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/olga-pronina",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "54a5a6bf7468692fa2ee739f",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQErZOFzxZQsPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722699826605?e=2147483647&v=beta&t=hlKPc1YBwLiI5SFWA7eQwUItNwAqhPTouV4IpkCqRuc",
+                    "headline": "Director of Software Engineering | AV | Embedded Systems and Autonomous Platforms"
+                },
+                {
+                    "name": "Marcus Hanson",
+                    "title": "Director Software Engineering",
+                    "email": "marcus.hanson@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/marcushanson",
+                    "phone": "",
+                    "location": "Seattle, Washington, United States",
+                    "email_verified": true,
+                    "person_id": "611d1788b2404e0001296509",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQH182BPORltEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516561814105?e=2147483647&v=beta&t=okc0Rx1dTBj6sPv1dnrxCP1bLJAxtabvL1advK1CLMc",
+                    "headline": "Director of Engineering"
+                },
+                {
+                    "name": "Mike O'Connor",
+                    "title": "Director of Software Engineering",
+                    "email": "michael.oconnor@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/mikeyoc",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "6860125fdb2d8000011ce1c7",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQGojdpYsV2vvw/profile-displayphoto-shrink_200_200/B4EZdR_kFiHgAY-/0/1749427307216?e=2147483647&v=beta&t=Rq0JN4tYROoTFuTCB9ZeRjjNCQwZDUP0wLMVUC6UkQc",
+                    "headline": "Software Engineering and People Leader"
+                },
+                {
+                    "name": "Camille Voisin",
+                    "title": "Director Software Engineering",
+                    "email": "camille.voisin@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/camille-voisin-a796393",
+                    "phone": "",
+                    "location": "Ireland",
+                    "email_verified": true,
+                    "person_id": "54c217237468691639777d77",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQGqLAHPt2ucqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1583399102035?e=2147483647&v=beta&t=M5qECbau3gQlFo5LAyCOvKF-PsmFDAJ9ZzUawVT32uw",
+                    "headline": "Director Software Engineering, Connected Vehicle Infrastructure, at General Motors"
+                },
+                {
+                    "name": "Jeffrey Kalikstein",
+                    "title": "Director of Software Engineering",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kalikstein",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": false,
+                    "person_id": "610c253ef095a40001010554",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": null
+                }
+            ]
+        },
+        {
+            "company": "Rivian",
+            "domain": "rivian.com",
+            "contacts": [
+                {
+                    "name": "Edward Ho",
+                    "title": "Head of Autonomous Driving Department",
+                    "email": "eho@rivian.com",
+                    "linkedin_url": "http://www.linkedin.com/in/edward-ho-42694a127",
+                    "phone": "",
+                    "location": "Sacramento, California, United States",
+                    "email_verified": true,
+                    "person_id": "67bf16ff015686000101a789",
+                    "photo_url": null,
+                    "headline": "Head of Autonomous Driving Perception Innovation & Strategy"
+                },
+                {
+                    "name": "Matt Wolfe",
+                    "title": "VP, Vehicle Hardware Engineering",
+                    "email": "mwolfe@rivian.com",
+                    "linkedin_url": "http://www.linkedin.com/in/matt-wolfe-417741a5",
+                    "phone": "",
+                    "location": "Irvine, California, United States",
+                    "email_verified": true,
+                    "person_id": "60ba4ba4ab70d70001115705",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQGLwUwwIzNNcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517373850259?e=2147483647&v=beta&t=_XecFM5ZvVnBcV7Tpuj_-kFcCavPe7LR5Eho_AC29JA",
+                    "headline": "Keeping the world adventurous forever at Rivian"
+                }
+            ]
+        },
+        {
+            "company": "Orange EV",
+            "domain": "orangeev.com",
+            "contacts": [
+                {
+                    "name": "Zouhair Lazreq",
+                    "title": "Vice President of Engineering",
+                    "email": "zouhair.lazreq@orangeev.com",
+                    "linkedin_url": "http://www.linkedin.com/in/zouhairlazreq",
+                    "phone": "",
+                    "location": "Kansas City, Kansas, United States",
+                    "email_verified": true,
+                    "person_id": "691efb4bc5a7c900017991b3",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQEhQ2C_RUwzig/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1632954048340?e=2147483647&v=beta&t=oKGo3imY325K3gFtSkw5pPH4Tk-QJGrYx2BJuxzvsKg",
+                    "headline": "VP of Engineering + Technical Fellow | Strategy + Leadership for Growth through Global Automotive OEM Transformation | Manufacturing, R&D Innovation + CTO-level leadership key to Top-Tier/Supplier of Choice Standing"
+                },
+                {
+                    "name": "Kurt Neutgens",
+                    "title": "President and Chief Technology Officer",
+                    "email": "kurtn@orangeev.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kurt-neutgens-42a0107",
+                    "phone": "",
+                    "location": "Kansas City, Missouri, United States",
+                    "email_verified": true,
+                    "person_id": "60da2ba4c16c920001e771b1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQHDPHLj1yjlEw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516302607443?e=2147483647&v=beta&t=PyAdzv1K1XmSX8_LyryK9rEsQV50HmsqZZ8F5ifasF0",
+                    "headline": "President  and Chief Technology Officer at Orange EV"
+                }
+            ]
+        },
+        {
+            "company": "GreenPower Motor Company",
+            "domain": "greenpowermotor.com",
+            "contacts": []
+        },
+        {
+            "company": "Volkswagen Group",
+            "domain": "volkswagen-group.com",
+            "contacts": [
+                {
+                    "name": "Kristian Altenburg",
+                    "title": "Head of Autonomous Driving Functions",
+                    "email": "kristian.altenburg@volkswagen.de",
+                    "linkedin_url": "http://www.linkedin.com/in/kristian-altenburg-220474116",
+                    "phone": "",
+                    "location": "Wolfsburg, Lower Saxony, Germany",
+                    "email_verified": true,
+                    "person_id": "57d7354aa6da9864d03c00c1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQFRrGvM4ksmhg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729085397369?e=2147483647&v=beta&t=Kd_p5W3rWBHB-mn3IB2FERiHumCfeRjDwpWsYKYcaj0",
+                    "headline": "Head of Autonomous Driving Functions bei Volkswagen AG"
+                },
+                {
+                    "name": "Allen Piercy",
+                    "title": "CTO",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/allen-piercy-88b0a610",
+                    "phone": "",
+                    "location": "Rochester, Michigan, United States",
+                    "email_verified": false,
+                    "person_id": "5ddd09fc60e68e0001ff18a0",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "CTO at Volkswagen"
+                },
+                {
+                    "name": "Sean Flater",
+                    "title": "Regional CTO - Director, Technology & Architecture",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/sean-flater",
+                    "phone": "",
+                    "location": "Rochester, Michigan, United States",
+                    "email_verified": false,
+                    "person_id": "66e137d07f8f0a00011954b1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQGYiG75M1KANA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658413713?e=2147483647&v=beta&t=9CEm1-wpvlKxdSvy3SBCDV8vn-aj-bSVaNC5sDoeZks",
+                    "headline": "Technology & Architecture Director at Volkswagen Group of America"
+                },
+                {
+                    "name": "Stina Reinecke",
+                    "title": "Assistenz CTO MQB Evo",
+                    "email": "stina.reinecke@volkswagen.de",
+                    "linkedin_url": "http://www.linkedin.com/in/stina-reinecke-035885203",
+                    "phone": "",
+                    "location": "Hanover, Lower Saxony, Germany",
+                    "email_verified": true,
+                    "person_id": "67b499b61e168d0001225c26",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Assistenz CTO MQB Evo"
+                },
+                {
+                    "name": "Konstantin Bartels",
+                    "title": "Assistent CTO e-Mobility",
+                    "email": "konstantin.bartels@volkswagen.de",
+                    "linkedin_url": "http://www.linkedin.com/in/konstantin-bartels-6636701b6",
+                    "phone": "",
+                    "location": "Hanover, Lower Saxony, Germany",
+                    "email_verified": true,
+                    "person_id": "649af6ac45e8e10001080021",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Assistent CTO e-Mobility bei Volkswagen AG"
+                }
+            ]
+        },
+        {
+            "company": "ChargePoint",
+            "domain": "chargepoint.com",
+            "contacts": [
+                {
+                    "name": "Ankit Kukreja",
+                    "title": "Senior Director of Software Engineering",
+                    "email": "ankit.kukreja@chargepoint.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ankitkukreja",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "60f944690e7a0b00010b8bd5",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Director of Software Engineering @ ChargePoint |🔌 EV Infrastructure Leader | Cloud & AI Strategist | Global Tech Leader"
+                },
+                {
+                    "name": "Hossein Kazemi",
+                    "title": "CTO- Hardware",
+                    "email": "hossein.kazemi@chargepoint.com",
+                    "linkedin_url": "http://www.linkedin.com/in/hossein-kazemi-ba11424",
+                    "phone": "",
+                    "location": "United States",
+                    "email_verified": true,
+                    "person_id": "66fec27b3dde25000181adf6",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "CTO- Hardware at ChargePoint"
+                },
+                {
+                    "name": "Reinhard Rettensteiner",
+                    "title": "Director Agile (Software) Engineering",
+                    "email": "reinhard.rettensteiner@chargepoint.com",
+                    "linkedin_url": "http://www.linkedin.com/in/reinhard-rettensteiner-7328391a3",
+                    "phone": "",
+                    "location": "Radstadt, Salzburg, Austria",
+                    "email_verified": true,
+                    "person_id": "66ff054d34f15200018e83aa",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQH3DJ9C_9LWeQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1582891951049?e=2147483647&v=beta&t=eFREA6fGHqclh5HeKVm1SKYWPvR8-KagE8ZPZAcuGVQ",
+                    "headline": "Director Global Software Program/Project Management, Engineering Operations"
+                },
+                {
+                    "name": "Aaron Little",
+                    "title": "VP, Product Design Engineering",
+                    "email": "aaron.little@chargepoint.com",
+                    "linkedin_url": "http://www.linkedin.com/in/aaron-little-820b5210",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "6221d554001a8e0001962603",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "VP, Mechanical Engineering | Product Development | Internet of Things | Electric Vehicle Charging | Manufacturing"
+                }
+            ]
+        },
+        {
+            "company": "Blink Charging",
+            "domain": "blinkcharging.com",
+            "contacts": [
+                {
+                    "name": "Harjinder Bhade",
+                    "title": "Chief Technology Officer",
+                    "email": "hbhade@blinkcharging.com",
+                    "linkedin_url": "http://www.linkedin.com/in/harjinder-bhade-aa2592",
+                    "phone": "",
+                    "location": "Santa Clara, California, United States",
+                    "email_verified": true,
+                    "person_id": "66f552947d60e5000150750a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Chief Technology Officer"
+                },
+                {
+                    "name": "Sri Swarnapuri",
+                    "title": "Vice President of Software Engineering",
+                    "email": "sswarnapuri@blinkcharging.com",
+                    "linkedin_url": "http://www.linkedin.com/in/sriswarnapuri",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "57dec4a2a6da987b4d98cf74",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFMDHoN3xJFGA/profile-displayphoto-shrink_200_200/B56Za7MR.aH0Ag-/0/1746897281414?e=2147483647&v=beta&t=OW4vZ3p6bjPD-W3ppFNrzN269ppkEbKgiPYIvaPCRRA",
+                    "headline": "Product & Technology Leader | Driving Scalable Innovation | Building High-Impact Teams | AI, SaaS, Green Tech"
+                }
+            ]
+        },
+        {
+            "company": "Amplify Cell Technologies",
+            "domain": "amplifycelltech.com",
+            "contacts": []
+        },
+        {
+            "company": "International",
+            "domain": "international.com",
+            "contacts": [
+                {
+                    "name": "Dino Muftic",
+                    "title": "Executive Planner & Advisor to CTO",
+                    "email": "dino.muftic@navistar.com",
+                    "linkedin_url": "http://www.linkedin.com/in/dino-muftic-2b88974a",
+                    "phone": "",
+                    "location": "Lisle, Illinois, United States",
+                    "email_verified": true,
+                    "person_id": "607074a19afc11000152d614",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQGRoEW_otWdMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1659536019634?e=2147483647&v=beta&t=oI2eWq7RwaD5qUISaHxIFSwTPOwPXkOuix2c_SqksFY",
+                    "headline": "Executive Planner and Advisor to International Motors CTO"
+                }
+            ]
+        },
+        {
+            "company": "Commercial Vehicle Group",
+            "domain": "cvgrp.com",
+            "contacts": []
+        },
+        {
+            "company": "REV Group",
+            "domain": "revgroup.com",
+            "contacts": []
+        },
+        {
+            "company": "Knapheide",
+            "domain": "knapheide.com",
+            "contacts": [
+                {
+                    "name": "Chris Weiss",
+                    "title": "Vice President of Engineering",
+                    "email": "cweiss@knapheide.com",
+                    "linkedin_url": "http://www.linkedin.com/in/christopherweiss1",
+                    "phone": "",
+                    "location": "Quincy, Illinois, United States",
+                    "email_verified": true,
+                    "person_id": "60f95498f521d300014a000c",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFktbYzQqm3qw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720829812504?e=2147483647&v=beta&t=5SOKSdSADaXbaBUyNDRfUgMe7BFxdBe8fX63ZBBDdf0",
+                    "headline": "Vice President of Engineering at The Knapheide Manufacturing Company"
+                }
+            ]
+        }
+    ],
+    "deep_enriched": [
+        {
+            "name": "Olga Pronina",
+            "title": "Director of Software Engineering",
+            "email": "olga.pronina@gm.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/olga-pronina/",
+            "company": "Unknown",
+            "domain": "gm.com",
+            "full_name": "Olga Pronina",
+            "headline": "Director of Software Engineering | AV | Embedded Systems and Autonomous Platforms",
+            "bio_snippet": "I bring together people and ideas to unlock the full potential of individuals and teams.\n\nEngineering leader with over 18 years of experience, including 12 years of technical and organizational leader",
+            "location": "San Francisco Bay Area",
+            "current_title": "Director of Software Engineering",
+            "current_company": "General Motors",
+            "time_in_role": "0 mo",
+            "connections": 2607
+        },
+        {
+            "name": "Marcus Hanson",
+            "title": "Director Software Engineering",
+            "email": "marcus.hanson@gm.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/marcushanson/",
+            "company": "Unknown",
+            "domain": "gm.com",
+            "full_name": "Marcus Hanson",
+            "headline": "Director of Engineering",
+            "bio_snippet": "",
+            "location": "Seattle, Washington, United States",
+            "current_title": "Director Software Engineering",
+            "current_company": "General Motors",
+            "time_in_role": "6 mo",
+            "connections": 1161
+        },
+        {
+            "name": "Mike O'Connor",
+            "title": "Director of Software Engineering",
+            "email": "michael.oconnor@gm.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/mikeyoc/",
+            "company": "Unknown",
+            "domain": "gm.com",
+            "full_name": "Mike O'Connor",
+            "headline": "Software Engineering and People Leader",
+            "bio_snippet": "Inclusive technical leader with decades of experience building engineering teams and boosting software\ndevelopment productivity. As a developer and leader, maintained a proven track record of kindness",
+            "location": "San Francisco, California, United States",
+            "current_title": "Director of Software Engineering",
+            "current_company": "General Motors",
+            "time_in_role": "10 mo",
+            "connections": 379
+        },
+        {
+            "name": "Camille Voisin",
+            "title": "Director Software Engineering",
+            "email": "camille.voisin@gm.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/camille-voisin-a796393/",
+            "company": "Unknown",
+            "domain": "gm.com",
+            "full_name": "Camille Voisin",
+            "headline": "Director Software Engineering, Connected Vehicle Infrastructure, at General Motors",
+            "bio_snippet": "A global IT leader with proven track-record and extensive international experience",
+            "location": "Ireland",
+            "current_title": "Director Software Engineering",
+            "current_company": "General Motors",
+            "time_in_role": "4 yr 11 mo",
+            "connections": 680
+        },
+        {
+            "name": "Jeffrey Kalikstein",
+            "title": "Director of Software Engineering",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/kalikstein/",
+            "company": "Unknown",
+            "domain": "gm.com",
+            "full_name": "Jeffrey Kalikstein",
+            "headline": "Director, Software Development for On-Vehicle Programming @ GM",
+            "bio_snippet": "",
+            "location": "Austin, Texas, United States",
+            "current_title": "Director of Software Engineering",
+            "current_company": "General Motors",
+            "time_in_role": "3 yr 2 mo",
+            "connections": 1747
+        }
+    ],
+    "google_sheet_url": "https://docs.google.com/spreadsheets/d/1FncCVev0uPLRv0yWHP4VkyRQdL19_D-VUk9hnmdh0Y0",
+    "total_contacts": 5
+}

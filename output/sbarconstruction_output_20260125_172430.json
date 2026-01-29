@@ -1,0 +1,216 @@
+{
+    "generated_at": "2026-01-25T17:24:30.482367",
+    "source_url": "https://sbarconstruction.com",
+    "icp": {
+        "seller_business_type": "physical_service",
+        "what_they_sell": "Commercial construction, renovation, tenant improvements, roofing, site services, and building inspection & maintenance.",
+        "customer_industry": "Commercial real estate developers, Retail chains expanding locations, Healthcare systems building new facilities, Hospitality companies developing new properties, Industrial companies expanding or renovating facilities, Corporate headquarters relocations or expansions.",
+        "customer_company_size": "Small to large businesses",
+        "target_buyers": [
+            "Real Estate Development Manager",
+            "Construction Manager",
+            "Facilities Director",
+            "Project Manager",
+            "VP of Operations"
+        ],
+        "ideal_customer_characteristics": [
+            "Actively developing or expanding their real estate portfolio.",
+            "Undergoing renovations or tenant improvements.",
+            "Requires general construction, roofing, or site services.",
+            "Values quality, integrity, and client satisfaction.",
+            "Has upcoming construction projects with specific deadlines."
+        ],
+        "customer_geography": "Projects completed in multiple states.",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [],
+            "notes": "Completed projects in 10 states, but likely focused on a regional area."
+        },
+        "avoid_company_types": [
+            "Other construction companies (competitors)",
+            "Residential construction companies",
+            "Architecture/engineering firms (partners, not customers)",
+            "Property management companies (maintain, don't build)",
+            "Companies with established in-house construction/maintenance teams"
+        ]
+    },
+    "prospects_found": 13,
+    "prospects": [
+        {
+            "name": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a real estate developer, Inland likely commissions construction, renovation, and site services for their projects, aligning with the seller's offerings.",
+            "what_they_do": "Inland is a vertically integrated commercial real estate investment, finance, and operating group that develops and manages commercial properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Greenberg Gibbons",
+            "domain": "ggcommercial.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a commercial real estate developer, they would likely need construction, renovation, and site services for their projects.",
+            "what_they_do": "Greenberg Gibbons is a commercial real estate company that develops, invests in, and owns commercial, mixed-use, residential, retail, and flex/R&D spaces.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Breakthrough Properties",
+            "domain": "btprop.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a real estate developer focused on life science facilities, they would likely need commercial construction, renovation, and site services for their projects.",
+            "what_they_do": "Breakthrough Properties is a global life science real estate developer, owner and operator of research and development facilities.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hudson",
+            "domain": "hudsongroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "Hudson is actively expanding and renovating their retail spaces in airports, making them a potential customer for commercial construction, renovation, and tenant improvement services.",
+            "what_they_do": "Hudson Group is a travel retailer that operates duty-paid and duty-free stores in airports and transportation terminals across North America.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kohl's",
+            "domain": "kohls.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a retail chain, Kohl's expands and renovates locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Kohl's is a department store retailer selling clothing, shoes, home goods, and more.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Stream Realty Partners",
+            "domain": "streamrealty.com",
+            "confidence": 0.9,
+            "why_good_fit": "Stream Realty Partners engages in development and construction management, suggesting they could outsource specific construction services, roofing, or site services to complement their in-house capabilities.",
+            "what_they_do": "Stream Realty Partners is a commercial real estate firm offering services like development, construction management, and property management, indicating they both develop and manage properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Walmart",
+            "domain": "walmart.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large retail chain, Walmart is likely expanding and renovating locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hy-Vee, Inc.",
+            "domain": "hy-vee.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Hy-Vee likely expands and renovates locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Hy-Vee is a grocery store chain offering online ordering, pick-up, delivery, and various shopping and service options.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Framebridge",
+            "domain": "framebridge.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain with physical stores, Framebridge would likely need commercial construction, renovation, tenant improvements, and building maintenance services to build out new locations or renovate existing ones.",
+            "what_they_do": "Framebridge is a retailer that provides custom picture framing services online and in retail stores.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "McKesson",
+            "domain": "mckesson.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large healthcare distributor, McKesson likely expands or renovates facilities and may require construction, renovation, or maintenance services for their distribution centers, offices, and other properties.",
+            "what_they_do": "McKesson distributes pharmaceuticals and medical supplies to healthcare settings across North America and provides related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Sephora",
+            "domain": "sephora.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Sephora likely expands and renovates locations, requiring commercial construction, renovation, and tenant improvement services.",
+            "what_they_do": "Sephora is a multinational retailer of personal care and beauty products.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Home Depot",
+            "domain": "homedepot.com",
+            "confidence": 0.9,
+            "why_good_fit": "Home Depot expands and renovates its retail locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Home Depot is a large retail chain selling home improvement and construction products and services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Cargill",
+            "domain": "cargill.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a large company with operations in 70 countries, Cargill likely requires commercial construction, renovation, and maintenance services for their facilities.",
+            "what_they_do": "Cargill is a global food company that sources, makes, and delivers food, ingredients, agricultural solutions, and industrial products.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "Home Depot",
+            "domain": "homedepot.com",
+            "contacts": [
+                {
+                    "name": "Xuan Zhou",
+                    "title": "Vice President Operations",
+                    "email": "xuan_zhou@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/xuan-zhou-62502586",
+                    "phone": "",
+                    "location": "Fairfield, Ohio, United States",
+                    "email_verified": true,
+                    "person_id": "6570902274c64c0001e81539",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHKg5EoI4xkRg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688624610399?e=2147483647&v=beta&t=OrnTPabN-DzpzTQOz9r4REfs3bWRYSFi7jY1NcSqJH0",
+                    "headline": "Vice President of Operations"
+                },
+                {
+                    "name": "Aiyana Alessandra",
+                    "title": "Vice President Operations",
+                    "email": "aiyana_alessandra@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/aiyana-alessandra-419a02271",
+                    "phone": "",
+                    "location": "Rajshahi, Rajshahi Division, Bangladesh",
+                    "email_verified": false,
+                    "person_id": "648cc53f0867ee0001a64266",
+                    "photo_url": "https://media.licdn.com/dms/image/D5603AQFwm3Ig1tSafQ/profile-displayphoto-shrink_200_200/0/1681097109272?e=1698883200&v=beta&t=HtbuwhHeud3XlyKCUZAg8W15x1HBk0VUSEuaaxR93vg",
+                    "headline": "--"
+                },
+                {
+                    "name": "Bob Burnside",
+                    "title": "Construction Manager",
+                    "email": "bob_burnside@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/bob-burnside-6508a737",
+                    "phone": "",
+                    "location": "Costa Mesa, California, United States",
+                    "email_verified": true,
+                    "person_id": "54a2ff5a74686930c2ff0e4d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at The Home Depot"
+                },
+                {
+                    "name": "Bruce Talvy",
+                    "title": "Construction Manager",
+                    "email": "bruce_talvy@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/bruce-talvy-1194157",
+                    "phone": "",
+                    "location": "South Plainfield, New Jersey, United States",
+                    "email_verified": true,
+                    "person_id": "55e32695f3e5bb5aa10021c8",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at The Home Depot"
+                },
+                {
+                    "name": "Victor Farias Nieves",
+                    "title": "Construction Project Manager",
+                    "email": "victor_gomez@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/victor-gomez-farias-nieves-3374a025",
+                    "phone": "",
+                    "location": "Monterrey, Nuevo Leon, Mexico",
+                    "email_verified": true,
+                    "person_id": "54a2be7474686930c218ba39",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFKt6cf4H7t8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1557161353191?e=2147483647&v=beta&t=1wpw2Vf2Vbtw2U_bRE2VBRV8_4bcUXLpW3emBfyjfZU",
+                    "headline": "Field Capital Project Manager en The Home Depot"
+                }
+            ]
+        }
+    ],
+    "total_contacts": 5
+}

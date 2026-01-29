@@ -1,0 +1,270 @@
+{
+    "generated_at": "2026-01-25T22:10:31.401862",
+    "source_url": "https://kpit.com",
+    "icp": {
+        "seller_business_type": "engineering_services",
+        "what_they_sell": "Automotive software development services, including autonomous driving & ADAS, body electronics, chassis, cockpit, propulsion, Vehicle.OS, E/E architecture, network & middleware, embedded & smart engineering, virtual engineering, integrated diagnostics & aftersales transformation, cloud, edge analytics & data management, and vehicle engineering & design.",
+        "customer_industry": "Automotive OEMs (car manufacturers), Electric vehicle startups, Commercial vehicle manufacturers, Automotive Tier-1 suppliers needing software expertise, Automotive companies transitioning to Software-Defined Vehicles (SDV)",
+        "customer_company_size": "Mid-sized to large enterprises",
+        "target_buyers": [
+            "Chief Technology Officer (CTO)",
+            "VP of Engineering",
+            "Director of Software Engineering",
+            "Head of Autonomous Driving",
+            "Head of Electric Vehicle Programs",
+            "E/E Architecture Director"
+        ],
+        "ideal_customer_characteristics": [
+            "Developing electric or autonomous vehicles",
+            "Needs to outsource software development",
+            "Transitioning from ICE to EV platforms",
+            "Does NOT have a large in-house software team",
+            "Requires expertise in specific automotive software domains (e.g., ADAS, Vehicle.OS)",
+            "Looking to reduce time-to-market for new vehicle features",
+            "Seeking cost-effective software development solutions"
+        ],
+        "customer_geography": "Global",
+        "serviceable_geography": {
+            "scope": "global",
+            "countries": [],
+            "states_or_regions": [],
+            "notes": "KPIT has a global presence with software centers of excellence worldwide."
+        },
+        "avoid_company_types": [
+            "Automotive software companies (COMPETITORS: Bosch, Continental, Aptiv, ZF)",
+            "Tier-1 suppliers with own large software divisions",
+            "IT services companies with no automotive domain expertise",
+            "Automotive consulting firms focused on strategy, not implementation",
+            "Companies solely focused on hardware development"
+        ]
+    },
+    "prospects_found": 10,
+    "prospects": [
+        {
+            "name": "General Motors",
+            "domain": "gm.com",
+            "confidence": 0.9,
+            "why_good_fit": "GM, as a major automotive OEM, likely outsources some software development, especially in areas like autonomous driving, Vehicle.OS, and other advanced technologies, making them a potential buyer.",
+            "what_they_do": "General Motors is a global automotive manufacturer that designs, engineers, manufactures, and sells vehicles and related parts.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Rivian",
+            "domain": "rivian.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an EV OEM, Rivian likely needs to outsource some software development, especially for areas like Vehicle.OS, ADAS, and cloud integration, as they are a relatively new company and are described as software-defined vehicles.",
+            "what_they_do": "Rivian designs, manufactures, and sells electric vehicles designed for adventure.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Tesla",
+            "domain": "teslarati.com",
+            "confidence": 0.9,
+            "why_good_fit": "Tesla is actively developing autonomous driving and other advanced software features, and may need to outsource specific software development tasks or augment their existing teams.",
+            "what_they_do": "Tesla designs, develops, manufactures, and sells electric vehicles, energy generation and storage systems, and related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "NanoGraf Corporation",
+            "domain": "nanograf.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a battery technology company focused on improving EV battery performance, NanoGraf likely needs software development services for battery management systems, embedded software, and potentially cloud-based analytics for battery performance monitoring and optimization, aligning with the seller's automotive software development offerings.",
+            "what_they_do": "NanoGraf develops and manufactures advanced silicon-based anode materials for lithium-ion batteries, aiming to improve energy density, range, and performance, particularly for electric vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Volkswagen Group",
+            "domain": "volkswagen-group.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large automotive OEM, Volkswagen Group likely outsources some software development, especially in areas like autonomous driving, Vehicle.OS, and other advanced technologies, making them a potential buyer.",
+            "what_they_do": "Volkswagen Group is a multinational automotive manufacturer that designs, manufactures, and distributes vehicles and related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "International",
+            "domain": "international.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a commercial vehicle manufacturer, International could need automotive software development services, especially as they are exploring electrification and connected services.",
+            "what_they_do": "International manufactures commercial trucks, buses, engines, and parts.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Daimler Truck AG",
+            "domain": "daimlertruck.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large commercial vehicle manufacturer, Daimler Truck likely needs to outsource software development for areas like autonomous driving, electric vehicle technology, and Vehicle.OS, especially as they transition to new technologies and expand their electric vehicle portfolio.",
+            "what_they_do": "Daimler Truck AG is one of the world's largest commercial vehicle manufacturers, offering trucks, buses, and financial services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "SparkCharge",
+            "domain": "sparkcharge.io",
+            "confidence": 0.75,
+            "why_good_fit": "SparkCharge, while providing charging solutions, may need automotive software development services to enhance their charging infrastructure, energy management, or fleet management software, especially as they scale and integrate with various vehicle platforms.",
+            "what_they_do": "SparkCharge provides mobile and stationary EV charging solutions and services for fleets, offering Charging-as-a-Service (CaaS) and related infrastructure.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ChargePoint",
+            "domain": "chargepoint.com",
+            "confidence": 0.75,
+            "why_good_fit": "ChargePoint could potentially need automotive software development services for their charging infrastructure, particularly in areas like Vehicle.OS integration, cloud data management, or enhancing the driver experience through in-vehicle systems.",
+            "what_they_do": "ChargePoint provides electric vehicle (EV) charging solutions, including hardware, software, and services for businesses and drivers.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "REV Group",
+            "domain": "revgroup.com",
+            "confidence": 0.75,
+            "why_good_fit": "As a manufacturer of specialty vehicles, REV Group may need automotive software development services for their various vehicle lines, especially as they incorporate more advanced technologies and features.",
+            "what_they_do": "REV Group designs and manufactures specialty vehicles, including fire apparatus, emergency vehicles, commercial infrastructure vehicles, and recreational vehicles.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "General Motors",
+            "domain": "gm.com",
+            "contacts": [
+                {
+                    "name": "Olga Pronina",
+                    "title": "Director of Software Engineering",
+                    "email": "olga.pronina@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/olga-pronina",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "54a5a6bf7468692fa2ee739f",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQErZOFzxZQsPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722699826605?e=2147483647&v=beta&t=hlKPc1YBwLiI5SFWA7eQwUItNwAqhPTouV4IpkCqRuc",
+                    "headline": "Director of Software Engineering | AV | Embedded Systems and Autonomous Platforms"
+                },
+                {
+                    "name": "Marcus Hanson",
+                    "title": "Director Software Engineering",
+                    "email": "marcus.hanson@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/marcushanson",
+                    "phone": "",
+                    "location": "Seattle, Washington, United States",
+                    "email_verified": true,
+                    "person_id": "611d1788b2404e0001296509",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQH182BPORltEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516561814105?e=2147483647&v=beta&t=okc0Rx1dTBj6sPv1dnrxCP1bLJAxtabvL1advK1CLMc",
+                    "headline": "Director of Engineering"
+                },
+                {
+                    "name": "Mike O'Connor",
+                    "title": "Director of Software Engineering",
+                    "email": "michael.oconnor@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/mikeyoc",
+                    "phone": "",
+                    "location": "San Francisco, California, United States",
+                    "email_verified": true,
+                    "person_id": "6860125fdb2d8000011ce1c7",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQGojdpYsV2vvw/profile-displayphoto-shrink_200_200/B4EZdR_kFiHgAY-/0/1749427307216?e=2147483647&v=beta&t=Rq0JN4tYROoTFuTCB9ZeRjjNCQwZDUP0wLMVUC6UkQc",
+                    "headline": "Software Engineering and People Leader"
+                },
+                {
+                    "name": "Camille Voisin",
+                    "title": "Director Software Engineering",
+                    "email": "camille.voisin@gm.com",
+                    "linkedin_url": "http://www.linkedin.com/in/camille-voisin-a796393",
+                    "phone": "",
+                    "location": "Ireland",
+                    "email_verified": true,
+                    "person_id": "54c217237468691639777d77",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQGqLAHPt2ucqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1583399102035?e=2147483647&v=beta&t=M5qECbau3gQlFo5LAyCOvKF-PsmFDAJ9ZzUawVT32uw",
+                    "headline": "Director Software Engineering, Connected Vehicle Infrastructure, at General Motors"
+                },
+                {
+                    "name": "Jeffrey Kalikstein",
+                    "title": "Director of Software Engineering",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kalikstein",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": false,
+                    "person_id": "610c253ef095a40001010554",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": null
+                }
+            ]
+        },
+        {
+            "company": "NanoGraf Corporation",
+            "domain": "nanograf.com",
+            "contacts": []
+        },
+        {
+            "company": "SparkCharge",
+            "domain": "sparkcharge.io",
+            "contacts": [
+                {
+                    "name": "Adam Urban",
+                    "title": "Chief Technology Officer",
+                    "email": "aurban@sparkcharge.io",
+                    "linkedin_url": "http://www.linkedin.com/in/adam-urban-9196b475",
+                    "phone": "",
+                    "location": "Boston, Massachusetts, United States",
+                    "email_verified": true,
+                    "person_id": "54a2288b74686935bee2dc11",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEU9SIHg1vJPg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699133619867?e=2147483647&v=beta&t=QM1jxd--NHpzB4eViACZy1XeimnRbK1jaQTVeYCBUNA",
+                    "headline": "CTO, SparkCharge"
+                }
+            ]
+        },
+        {
+            "company": "Daimler Truck AG",
+            "domain": "daimlertruck.com",
+            "contacts": [
+                {
+                    "name": "Iva Iglesias",
+                    "title": "CTO Office Lead",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ivaiglesias",
+                    "phone": "",
+                    "location": "Mannheim, Baden-Wuerttemberg, Germany",
+                    "email_verified": false,
+                    "person_id": "665615fd3bbbb70001ac54f1",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "CTO Office Lead bei Daimler AG"
+                },
+                {
+                    "name": "Pradeep Thimmaiyan",
+                    "title": "President & Chief Technology Officer, Daimler India Commercial Vehicles Pvt. Ltd.",
+                    "email": "pradeep.t@daimlertruck.com",
+                    "linkedin_url": "http://www.linkedin.com/in/tpkpradeep",
+                    "phone": "",
+                    "location": "Chennai, Tamil Nadu, India",
+                    "email_verified": true,
+                    "person_id": "60fe828feaace9000196456f",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "I am sum total of all the learnings from mistakes of myself and people around me."
+                },
+                {
+                    "name": "Rainer Mueller-Finkeldei",
+                    "title": "Senior Vice President Mercedes Benz Truck Engineering",
+                    "email": "rainer.mueller-finkeldei@daimlertruck.com",
+                    "linkedin_url": "http://www.linkedin.com/in/dr-rainer-m%c3%bcller-finkeldei-29b641176",
+                    "phone": "",
+                    "location": "Germany",
+                    "email_verified": true,
+                    "person_id": "671b43e96231290001b9d85d",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQECihnSxtqYBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605889162411?e=2147483647&v=beta&t=sPDQi4gSKCjC27trffIx8_Uo3u-yXU9dvHeg7owAO7I",
+                    "headline": "Senior Vice President Engineering Mercedes Benz Trucks at Daimler Truck AG"
+                },
+                {
+                    "name": "Moritz Haussmann",
+                    "title": "Executive Support Manager to the Senior Vice President Product Engineering Mercedes-Benz Trucks",
+                    "email": "moritz.haussmann@daimlertruck.com",
+                    "linkedin_url": "http://www.linkedin.com/in/moritz-hau%c3%9fmann-8248a246",
+                    "phone": "",
+                    "location": "Stuttgart, Baden-Wuerttemberg, Germany",
+                    "email_verified": true,
+                    "person_id": "5ac6d8d4a6da9841244fb575",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFqNWdTNPTegw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650967873849?e=2147483647&v=beta&t=m4NLAfWwchh13Oy2bcYvEK8SJw9RFzUwjzWTUJcWY9Y",
+                    "headline": "Dr.-Ing. | Executive Support Manager to the Senior Vice President Product Engineering Mercedes-Benz Trucks"
+                }
+            ]
+        }
+    ],
+    "total_contacts": 10
+}

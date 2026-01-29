@@ -1,0 +1,346 @@
+{
+    "generated_at": "2026-01-22T20:40:32.007600",
+    "source_url": "https://sbarconstruction.com",
+    "icp": {
+        "what_they_sell": "Commercial construction and renovation services",
+        "customer_industry": "Industrial facilities, Commercial real estate, Manufacturing plants",
+        "customer_company_size": "Mid-market to Enterprise ($10M-$500M revenue)",
+        "target_buyers": [
+            "Project Manager",
+            "Construction Manager",
+            "Facilities Manager"
+        ],
+        "ideal_customer_characteristics": [
+            "Has large commercial property portfolio",
+            "Needs regular facility maintenance",
+            "Values on-time project completion"
+        ],
+        "customer_geography": "Western United States",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [
+                "CA",
+                "NV",
+                "AZ",
+                "OR",
+                "WA",
+                "ID",
+                "MT",
+                "WY",
+                "CO",
+                "UT",
+                "NM"
+            ],
+            "notes": "Licensed in California, Nevada, and Arizona"
+        }
+    },
+    "prospects_found": 24,
+    "prospects": [
+        {
+            "name": "Industrial Electrical Company",
+            "domain": "industrialelectricalco.com",
+            "confidence": 0.68,
+            "why_good_fit": "The company appears to be a real operating electrical contracting service provider in California, matching the target industry and geography, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "FROG Environmental Inc.",
+            "domain": "frogenv.com",
+            "confidence": 0.5,
+            "why_good_fit": "FROG Environmental Inc. appears to be a real operating company providing stormwater management services to industrial facilities in California, matching the target industry and would realistically purchase this type of product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Westport Properties",
+            "domain": "westportproperties.net",
+            "confidence": 0.55,
+            "why_good_fit": "Westport Properties is a real estate investment company that matches the target industry and would realistically purchase commercial construction and renovation services, as evident from their property management and investment management services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Redi Services",
+            "domain": "rediusa.com",
+            "confidence": 0.93,
+            "why_good_fit": "Redi Services appears to be a real operating company providing industrial services, matches the target industry, and would realistically purchase commercial construction and renovation services, with actual business operations in the Western US.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Southwest Elevator Company",
+            "domain": "southwestelevator.com",
+            "confidence": 0.9,
+            "why_good_fit": "Southwest Elevator Company is a real operating company with elevator services, matches the target industry, and would realistically purchase commercial construction and renovation services, as they provide installation, modernization, and repair services for elevators and escalators.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Western Nevada Supply Co",
+            "domain": "goblueteam.com",
+            "confidence": 0.78,
+            "why_good_fit": "The company appears to be a real operating wholesale supplier of various products, matches the target industry, and would realistically purchase the product, with a high confidence level due to the clear product offerings and business operations described on the website.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Merit Electric",
+            "domain": "meritelectricreno.com",
+            "confidence": 0.78,
+            "why_good_fit": "Merit Electric is a real operating company specializing in electrical construction services, matching the target industry and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ProtoFab, Inc.",
+            "domain": "protofabinc.com",
+            "confidence": 0.5,
+            "why_good_fit": "ProtoFab, Inc. is a real operating company with industrial services, matches the target industry, and would realistically purchase this type of product, as it is not a direct competitor.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Marcus & Millichap, Inc.",
+            "domain": "marcusmillichap.com",
+            "confidence": 0.65,
+            "why_good_fit": "Marcus & Millichap is a commercial real estate investment sales brokerage that matches the target industry and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "CoStar Group, Inc.",
+            "domain": "costar.com",
+            "confidence": 0.83,
+            "why_good_fit": "CoStar is a real operating company with commercial real estate information services, matches the target industry, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Jones Lang LaSalle Incorporated",
+            "domain": "jll.com",
+            "confidence": 0.82,
+            "why_good_fit": "The company is a commercial real estate and property investment services provider, which matches the target industry and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Avison Young",
+            "domain": "avisonyoung.us",
+            "confidence": 0.7,
+            "why_good_fit": "Avison Young is a commercial real estate advisor with actual business operations, matches the target industry, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kidder Mathews",
+            "domain": "kidder.com",
+            "confidence": 0.73,
+            "why_good_fit": "Kidder Mathews is a real operating company in the commercial real estate industry, offering services that include commercial construction and renovation, and would realistically purchase this type of product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "CBRE Group, Inc.",
+            "domain": "cbre.com",
+            "confidence": 0.83,
+            "why_good_fit": "CBRE is a real operating company with commercial real estate services, matches the target industry, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "TRI Commercial/CORFAC International",
+            "domain": "tricommercial.com",
+            "confidence": 0.47,
+            "why_good_fit": "The company is a real operating commercial real estate company with services to sell, matches the target industry, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Berkadia Commercial Mortgage LLC",
+            "domain": "berkadia.com",
+            "confidence": 0.6,
+            "why_good_fit": "Berkadia is a real operating company providing commercial real estate services and mortgage solutions, matching the target industry and would realistically purchase construction and renovation services for their clients.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "LOGIC Commercial Real Estate",
+            "domain": "logiccre.com",
+            "confidence": 0.43,
+            "why_good_fit": "The company is a real operating commercial real estate firm with services to sell, matches the target industry, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ROI Commercial Real Estate, Inc.",
+            "domain": "roicre.com",
+            "confidence": 0.7,
+            "why_good_fit": "The company appears to be a real operating commercial real estate company with a team of brokers and clients, and they would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "NAI Excel",
+            "domain": "excelcres.com",
+            "confidence": 0.72,
+            "why_good_fit": "The company is a commercial real estate brokerage firm focused on leasing, selling, buying, and managing commercial property, which suggests they would purchase construction and renovation services for their clients' properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Mohr Partners, Inc.",
+            "domain": "lisamariewand.com",
+            "confidence": 0.72,
+            "why_good_fit": "The company appears to be a commercial real estate and business brokering firm, operating in Nevada and California, which matches the target industry and geography, and would realistically purchase commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Street Commercial Real Estate",
+            "domain": "street-cre.com",
+            "confidence": 0.5,
+            "why_good_fit": "Street Commercial Real Estate appears to be a real operating company providing commercial real estate services in Reno, NV, and matches the target industry, with no indication of competing with commercial construction and renovation services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "The Okonite Company",
+            "domain": "okonite.com",
+            "confidence": 0.58,
+            "why_good_fit": "Okonite is a real operating company with products to sell, matches the target industry of industrial facilities, commercial real estate, and manufacturing plants, and would realistically purchase this type of product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Eastman Chemical Company",
+            "domain": "eastman.com",
+            "confidence": 0.38,
+            "why_good_fit": "Eastman is a real operating company with products/services to sell, matches the target industry, and would realistically purchase this type of product. The official company name is found in the website's 'About Us' section.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Willdan",
+            "domain": "willdan.com",
+            "confidence": 0.83,
+            "why_good_fit": "Willdan is a real operating company with products/services to sell, matches the target industry, and would realistically purchase this type of product, as indicated by their acquisition of Compass Municipal Advisors and provision of services such as energy and sustainability solutions.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "Willdan",
+            "domain": "willdan.com",
+            "contacts": [
+                {
+                    "name": "Joe Mueller",
+                    "title": "Facilities Manager",
+                    "email": "jmueller@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/joe-mueller-686758a",
+                    "phone": "",
+                    "location": "Anaheim, California, United States",
+                    "email_verified": true,
+                    "person_id": "5ab33245a6da986ffeb123d0",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "facilities manager at Willdan"
+                },
+                {
+                    "name": "Jeff Lorentz",
+                    "title": "Construction Manager",
+                    "email": "jlorentz@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jeff-lorentz-078138118",
+                    "phone": "",
+                    "location": "Vancouver, Washington, United States",
+                    "email_verified": true,
+                    "person_id": "57db882ca6da986873a1ba02",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5103AQHKpbSpU8IYGQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517564247318?e=2147483647&v=beta&t=PfV84IOcS7xAUA4kwu0WoeWo_oXMSIFc67Kv3d8Z1GY",
+                    "headline": "Construction Manager at Willdan"
+                },
+                {
+                    "name": "Steven Velasco",
+                    "title": "Construction Manager",
+                    "email": "svelasco@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/steven-velasco-3496b5214",
+                    "phone": "",
+                    "location": "Costa Mesa, California, United States",
+                    "email_verified": true,
+                    "person_id": "674e968e25e9580001a035ab",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQE1rx2iVuCGCg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625066759116?e=2147483647&v=beta&t=dcnrWlj17jleb2Ulm9pW-HG9k5GB1xArKftjliY8EY8",
+                    "headline": "Retired"
+                },
+                {
+                    "name": "Shaquille Elliott",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shaquille-elliott-036648a5",
+                    "phone": "",
+                    "location": "Denver, Colorado, United States",
+                    "email_verified": false,
+                    "person_id": "57d8d4f0a6da98721eb015e1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFmaiZiXeE5JQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724382948534?e=2147483647&v=beta&t=OaWJUPE-5B2I4QZIbAh3FHfqutS2MhSvZCF2gfAIMLc",
+                    "headline": "Construction Manager at Willdan Energy Solutions, Inc."
+                },
+                {
+                    "name": "David Cheung",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/david-cheung-037524199",
+                    "phone": "",
+                    "location": "New York, New York, United States",
+                    "email_verified": false,
+                    "person_id": "5e8b23b0c55e510001f0dddb",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEvgqz8oadNyw/profile-displayphoto-scale_200_200/B4EZexTgswHsAk-/0/1751026371948?e=2147483647&v=beta&t=vlq8wf7VuYv9uWEfW5K2P08bv0bu5Iyz-kBx-KwVEOc",
+                    "headline": "Mechanical Engineer"
+                }
+            ]
+        },
+        {
+            "company": "Willdan",
+            "domain": "willdan.com",
+            "contacts": [
+                {
+                    "name": "Joe Mueller",
+                    "title": "Facilities Manager",
+                    "email": "jmueller@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/joe-mueller-686758a",
+                    "phone": "",
+                    "location": "Anaheim, California, United States",
+                    "email_verified": true,
+                    "person_id": "5ab33245a6da986ffeb123d0",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "facilities manager at Willdan"
+                },
+                {
+                    "name": "Jeff Lorentz",
+                    "title": "Construction Manager",
+                    "email": "jlorentz@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jeff-lorentz-078138118",
+                    "phone": "",
+                    "location": "Vancouver, Washington, United States",
+                    "email_verified": true,
+                    "person_id": "57db882ca6da986873a1ba02",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5103AQHKpbSpU8IYGQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517564247318?e=2147483647&v=beta&t=PfV84IOcS7xAUA4kwu0WoeWo_oXMSIFc67Kv3d8Z1GY",
+                    "headline": "Construction Manager at Willdan"
+                },
+                {
+                    "name": "Steven Velasco",
+                    "title": "Construction Manager",
+                    "email": "svelasco@willdan.com",
+                    "linkedin_url": "http://www.linkedin.com/in/steven-velasco-3496b5214",
+                    "phone": "",
+                    "location": "Costa Mesa, California, United States",
+                    "email_verified": true,
+                    "person_id": "674e968e25e9580001a035ab",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQE1rx2iVuCGCg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1625066759116?e=2147483647&v=beta&t=dcnrWlj17jleb2Ulm9pW-HG9k5GB1xArKftjliY8EY8",
+                    "headline": "Retired"
+                },
+                {
+                    "name": "Shaquille Elliott",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shaquille-elliott-036648a5",
+                    "phone": "",
+                    "location": "Denver, Colorado, United States",
+                    "email_verified": false,
+                    "person_id": "57d8d4f0a6da98721eb015e1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFmaiZiXeE5JQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724382948534?e=2147483647&v=beta&t=OaWJUPE-5B2I4QZIbAh3FHfqutS2MhSvZCF2gfAIMLc",
+                    "headline": "Construction Manager at Willdan Energy Solutions, Inc."
+                },
+                {
+                    "name": "David Cheung",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/david-cheung-037524199",
+                    "phone": "",
+                    "location": "New York, New York, United States",
+                    "email_verified": false,
+                    "person_id": "5e8b23b0c55e510001f0dddb",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEvgqz8oadNyw/profile-displayphoto-scale_200_200/B4EZexTgswHsAk-/0/1751026371948?e=2147483647&v=beta&t=vlq8wf7VuYv9uWEfW5K2P08bv0bu5Iyz-kBx-KwVEOc",
+                    "headline": "Mechanical Engineer"
+                }
+            ]
+        }
+    ],
+    "total_contacts": 10
+}

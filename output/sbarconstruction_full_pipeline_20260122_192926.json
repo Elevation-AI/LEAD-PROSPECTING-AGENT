@@ -1,0 +1,3048 @@
+{
+    "generated_at": "2026-01-22T19:29:26.274157",
+    "source_url": "https://sbarconstruction.com",
+    "pipeline_version": "Agent01 + Agent02 + Agent03",
+    "icp": {
+        "what_they_sell": "Commercial construction, renovation, and interiors services",
+        "customer_industry": "Industrial facilities, Commercial real estate, Manufacturing plants",
+        "customer_company_size": "Mid-market to Enterprise ($10M-$500M revenue)",
+        "target_buyers": [
+            "Construction Manager",
+            "Facilities Director",
+            "Operations Manager"
+        ],
+        "pain_points_solved": [
+            "Delays in project completion",
+            "Budget overruns",
+            "Safety concerns"
+        ],
+        "ideal_customer_characteristics": [
+            "Has large commercial property portfolio",
+            "Needs regular facility maintenance",
+            "Values on-time project completion"
+        ],
+        "customer_geography": "Western United States",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [
+                "CA",
+                "NV",
+                "AZ",
+                "OR",
+                "WA"
+            ],
+            "notes": "Countries: USA | Regions: CA, NV, AZ, OR, WA"
+        },
+        "avoid_company_types": [
+            "Residential construction companies",
+            "Small businesses with limited budgets"
+        ]
+    },
+    "prospects_found": 23,
+    "prospects": [
+        {
+            "name": "Industrial Electrical Company",
+            "domain": "industrialelectricalco.com",
+            "confidence": 0.93,
+            "why_good_fit": "The company appears to be a real operating electrical services company with a long history, serving the industrial facilities and manufacturing plants industry in California, and would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "FROG Environmental",
+            "domain": "frogenv.com",
+            "confidence": 0.38,
+            "why_good_fit": "FROG Environmental appears to be a real operating company providing stormwater management services to industrial facilities in California, matching the target industry and having actual business operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Westport Properties",
+            "domain": "westportproperties.net",
+            "confidence": 0.55,
+            "why_good_fit": "Westport Properties is a real operating company with products/services to sell, matches the target industry, and would realistically purchase this type of product, indicating they have actual business operations in commercial real estate and industrial facilities.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Redi Services",
+            "domain": "rediusa.com",
+            "confidence": 0.78,
+            "why_good_fit": "Rediusa.com appears to be a real operating company providing industrial services, matches the target industry, and would realistically purchase this type of product, with actual business operations in the Western US.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Southwest Elevator Company",
+            "domain": "southwestelevator.com",
+            "confidence": 0.9,
+            "why_good_fit": "Southwest Elevator Company is a real operating company with elevator services, matches the target industry, and would realistically purchase this type of product, indicating they have actual business operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Western Nevada Supply",
+            "domain": "goblueteam.com",
+            "confidence": 0.72,
+            "why_good_fit": "The company appears to be a real operating wholesale supplier of products for various industries, including plumbing, HVAC, and industrial, and would realistically purchase the product, as they do not compete with it.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Merit Electric",
+            "domain": "meritelectricreno.com",
+            "confidence": 0.72,
+            "why_good_fit": "Merit Electric is a real operating company with extensive experience in commercial electrical projects, matches the target industry, and would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ProtoFab, Inc.",
+            "domain": "protofabinc.com",
+            "confidence": 0.5,
+            "why_good_fit": "ProtoFab, Inc. is a real operating company with industrial services and fabrication facilities, matching the target industry and having actual business operations, and would realistically purchase this type of product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Marcus & Millichap, Inc.",
+            "domain": "marcusmillichap.com",
+            "confidence": 0.77,
+            "why_good_fit": "Marcus & Millichap is a commercial real estate investment brokerage and capital markets services firm, which matches the target industry and would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Avison Young US",
+            "domain": "avisonyoung.us",
+            "confidence": 0.77,
+            "why_good_fit": "Avison Young US is a commercial real estate company with actual business operations, matching the target industry and would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kidder Mathews",
+            "domain": "kidder.com",
+            "confidence": 0.77,
+            "why_good_fit": "Kidder Mathews is a commercial real estate firm that offers a range of services, including construction management, which aligns with the target product and industry, and they have actual business operations in the Western US.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "CBRE Group, Inc.",
+            "domain": "cbre.com",
+            "confidence": 0.77,
+            "why_good_fit": "CBRE is a real operating company with commercial real estate services, matches the target industry, and would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "TRI Commercial Real Estate Services, Inc.",
+            "domain": "tricommercial.com",
+            "confidence": 0.47,
+            "why_good_fit": "TRI Commercial is a real estate services company with a clear focus on commercial real estate, and they would realistically purchase commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Berkadia Commercial Mortgage LLC",
+            "domain": "berkadia.com",
+            "confidence": 0.6,
+            "why_good_fit": "Berkadia is a real operating company with commercial real estate services and mortgage solutions, matching the target industry and having actual business operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "LOGIC Commercial Real Estate",
+            "domain": "logiccre.com",
+            "confidence": 0.43,
+            "why_good_fit": "The company appears to be a real operating commercial real estate firm with services to sell, matching the target industry and having actual business operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ROI Commercial Real Estate, Inc.",
+            "domain": "roicre.com",
+            "confidence": 0.62,
+            "why_good_fit": "The company appears to be a real operating commercial real estate company with a clear business focus, and the domain name matches the official company name found on the website.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "NAI Excel",
+            "domain": "excelcres.com",
+            "confidence": 0.58,
+            "why_good_fit": "NAI Excel is a commercial real estate brokerage firm that can realistically purchase commercial construction, renovation, and interiors services, and matches the target industry.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Mohr Partners, Inc.",
+            "domain": "lisamariewand.com",
+            "confidence": 0.58,
+            "why_good_fit": "The company is a commercial real estate advisory firm that can realistically purchase construction, renovation, and interiors services for their clients' industrial facilities and commercial properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Street Commercial Real Estate",
+            "domain": "street-cre.com",
+            "confidence": 0.4,
+            "why_good_fit": "Street Commercial Real Estate is a commercial real estate brokerage firm that can realistically purchase commercial construction, renovation, and interiors services, and matches the target industry.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "The Okonite Company",
+            "domain": "okonite.com",
+            "confidence": 0.58,
+            "why_good_fit": "Okonite is a real operating company with products to sell, matches the target industry of industrial facilities and commercial real estate, and would realistically purchase this type of product, as they are a manufacturer of wire and cable.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Eastman Chemical Company",
+            "domain": "eastman.com",
+            "confidence": 0.77,
+            "why_good_fit": "Eastman is a real operating company with products/services to sell, matches the target industry, and would realistically purchase this type of product, with actual business operations and a clear company profile.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Eagle Roofing",
+            "domain": "eagleroofing.com",
+            "confidence": 0.43,
+            "why_good_fit": "Eagleroofing.com appears to be a legitimate roofing company with a physical office and customer service numbers, matching the target industry and geography, and would realistically purchase tile roofing products.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Willdan Group, Inc.",
+            "domain": "willdan.com",
+            "confidence": 0.83,
+            "why_good_fit": "Willdan is a real operating company with products/services to sell, matches the target industry, and would realistically purchase this type of product, with actual business operations and a clear company name mentioned on their website.",
+            "source": "web_search_verified"
+        }
+    ],
+    "apollo_enriched": [
+        {
+            "company": "Industrial Electrical Company",
+            "domain": "industrialelectricalco.com",
+            "contacts": [
+                {
+                    "name": "Harold Da***n",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "66f70df492ca6e00018b2d8a"
+                }
+            ]
+        },
+        {
+            "company": "FROG Environmental",
+            "domain": "frogenv.com",
+            "contacts": []
+        },
+        {
+            "company": "Westport Properties",
+            "domain": "westportproperties.net",
+            "contacts": [
+                {
+                    "name": "Derek Sa***o",
+                    "title": "Director of Facilities Services",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "65718ea8353e1a0001503e74"
+                },
+                {
+                    "name": "Richard Mc***y",
+                    "title": "Construction Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5ad14afaa6da988477ee9b89"
+                },
+                {
+                    "name": "Sam Al***d",
+                    "title": "Westport Properties Construction Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "65a069ede3e7f500016fd8c2"
+                },
+                {
+                    "name": "Brett Po***c",
+                    "title": "Manager of Budgeting and Operations Development",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "63fd51034ca31b00010b46a9"
+                },
+                {
+                    "name": "Catherine Ca***o",
+                    "title": "Operations Development Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "6646d96df2d92b00011ca815"
+                }
+            ]
+        },
+        {
+            "company": "Redi Services",
+            "domain": "rediusa.com",
+            "contacts": [
+                {
+                    "name": "Paul Ma***y",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "66fda1e2685d630001b7b42f"
+                },
+                {
+                    "name": "Dejay Wi***h",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a1ab637468695475ad4106"
+                },
+                {
+                    "name": "Kim F",
+                    "title": "I am an Innovative Sales and Operations Leader, Highly Effective Strategist Able to Determine the Best Plan for the Organization Through use",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "621866135fa2b800014b913b"
+                },
+                {
+                    "name": "Paul Cl***k",
+                    "title": "Civil Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "60d419312f57a900018c3a4f"
+                }
+            ]
+        },
+        {
+            "company": "Southwest Elevator Company",
+            "domain": "southwestelevator.com",
+            "contacts": [
+                {
+                    "name": "Sam Ha***n",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57dd13b5a6da987b156575b9"
+                },
+                {
+                    "name": "Kevin Br***r",
+                    "title": "Modernization Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "557107497369641c15234001"
+                }
+            ]
+        },
+        {
+            "company": "Western Nevada Supply",
+            "domain": "goblueteam.com",
+            "contacts": [
+                {
+                    "name": "Matt Co***n",
+                    "title": "Operations",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a242777468693cdd31c51a"
+                }
+            ]
+        },
+        {
+            "company": "Merit Electric",
+            "domain": "meritelectricreno.com",
+            "contacts": []
+        },
+        {
+            "company": "ProtoFab, Inc.",
+            "domain": "protofabinc.com",
+            "contacts": []
+        },
+        {
+            "company": "Marcus & Millichap, Inc.",
+            "domain": "marcusmillichap.com",
+            "contacts": [
+                {
+                    "name": "Mikaela Ha***s",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a27d8374686935be27d426"
+                },
+                {
+                    "name": "Ashlee Al***r",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "612a768b52982b000192b075"
+                },
+                {
+                    "name": "Kryssy Ci***o",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5d67797680f93e318950a08e"
+                },
+                {
+                    "name": "Barbara Fi***r",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "62eb29b9663dc70001ec6ffe"
+                },
+                {
+                    "name": "Iris Ro***z",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5a34421f7dda4d9923d8f2ed"
+                }
+            ]
+        },
+        {
+            "company": "Avison Young US",
+            "domain": "avisonyoung.us",
+            "contacts": [
+                {
+                    "name": "Crystal La***t",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a22aa974686933184b6a12"
+                },
+                {
+                    "name": "Jean Sp***n",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a8d74a746869334af79d07"
+                },
+                {
+                    "name": "Anthony Sh***n",
+                    "title": "Operations Manager Texas",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "608873cb5e0bd70001937b22"
+                },
+                {
+                    "name": "Charlene Ma***y",
+                    "title": "Business Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "63cc02a5f7ea090001647f93"
+                },
+                {
+                    "name": "Carlos Is***a",
+                    "title": "Operations Manager / Marketing Coordinator",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "63a3e900692eb10001c30d14"
+                }
+            ]
+        },
+        {
+            "company": "Kidder Mathews",
+            "domain": "kidder.com",
+            "contacts": [
+                {
+                    "name": "Tiffany Ja***a",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "672a2a08f0400500016ee17f"
+                },
+                {
+                    "name": "Joseph Pr***t",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a824f47468696b7f9f5362"
+                },
+                {
+                    "name": "Erica Bi***s",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "635b4bf814cdbe0001832464"
+                },
+                {
+                    "name": "Morgan Sc***n",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5e72e7455129880001d3d502"
+                },
+                {
+                    "name": "Alex Ph***y",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "60d32695dfd13d000178197b"
+                }
+            ]
+        },
+        {
+            "company": "CBRE Group, Inc.",
+            "domain": "cbre.com",
+            "contacts": [
+                {
+                    "name": "Daniel Crl",
+                    "title": "Facilities Director",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5ad9af96a6da986265c7a6c3"
+                },
+                {
+                    "name": "Arthur Sh***b",
+                    "title": "Facilities Director",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a81a3f7468696b7fbf2a60"
+                },
+                {
+                    "name": "Ray Ca***e",
+                    "title": "Facilities Director",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a2c36e74686930c2a02d3b"
+                },
+                {
+                    "name": "Giulio Ma***a",
+                    "title": "Facilities Director",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57da2ccfa6da985b0fcbe6f1"
+                },
+                {
+                    "name": "Leonel Le***a",
+                    "title": "Facilities Director",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57e1169ca6da987d6495e37f"
+                }
+            ]
+        },
+        {
+            "company": "TRI Commercial Real Estate Services, Inc.",
+            "domain": "tricommercial.com",
+            "contacts": []
+        },
+        {
+            "company": "Berkadia Commercial Mortgage LLC",
+            "domain": "berkadia.com",
+            "contacts": [
+                {
+                    "name": "Yamini Go***a",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "612b97c1981c1f0001929b55"
+                },
+                {
+                    "name": "Ishneet Si***h",
+                    "title": "Assistant Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5e686b803b99ff0001870c99"
+                },
+                {
+                    "name": "Shardai Vi***s",
+                    "title": "Human Resources Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "604b527b35517d000192ac37"
+                },
+                {
+                    "name": "Jennifer Ko***o",
+                    "title": "Operations Manager - Innovation || Chief of Staff to CPO",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5f0e201466c0a600015d489d"
+                },
+                {
+                    "name": "Saikiran Gu***i",
+                    "title": "Assistant Manager-Operations",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5f55c2729bb61d0001d01afd"
+                }
+            ]
+        },
+        {
+            "company": "LOGIC Commercial Real Estate",
+            "domain": "logiccre.com",
+            "contacts": [
+                {
+                    "name": "Amy Jo***n",
+                    "title": "Marketing Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "6199846699533a00018254a0"
+                }
+            ]
+        },
+        {
+            "company": "ROI Commercial Real Estate, Inc.",
+            "domain": "roicre.com",
+            "contacts": []
+        },
+        {
+            "company": "NAI Excel",
+            "domain": "excelcres.com",
+            "contacts": []
+        },
+        {
+            "company": "Mohr Partners, Inc.",
+            "domain": "lisamariewand.com",
+            "contacts": []
+        },
+        {
+            "company": "Street Commercial Real Estate",
+            "domain": "street-cre.com",
+            "contacts": []
+        },
+        {
+            "company": "The Okonite Company",
+            "domain": "okonite.com",
+            "contacts": [
+                {
+                    "name": "Chris Wa***r",
+                    "title": "Director of Facilities Engineering",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5ade8f2aa6da984d2235c18c"
+                }
+            ]
+        },
+        {
+            "company": "Eastman Chemical Company",
+            "domain": "eastman.com",
+            "contacts": [
+                {
+                    "name": "Spencer Bu***t",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "63a790687148f500010436e3"
+                },
+                {
+                    "name": "Michael Ro***s",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "621109e16e2676000143b52d"
+                },
+                {
+                    "name": "Nick B",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "68458198bfaffe0001c3d52b"
+                },
+                {
+                    "name": "Jack Ac***d",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57db7ddaa6da98688b638d02"
+                },
+                {
+                    "name": "Chelsia Ki***e",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "68c76f5ec877230001e21234"
+                }
+            ]
+        },
+        {
+            "company": "Eagle Roofing",
+            "domain": "eagleroofing.com",
+            "contacts": [
+                {
+                    "name": "Hersch Be***m",
+                    "title": "Operations Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a3196d7468693a7ee59754"
+                }
+            ]
+        },
+        {
+            "company": "Willdan Group, Inc.",
+            "domain": "willdan.com",
+            "contacts": [
+                {
+                    "name": "Jeff Lo***z",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57db882ca6da986873a1ba02"
+                },
+                {
+                    "name": "Steven Ve***o",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "674e968e25e9580001a035ab"
+                },
+                {
+                    "name": "Shaquille El***t",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "57d8d4f0a6da98721eb015e1"
+                },
+                {
+                    "name": "David Ch***g",
+                    "title": "Construction Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "5e8b23b0c55e510001f0dddb"
+                },
+                {
+                    "name": "Cesar Ca***a",
+                    "title": "Construction Manager / OAR",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "",
+                    "phone": "",
+                    "location": "",
+                    "email_verified": false,
+                    "person_id": "54a292b174686930c2a5db2c"
+                }
+            ]
+        }
+    ],
+    "deep_enriched": [
+        {
+            "name": "Harold Da***n",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "industrialelectricalco.com",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": null,
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Derek Sa***o",
+            "title": "Director of Facilities Services",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "westportproperties.net",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Richard Mc***y",
+            "title": "Construction Project Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "westportproperties.net",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Sam Al***d",
+            "title": "Westport Properties Construction Project Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "westportproperties.net",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Brett Po***c",
+            "title": "Manager of Budgeting and Operations Development",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "westportproperties.net",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Catherine Ca***o",
+            "title": "Operations Development Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "westportproperties.net",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Paul Ma***y",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "rediusa.com",
+            "company_tech_stack": [
+                "Bricks",
+                "Cloudflare",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Bricks",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Dejay Wi***h",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "rediusa.com",
+            "company_tech_stack": [
+                "Bricks",
+                "Cloudflare",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Bricks",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Kim F",
+            "title": "I am an Innovative Sales and Operations Leader, Highly Effective Strategist Able to Determine the Best Plan for the Organization Through use",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "rediusa.com",
+            "company_tech_stack": [
+                "Bricks",
+                "Cloudflare",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Bricks",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Paul Cl***k",
+            "title": "Civil Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "rediusa.com",
+            "company_tech_stack": [
+                "Bricks",
+                "Cloudflare",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Bricks",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Sam Ha***n",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "southwestelevator.com",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Tag Manager",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager",
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Kevin Br***r",
+            "title": "Modernization Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "southwestelevator.com",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Tag Manager",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager",
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Matt Co***n",
+            "title": "Operations",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "goblueteam.com",
+            "company_tech_stack": [
+                "Divi",
+                "Google Analytics",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Divi",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Mikaela Ha***s",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "marcusmillichap.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Ashlee Al***r",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "marcusmillichap.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Kryssy Ci***o",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "marcusmillichap.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Barbara Fi***r",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "marcusmillichap.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Iris Ro***z",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "marcusmillichap.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Crystal La***t",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "avisonyoung.us",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Jean Sp***n",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "avisonyoung.us",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Anthony Sh***n",
+            "title": "Operations Manager Texas",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "avisonyoung.us",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Charlene Ma***y",
+            "title": "Business Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "avisonyoung.us",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Carlos Is***a",
+            "title": "Operations Manager / Marketing Coordinator",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "avisonyoung.us",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Tiffany Ja***a",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "kidder.com",
+            "company_tech_stack": [
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Next.js",
+                "backend": "Node.js",
+                "hosting": "AWS",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Joseph Pr***t",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "kidder.com",
+            "company_tech_stack": [
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Next.js",
+                "backend": "Node.js",
+                "hosting": "AWS",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Erica Bi***s",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "kidder.com",
+            "company_tech_stack": [
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Next.js",
+                "backend": "Node.js",
+                "hosting": "AWS",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Morgan Sc***n",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "kidder.com",
+            "company_tech_stack": [
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Next.js",
+                "backend": "Node.js",
+                "hosting": "AWS",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Alex Ph***y",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "kidder.com",
+            "company_tech_stack": [
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Stripe"
+            ],
+            "company_description": {
+                "frontend": "Next.js",
+                "backend": "Node.js",
+                "hosting": "AWS",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Daniel Crl",
+            "title": "Facilities Director",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "cbre.com",
+            "company_tech_stack": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Qumucloud",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Kurtosys AppManager",
+                "SXA",
+                "Sitecore"
+            ],
+            "company_description": {
+                "frontend": "React",
+                "backend": "Node.js",
+                "hosting": "Qumucloud",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [
+                    "Kurtosys AppManager"
+                ],
+                "cms": "Sitecore"
+            }
+        },
+        {
+            "name": "Arthur Sh***b",
+            "title": "Facilities Director",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "cbre.com",
+            "company_tech_stack": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Qumucloud",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Kurtosys AppManager",
+                "SXA",
+                "Sitecore"
+            ],
+            "company_description": {
+                "frontend": "React",
+                "backend": "Node.js",
+                "hosting": "Qumucloud",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [
+                    "Kurtosys AppManager"
+                ],
+                "cms": "Sitecore"
+            }
+        },
+        {
+            "name": "Ray Ca***e",
+            "title": "Facilities Director",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "cbre.com",
+            "company_tech_stack": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Qumucloud",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Kurtosys AppManager",
+                "SXA",
+                "Sitecore"
+            ],
+            "company_description": {
+                "frontend": "React",
+                "backend": "Node.js",
+                "hosting": "Qumucloud",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [
+                    "Kurtosys AppManager"
+                ],
+                "cms": "Sitecore"
+            }
+        },
+        {
+            "name": "Giulio Ma***a",
+            "title": "Facilities Director",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "cbre.com",
+            "company_tech_stack": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Qumucloud",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Kurtosys AppManager",
+                "SXA",
+                "Sitecore"
+            ],
+            "company_description": {
+                "frontend": "React",
+                "backend": "Node.js",
+                "hosting": "Qumucloud",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [
+                    "Kurtosys AppManager"
+                ],
+                "cms": "Sitecore"
+            }
+        },
+        {
+            "name": "Leonel Le***a",
+            "title": "Facilities Director",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "cbre.com",
+            "company_tech_stack": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "Qumucloud",
+                "Cloudflare",
+                "Google Tag Manager",
+                "Kurtosys AppManager",
+                "SXA",
+                "Sitecore"
+            ],
+            "company_description": {
+                "frontend": "React",
+                "backend": "Node.js",
+                "hosting": "Qumucloud",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [
+                    "Kurtosys AppManager"
+                ],
+                "cms": "Sitecore"
+            }
+        },
+        {
+            "name": "Yamini Go***a",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "berkadia.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Ishneet Si***h",
+            "title": "Assistant Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "berkadia.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Shardai Vi***s",
+            "title": "Human Resources Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "berkadia.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Jennifer Ko***o",
+            "title": "Operations Manager - Innovation || Chief of Staff to CPO",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "berkadia.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Saikiran Gu***i",
+            "title": "Assistant Manager-Operations",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "berkadia.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": "Cloudflare",
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Amy Jo***n",
+            "title": "Marketing Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "logiccre.com",
+            "company_tech_stack": [
+                "JavaScript",
+                "Google Analytics",
+                "null",
+                "Stripe",
+                "WordPress"
+            ],
+            "company_description": {
+                "frontend": "null",
+                "backend": "null",
+                "hosting": "null",
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [
+                    "null"
+                ],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Chris Wa***r",
+            "title": "Director of Facilities Engineering",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "okonite.com",
+            "company_tech_stack": [
+                "Knockout.js",
+                "JavaScript",
+                "Google Analytics",
+                "Magento"
+            ],
+            "company_description": {
+                "frontend": "Knockout.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": null,
+                "cms": "Magento"
+            }
+        },
+        {
+            "name": "Spencer Bu***t",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eastman.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Michael Ro***s",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eastman.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Nick B",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eastman.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Jack Ac***d",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eastman.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Chelsia Ki***e",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eastman.com",
+            "company_tech_stack": [
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "Ember.js",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Hersch Be***m",
+            "title": "Operations Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "eagleroofing.com",
+            "company_tech_stack": [
+                "WordPress",
+                "PHP",
+                "Google Analytics"
+            ],
+            "company_description": {
+                "frontend": "WordPress",
+                "backend": "PHP",
+                "hosting": null,
+                "analytics": [
+                    "Google Analytics"
+                ],
+                "crm": [],
+                "cms": "WordPress"
+            }
+        },
+        {
+            "name": "Jeff Lo***z",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "willdan.com",
+            "company_tech_stack": [
+                "Bootstrap",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Bootstrap",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Steven Ve***o",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "willdan.com",
+            "company_tech_stack": [
+                "Bootstrap",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Bootstrap",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Shaquille El***t",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "willdan.com",
+            "company_tech_stack": [
+                "Bootstrap",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Bootstrap",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "David Ch***g",
+            "title": "Construction Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "willdan.com",
+            "company_tech_stack": [
+                "Bootstrap",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Bootstrap",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        },
+        {
+            "name": "Cesar Ca***a",
+            "title": "Construction Manager / OAR",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "",
+            "company": "Unknown",
+            "domain": "willdan.com",
+            "company_tech_stack": [
+                "Bootstrap",
+                "Google Tag Manager"
+            ],
+            "company_description": {
+                "frontend": "Bootstrap",
+                "backend": null,
+                "hosting": null,
+                "analytics": [
+                    "Google Tag Manager"
+                ],
+                "crm": [],
+                "cms": null
+            }
+        }
+    ],
+    "contacts_sheet_url": "https://docs.google.com/spreadsheets/d/1O7QNUPOFcXnxS503QMFLRDGnKd2TQJGvoP9FIlpB3HY",
+    "email_config": {
+        "tone": "professional",
+        "cta": "call",
+        "sender_name": "Nikhil Kumar",
+        "sender_company": "kpit.com",
+        "value_proposition": "What problem do you solve? How do you help customers?"
+    },
+    "emails_generated": 51,
+    "emails": [
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Harold Da***n",
+            "recipient_company": "Industrialelectricalco",
+            "subject_line": "Optimizing Industrialelectricalco's Digital Presence",
+            "body": "Hi Harold,\n\nAs the Operations Manager at Industrialelectricalco, you likely oversee the intricacies of your company's online infrastructure, including your WordPress site and Google Tag Manager implementation. Ensuring seamless integration and optimal performance of these tools is crucial for your business's success.\n\nAt kpit.com, we specialize in helping businesses like yours streamline their operations and enhance their digital capabilities, including PHP development and WordPress optimization. Our expertise can help Industrialelectricalco improve its online efficiency and better serve its customers.\n\nI'd love to discuss how our services can address specific challenges Industrialelectricalco faces and explore opportunities for growth during a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Harold",
+                "Full Name: Harold Da***n",
+                "Job Title: Operations Manager",
+                "Company: Industrialelectricalco",
+                "WordPress",
+                "PHP",
+                "Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Derek Sa***o",
+            "recipient_company": "Westportproperties",
+            "subject_line": "Optimizing Westportproperties' Digital Infrastructure",
+            "body": "Hi Derek,\n\nAs the Director of Facilities Services at Westportproperties, you likely oversee a complex array of systems and technologies, including your company's WordPress website and Stripe payment processing. Effective management of these tools is crucial for streamlined operations and enhanced customer experience.\n\nAt kpit.com, we specialize in helping businesses like yours optimize their digital infrastructure, leveraging expertise in PHP and Google Analytics to drive informed decision-making and improve overall performance.\n\nI'd appreciate the opportunity to discuss how our expertise can support Westportproperties' unique needs and goals in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Richard Mc***y",
+            "recipient_company": "Westportproperties",
+            "subject_line": "Optimizing Westportproperties' Digital Infrastructure",
+            "body": "Hi Richard,\n\nAs a Construction Project Manager at Westportproperties, you likely oversee complex projects that require seamless integration of various digital tools, such as WordPress, PHP, and Google Analytics, to ensure efficient operations and informed decision-making.\n\nAt kpit.com, we specialize in streamlining digital workflows and enhancing online payment systems like Stripe, helping businesses like yours to improve productivity and reduce costs.\n\nI'd love to discuss how our expertise can support Westportproperties' growth and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Sam Al***d",
+            "recipient_company": "Westportproperties",
+            "subject_line": "Optimizing Construction Project Management with Technology",
+            "body": "Hi Sam,\n\nAs a Construction Project Manager at Westportproperties, you likely oversee complex projects that rely on efficient technology systems, such as WordPress and Google Analytics, to streamline operations and drive growth.\n\nAt kpit.com, we help companies like Westportproperties enhance their project management capabilities by integrating and optimizing their existing technologies, including PHP and Stripe, to improve workflow and reduce costs.\n\nI'd love to discuss how our expertise can specifically support your team's goals and challenges in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Brett Po***c",
+            "recipient_company": "Westportproperties",
+            "subject_line": "Optimizing Operations at Westportproperties",
+            "body": "Hi Brett,\n\nAs the Manager of Budgeting and Operations Development at Westportproperties, you likely oversee the technical infrastructure that drives your business, including WordPress, PHP, and Google Analytics. With Stripe handling your payments, streamlining these systems is crucial for efficiency.\n\nAt kpit.com, we help companies like yours enhance their operational development by integrating and optimizing their technical systems, leading to improved budgeting and reduced costs. Our expertise can help Westportproperties make the most of its existing technology stack.\n\nI'd love to discuss how our services can specifically support Westportproperties' goals in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Catherine Ca***o",
+            "recipient_company": "Westportproperties",
+            "subject_line": "Optimizing Operations at Westportproperties",
+            "body": "Hi Catherine,\n\nAs the Operations Development Manager at Westportproperties, you likely oversee the technical infrastructure that supports your business, including WordPress, PHP, and Google Analytics, to name a few. Streamlining these systems can significantly enhance operational efficiency and reduce costs.\n\nAt kpit.com, we specialize in helping businesses like yours optimize their operations and improve their online presence, including seamless integration with payment gateways like Stripe. Our expertise can help Westportproperties boost productivity and drive growth.\n\nI'd love to discuss how our services can address your specific needs and challenges - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Paul Ma***y",
+            "recipient_company": "Rediusa",
+            "subject_line": "Optimizing Construction Management with Technology",
+            "body": "Hi Paul,\n\nAs a Construction Manager at Rediusa, you likely oversee complex projects that require meticulous planning and execution, and I noticed that your company utilizes WordPress and Cloudflare to support your operations, which suggests a forward-thinking approach to technology adoption.\n\nAt kpit.com, we help construction companies like yours streamline their workflows and improve project delivery by leveraging the right technologies, such as integrating Bricks into their existing infrastructure, which could further enhance your team's productivity and efficiency.\n\nI'd love to discuss how our solutions can address specific challenges you're facing and explore potential opportunities for growth, would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Their company uses: Bricks, Cloudflare, WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Dejay Wi***h",
+            "recipient_company": "Rediusa",
+            "subject_line": "Optimizing Operations at Rediusa",
+            "body": "Hi Dejay,\n\nAs the Operations Manager at Rediusa, you likely oversee a complex infrastructure that relies on tools like WordPress and Cloudflare to drive business forward, all while utilizing bricks in your operations.\n\nAt kpit.com, we help organizations like yours streamline their operations and improve efficiency by providing expert solutions, which can be particularly beneficial when working with multiple platforms and physical materials.\n\nI'd love to discuss how our expertise can help Rediusa, and I'd appreciate the opportunity to schedule a quick 15-minute call to explore this further.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Company tools and materials"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Kim F",
+            "recipient_company": "Rediusa",
+            "subject_line": "Optimizing Rediusa's Operations with Proven Strategies",
+            "body": "Hi Kim,\n\nAs an Innovative Sales and Operations Leader at Rediusa, you understand the importance of leveraging the right tools, such as Bricks, Cloudflare, and WordPress, to drive business growth.\n\nAt kpit.com, we help organizations like yours streamline their operations and improve strategy execution, enabling them to achieve their goals more efficiently.\n\nI'd love to discuss how our expertise can support Rediusa's success and answer any questions you may have - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Company technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Paul Cl***k",
+            "recipient_company": "Rediusa",
+            "subject_line": "Optimizing Infrastructure Management at Rediusa",
+            "body": "Hi Paul,\n\nAs a Civil Manager at Rediusa, you oversee complex infrastructure projects, likely relying on sturdy materials like bricks and robust online platforms such as Cloudflare and WordPress to manage and secure your digital presence.\n\nAt kpit.com, we help businesses like yours streamline their operations and enhance their digital infrastructure, ensuring seamless integration and optimal performance.\n\nI'd appreciate the opportunity to discuss how our expertise can support Rediusa's growth and efficiency in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Paul",
+                "Company: Rediusa",
+                "Job Title: Civil Manager",
+                "Company uses: Bricks, Cloudflare, WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Sam Ha***n",
+            "recipient_company": "Southwestelevator",
+            "subject_line": "Optimizing Operations at Southwestelevator",
+            "body": "Hi Sam,\n\nAs an Operations Manager at Southwestelevator, you likely oversee various technical aspects, including your company's WordPress website and Google Analytics integration. Leveraging these tools effectively can significantly enhance operational efficiency and decision-making.\n\nAt kpit.com, we specialize in helping businesses like yours streamline their operations and improve performance by providing expert guidance on PHP and Google Tag Manager implementation. Our expertise can help Southwestelevator maximize its digital capabilities and drive growth.\n\nI'd love to discuss how our services can address specific challenges you're facing and explore opportunities for improvement - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Tag Manager",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Kevin Br***r",
+            "recipient_company": "Southwestelevator",
+            "subject_line": "Optimizing Operations at Southwestelevator",
+            "body": "Hi Kevin,\n\nAs the Modernization Operations Manager at Southwestelevator, you likely oversee complex systems and technologies, including WordPress, PHP, and Google Tag Manager, to drive business efficiency. Your company's use of Google Analytics suggests a data-driven approach to decision-making.\n\nAt kpit.com, we help businesses like yours streamline operations and enhance performance by providing expert solutions that address specific pain points. By leveraging our expertise, Southwestelevator can potentially improve its modernization initiatives and overall operational effectiveness.\n\nI'd appreciate the opportunity to discuss how our services can support your goals; would you be available for a quick 15-minute call to explore further?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Tag Manager",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Matt Co***n",
+            "recipient_company": "Goblueteam",
+            "subject_line": "Optimizing Goblueteam's Digital Presence",
+            "body": "Hi Matt,\n\nAs someone overseeing operations at Goblueteam, you likely understand the importance of leveraging tools like WordPress, Divi, and Google Analytics to drive business growth. Your company's tech stack suggests a forward-thinking approach to digital strategy.\n\nAt kpit.com, we specialize in helping businesses like yours maximize their online potential by streamlining workflows, enhancing user experience, and boosting conversion rates. Our expertise can help Goblueteam further refine its digital footprint and achieve operational excellence.\n\nI'd love to discuss how our services can support Goblueteam's goals - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Matt",
+                "Company: Goblueteam",
+                "Job Title: Operations",
+                "Technology used: WordPress, Divi, Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Mikaela Ha***s",
+            "recipient_company": "Marcusmillichap",
+            "subject_line": "Optimizing Operations at Marcusmillichap",
+            "body": "Hi Mikaela,\n\nAs an Operations Manager at Marcusmillichap, you likely understand the importance of streamlining processes and leveraging the right technologies, such as Ember.js, to drive efficiency. Your company's use of Stripe for payment processing also suggests a focus on seamless transactions.\n\nAt kpit.com, we help businesses like yours enhance their operational capabilities and integrate technologies to improve overall performance. Our expertise can help you identify areas for optimization and implement tailored solutions to boost productivity.\n\nI'd love to discuss how our services can support Marcusmillichap's goals and explore potential collaboration opportunities - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Ashlee Al***r",
+            "recipient_company": "Marcusmillichap",
+            "subject_line": "Optimizing Operations at Marcusmillichap",
+            "body": "Hi Ashlee,\n\nAs an Operations Manager at Marcusmillichap, you likely oversee a range of complex systems, including those built with Ember.js, to drive business efficiency. Your company's use of Stripe for payment processing also suggests a focus on streamlined transactions.\n\nAt kpit.com, we help businesses like yours optimize their operations and improve customer experiences through tailored solutions, leveraging our expertise in integrating and enhancing existing technologies.\n\nI'd appreciate the opportunity to discuss how our services can support Marcusmillichap's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Kryssy Ci***o",
+            "recipient_company": "Marcusmillichap",
+            "subject_line": "Optimizing Operations at Marcusmillichap",
+            "body": "Hi Kryssy,\n\nAs an Operations Manager at Marcusmillichap, you likely oversee complex systems and workflows, possibly leveraging technologies like Ember.js for front-end development and Stripe for payment processing.\n\nAt kpit.com, we specialize in streamlining business operations and enhancing customer experiences through tailored solutions, which could potentially amplify the efficiency of your current tech stack.\n\nI'd appreciate the opportunity to discuss how our expertise could support Marcusmillichap's goals in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Barbara Fi***r",
+            "recipient_company": "Marcusmillichap",
+            "subject_line": "Optimizing Operations with Ember.js and Stripe",
+            "body": "Hi Barbara,\n\nAs an Operations Manager at Marcusmillichap, you likely oversee complex systems built with Ember.js and integrated with Stripe, which can be challenging to optimize for maximum efficiency.\n\nAt kpit.com, we specialize in helping companies like yours streamline their operations and improve payment processing, leveraging our expertise in Ember.js and Stripe to drive business growth and reduce costs.\n\nI'd love to discuss how our solutions can address your specific pain points and explore potential opportunities for collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Barbara",
+                "Job Title: Operations Manager",
+                "Company: Marcusmillichap",
+                "Their company uses: Ember.js, Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Iris Ro***z",
+            "recipient_company": "Marcusmillichap",
+            "subject_line": "Optimizing Operations at Marcusmillichap",
+            "body": "Hi Iris,\n\nAs an Operations Manager at Marcusmillichap, you likely oversee a complex array of systems and processes, including those built with Ember.js and powered by Stripe. Streamlining these operations can significantly impact your bottom line and overall efficiency.\n\nAt kpit.com, we specialize in helping businesses like yours optimize their operations and improve performance by providing tailored solutions to address specific pain points. Our expertise can help you enhance your existing infrastructure and unlock new opportunities for growth.\n\nI'd love to discuss how our services can support Marcusmillichap's continued success - would you be available for a quick 15-minute call to explore this further?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Stripe"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Crystal La***t",
+            "recipient_company": "Avisonyoung",
+            "subject_line": "Optimizing Operations at Avisonyoung",
+            "body": "Hi Crystal,\n\nAs an Operations Manager at Avisonyoung, you likely oversee complex systems, including those built with Ember.js, and leverage tools like Google Tag Manager to drive insights.\n\nAt kpit.com, we help companies like yours streamline their operations and improve efficiency by providing tailored solutions that address specific pain points, thereby enhancing overall performance.\n\nI'd love to discuss how our expertise can support Avisonyoung's goals and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Crystal",
+                "Company: Avisonyoung",
+                "Job Title: Operations Manager",
+                "Use of Ember.js",
+                "Use of Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Jean Sp***n",
+            "recipient_company": "Avisonyoung",
+            "subject_line": "Optimizing Operations at Avisonyoung",
+            "body": "Hi Jean,\n\nAs an Operations Manager at Avisonyoung, you likely oversee the intricacies of Ember.js and Google Tag Manager, ensuring seamless integration and optimal performance. Your expertise in managing these technologies is crucial to the company's success.\n\nAt kpit.com, we specialize in helping organizations like Avisonyoung streamline their operations and enhance efficiency, which can lead to significant cost savings and improved productivity. Our team can help you identify areas of improvement and implement tailored solutions to address your specific challenges.\n\nI'd appreciate the opportunity to discuss how our expertise can support Avisonyoung's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Jean",
+                "Full Name: Jean Sp***n",
+                "Job Title: Operations Manager",
+                "Company: Avisonyoung",
+                "Their company uses: Ember.js, Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Anthony Sh***n",
+            "recipient_company": "Avisonyoung",
+            "subject_line": "Optimizing Operations with Technology",
+            "body": "Hi Anthony,\n\nAs the Operations Manager at Avisonyoung, you likely oversee complex processes and systems, including those built with Ember.js, which can be challenging to manage and optimize. Your team's use of Google Tag Manager suggests a focus on data-driven decision making.\n\nAt kpit.com, we help companies like yours streamline their operations and improve efficiency by providing expert guidance on technology implementation and integration, allowing you to make the most of your existing tools and investments.\n\nI'd love to discuss how our expertise can support Avisonyoung's goals and explore potential solutions in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Charlene Ma***y",
+            "recipient_company": "Avisonyoung",
+            "subject_line": "Optimizing Business Operations at Avisonyoung",
+            "body": "Hi Charlene,\n\nAs a Business Operations Manager at Avisonyoung, you likely oversee the intricacies of Ember.js and Google Tag Manager, aiming to streamline processes and enhance efficiency. Your role is pivotal in driving the company's success.\n\nAt kpit.com, we specialize in helping businesses like yours optimize their operations, improve performance, and reduce costs by leveraging our expertise in technology and process improvement. Our solutions can help Avisonyoung enhance its competitive edge.\n\nI would appreciate the opportunity to discuss how our services can support Avisonyoung's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Carlos Is***a",
+            "recipient_company": "Avisonyoung",
+            "subject_line": "Optimizing Operations at Avisonyoung",
+            "body": "Hi Carlos,\n\nAs the Operations Manager and Marketing Coordinator at Avisonyoung, you likely oversee a complex tech stack, including Ember.js and Google Tag Manager, to drive business efficiency and marketing effectiveness. Your role requires balancing multiple priorities to achieve operational excellence.\n\nAt kpit.com, we help companies like yours streamline their operations and enhance marketing performance by providing tailored solutions that address specific pain points, resulting in improved productivity and revenue growth. Our expertise can help Avisonyoung optimize its operations and marketing initiatives.\n\nI'd appreciate the opportunity to discuss how our solutions can support Avisonyoung's goals; would you be available for a quick 15-minute call to explore further?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Tiffany Ja***a",
+            "recipient_company": "Kidder",
+            "subject_line": "Optimizing Operations at Kidder",
+            "body": "Hi Tiffany,\n\nAs an Operations Manager at Kidder, you likely oversee the intricacies of your tech stack, including Next.js, Node.js, and JavaScript, all while ensuring seamless integration with AWS and Cloudflare. Your attention to detail in managing these complex systems is commendable.\n\nAt kpit.com, we specialize in helping businesses like Kidder streamline their operations and enhance efficiency by addressing specific pain points and leveraging technology to drive growth. Our expertise can help you overcome operational challenges and achieve your goals.\n\nI'd appreciate the opportunity to discuss how our solutions can support Kidder's continued success; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Tech stack used by the company"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Joseph Pr***t",
+            "recipient_company": "Kidder",
+            "subject_line": "Boosting Operational Efficiency at Kidder",
+            "body": "Hi Joseph,\n\nAs the Operations Manager at Kidder, you're likely overseeing complex systems built with Next.js, Node.js, and JavaScript, all while ensuring seamless integration with AWS and Cloudflare. Your expertise in managing these technologies is crucial to driving business success.\n\nAt kpit.com, we help companies like Kidder optimize their operations and enhance their technology stack to achieve greater efficiency and scalability. Our expertise can help you streamline processes, reduce costs, and improve overall performance.\n\nI'd love to discuss how our solutions can address specific challenges you're facing at Kidder - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Erica Bi***s",
+            "recipient_company": "Kidder",
+            "subject_line": "Optimizing Operations at Kidder",
+            "body": "Hi Erica,\n\nAs an Operations Manager at Kidder, you likely oversee a complex tech stack, including Next.js, Node.js, and JavaScript, all hosted on AWS and secured with Cloudflare. Ensuring seamless integration and performance across these systems is crucial for your business.\n\nAt kpit.com, we specialize in helping companies like Kidder streamline their operations and enhance their technology infrastructure, thereby improving efficiency and reducing costs. Our expertise can help you address potential bottlenecks and optimize your current setup for better outcomes.\n\nI'd appreciate the opportunity to discuss how our services can specifically support Kidder's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Tech stack used by the company"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Morgan Sc***n",
+            "recipient_company": "Kidder",
+            "subject_line": "Optimizing Operations with Next.js and Node.js",
+            "body": "Hi Morgan,\n\nAs an Operations Manager at Kidder, you're likely overseeing complex systems built with Next.js, Node.js, and JavaScript, all while ensuring seamless integration with AWS and Cloudflare. Your expertise in managing these technologies is impressive, and I'd love to explore how our solutions can further support your efforts.\n\nAt kpit.com, we help companies like Kidder streamline their operations and improve efficiency by providing expert guidance on leveraging their existing tech stack. Our goal is to empower operations teams to focus on high-leverage activities, driving business growth and innovation.\n\nI'd appreciate the opportunity to discuss how our expertise can support Kidder's continued success - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Next.js",
+                "Node.js",
+                "JavaScript",
+                "AWS",
+                "Cloudflare"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Alex Ph***y",
+            "recipient_company": "Kidder",
+            "subject_line": "Optimizing Operations at Kidder",
+            "body": "Hi Alex,\n\nAs an Operations Manager at Kidder, you likely oversee complex systems built with Next.js, Node.js, and JavaScript, all while ensuring seamless integration with AWS and Cloudflare. This delicate balance of technologies can often lead to inefficiencies and bottlenecks.\n\nAt kpit.com, we specialize in helping companies like Kidder streamline their operations by identifying and addressing these pain points, leading to enhanced performance and reduced costs. Our expertise can help you navigate the intricacies of your tech stack to achieve operational excellence.\n\nI'd appreciate the opportunity to discuss how our solutions can specifically benefit Kidder's operations; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Alex",
+                "Job Title: Operations Manager",
+                "Company: Kidder",
+                "Technologies used: Next.js, Node.js, JavaScript, AWS, Cloudflare"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Daniel Crl",
+            "recipient_company": "Cbre",
+            "subject_line": "Optimizing CBRE's Tech Infrastructure",
+            "body": "Hi Daniel,\n\nAs the Facilities Director at CBRE, you likely oversee a complex array of technologies, including React, Node.js, and JavaScript, to ensure seamless operations. Your company's utilization of Qumucloud and Cloudflare suggests a strong focus on cloud-based solutions and security.\n\nAt kpit.com, we specialize in helping organizations like CBRE streamline their technology infrastructure, enhancing efficiency and reducing costs. Our expertise can help you optimize your current setup and explore new opportunities for growth.\n\nI'd appreciate the opportunity to discuss how our services can support CBRE's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Arthur Sh***b",
+            "recipient_company": "Cbre",
+            "subject_line": "Optimizing Facilities Operations with Technology",
+            "body": "Hi Arthur,\n\nAs the Facilities Director at CBRE, you likely oversee a complex array of systems and technologies, including React, Node.js, and JavaScript, to manage your facilities efficiently. Your company's use of Qumucloud and Cloudflare suggests a strong focus on digital transformation and security.\n\nAt kpit.com, we help organizations like yours streamline their operations and improve infrastructure management by providing innovative solutions that address specific pain points. Our expertise can help CBRE enhance its facilities management capabilities and reduce costs.\n\nI would appreciate the opportunity to discuss how our solutions can support your goals and challenges in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Ray Ca***e",
+            "recipient_company": "Cbre",
+            "subject_line": "Enhancing CBRE's Tech Infrastructure",
+            "body": "Hi Ray,\n\nAs the Facilities Director at CBRE, you oversee a complex network of systems, including those built with React, Node.js, and JavaScript, and supported by Qumucloud and Cloudflare. Your expertise in managing these technologies is crucial to the company's operations.\n\nAt kpit.com, we help organizations like CBRE optimize their technology infrastructure, ensuring seamless integration and maximum efficiency. Our expertise can help you address potential pain points and improve overall performance.\n\nI'd love to discuss how our solutions can support CBRE's goals and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Giulio Ma***a",
+            "recipient_company": "Cbre",
+            "subject_line": "Optimizing Facilities Management with Tech",
+            "body": "Hi Giulio,\n\nAs the Facilities Director at CBRE, you likely oversee a complex network of systems and technologies, including React, Node.js, and JavaScript, to manage your facilities efficiently. Your company's use of Qumucloud and Cloudflare suggests a strong focus on digital infrastructure and security.\n\nAt kpit.com, we help companies like CBRE streamline their operations and enhance their technology stack to improve overall performance and reduce costs. Our expertise can help you identify areas of improvement and implement tailored solutions to boost your facilities management capabilities.\n\nI'd love to discuss how our services can support your goals and challenges in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Leonel Le***a",
+            "recipient_company": "Cbre",
+            "subject_line": "Optimizing CBRE's Tech Infrastructure",
+            "body": "Hi Leonel,\n\nAs the Facilities Director at CBRE, you likely oversee a complex array of technologies, including React, Node.js, and JavaScript, to ensure seamless operations. Your company's use of Qumucloud and Cloudflare suggests a strong focus on cloud-based solutions and security.\n\nAt kpit.com, we help companies like CBRE streamline their technology infrastructure, enhancing efficiency and reducing costs. Our expertise can help you optimize your current tech stack and explore new solutions to drive business growth.\n\nI'd love to discuss how our services can support CBRE's goals - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Yamini Go***a",
+            "recipient_company": "Berkadia",
+            "subject_line": "Optimizing Operations at Berkadia",
+            "body": "Hi Yamini,\n\nAs an Operations Manager at Berkadia, you likely oversee a complex tech stack, including Ember.js, Cloudflare, Google Tag Manager, and WordPress, to ensure seamless operations.\n\nAt kpit.com, we help companies like yours streamline their operations and improve efficiency by providing tailored solutions to their unique challenges, allowing them to focus on core business objectives.\n\nI'd love to discuss how our expertise can support Berkadia's operational goals and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technology stack used by the company"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Ishneet Si***h",
+            "recipient_company": "Berkadia",
+            "subject_line": "Optimizing Operations at Berkadia",
+            "body": "Hi Ishneet,\n\nAs an Assistant Operations Manager at Berkadia, you likely oversee a complex technology stack, including Ember.js, Cloudflare, Google Tag Manager, and WordPress, to ensure seamless operations. Your ability to manage these tools effectively is crucial to the company's success.\n\nAt kpit.com, we help businesses like Berkadia streamline their operations and enhance efficiency by providing tailored solutions to their unique challenges. Our expertise can help you optimize your technology stack, leading to improved performance and reduced costs.\n\nI'd love to discuss how our solutions can address your specific needs and challenges in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Cloudflare",
+                "Google Tag Manager",
+                "WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Shardai Vi***s",
+            "recipient_company": "Berkadia",
+            "subject_line": "Optimizing HR Operations at Berkadia",
+            "body": "Hi Shardai,\n\nAs the Human Resources Operations Manager at Berkadia, you likely oversee a complex tech stack, including Ember.js, Cloudflare, Google Tag Manager, and WordPress, to ensure seamless operations.\n\nAt kpit.com, we help companies like Berkadia streamline their operations and improve efficiency by providing tailored solutions to their unique challenges, and I'd love to explore how our expertise can support your team's success.\n\nI'd appreciate the opportunity to discuss this further with you over a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Shardai",
+                "Full Name: Shardai Vi***s",
+                "Job Title: Human Resources Operations Manager",
+                "Company: Berkadia",
+                "Tech stack: Ember.js, Cloudflare, Google Tag Manager, WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Jennifer Ko***o",
+            "recipient_company": "Berkadia",
+            "subject_line": "Optimizing Berkadia's Tech Stack",
+            "body": "Hi Jennifer,\n\nAs the Operations Manager - Innovation and Chief of Staff to the CPO at Berkadia, you oversee a complex tech landscape that includes Ember.js, Cloudflare, Google Tag Manager, and WordPress. Leveraging these tools effectively is crucial for driving innovation and efficiency within your organization.\n\nAt kpit.com, we help companies like Berkadia streamline their operations and enhance their technology infrastructure, leading to improved performance and reduced costs. Our expertise can help you unlock the full potential of your existing tech stack.\n\nI'd love to discuss how our solutions can support Berkadia's goals - would you be available for a quick 15-minute call to explore further?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name: Jennifer",
+                "Job Title: Operations Manager - Innovation || Chief of Staff to CPO",
+                "Company: Berkadia",
+                "Tech stack: Ember.js, Cloudflare, Google Tag Manager, WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Saikiran Gu***i",
+            "recipient_company": "Berkadia",
+            "subject_line": "Optimizing Operations at Berkadia",
+            "body": "Hi Saikiran,\n\nAs Assistant Manager-Operations at Berkadia, you likely oversee a complex technology stack, including Ember.js, Cloudflare, Google Tag Manager, and WordPress, to drive business efficiency. Your ability to manage these tools effectively is crucial to the company's success.\n\nAt kpit.com, we specialize in helping businesses like Berkadia streamline their operations and enhance productivity by leveraging technology. Our expertise can help you optimize your current toolkit and identify areas for improvement.\n\nI'd love to discuss how our solutions can support your goals - would you be available for a quick 15-minute call to explore further?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Technology stack used by the company"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Amy Jo***n",
+            "recipient_company": "Logiccre",
+            "subject_line": "Optimizing Marketing Operations at Logiccre",
+            "body": "Hi Amy,\n\nAs a Marketing Operations Manager at Logiccre, you're likely no stranger to the complexities of managing multiple tools like JavaScript, Google Analytics, and Stripe to drive business growth. Your company's use of WordPress suggests a strong online presence, and I'm curious to learn more about your current marketing operations setup.\n\nAt kpit.com, we help businesses like Logiccre streamline their marketing operations and improve ROI through tailored solutions. Our expertise can help you optimize your marketing tech stack and make data-driven decisions to drive growth.\n\nI'd love to discuss how our solutions can address specific pain points at Logiccre - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "JavaScript",
+                "Google Analytics",
+                "Stripe",
+                "WordPress"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Chris Wa***r",
+            "recipient_company": "Okonite",
+            "subject_line": "Optimizing Engineering Operations at Okonite",
+            "body": "Hi Chris,\n\nAs the Director of Facilities Engineering at Okonite, you likely oversee complex systems and technologies, including Knockout.js and JavaScript, to drive efficiency and productivity. Your company's use of Google Analytics and Magento also suggests a strong focus on data-driven decision making.\n\nAt kpit.com, we help companies like Okonite streamline their operations and improve performance by providing expert solutions and support. Our team can help you optimize your engineering operations, leveraging your existing technology investments to drive greater value.\n\nI'd love to discuss how our expertise can support your goals and explore potential opportunities for collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Knockout.js",
+                "JavaScript",
+                "Google Analytics",
+                "Magento"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Spencer Bu***t",
+            "recipient_company": "Eastman",
+            "subject_line": "Optimizing Construction Projects with Data-Driven Insights",
+            "body": "Hi Spencer,\n\nAs a Construction Manager at Eastman, you likely understand the importance of streamlining project workflows and maximizing resource utilization, and with tools like Ember.js and Google Analytics at your disposal, you're well-equipped to drive data-driven decision making.\n\nAt kpit.com, we help customers like you enhance their project management capabilities, improve operational efficiency, and reduce costs by leveraging cutting-edge technologies and expert consulting services.\n\nI'd love to discuss how our expertise can support Eastman's construction projects and explore potential opportunities for collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Michael Ro***s",
+            "recipient_company": "Eastman",
+            "subject_line": "Optimizing Construction Projects with Data-Driven Insights",
+            "body": "Hi Michael,\n\nAs a Construction Manager at Eastman, you likely face unique challenges in streamlining project workflows and leveraging data to inform decision-making, particularly with tools like Ember.js and Google Analytics at your disposal.\n\nAt kpit.com, we help customers like you enhance operational efficiency and reduce costs by providing tailored solutions that integrate seamlessly with existing technologies, thereby driving business growth and competitiveness.\n\nI'd appreciate the opportunity to discuss how our expertise can address specific pain points at Eastman and explore potential collaborations - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Nick B",
+            "recipient_company": "Eastman",
+            "subject_line": "Optimizing Construction Projects with Data-Driven Insights",
+            "body": "Hi Nick,\n\nAs a Construction Manager at Eastman, you likely understand the importance of streamlining project workflows and leveraging data to inform decision-making, particularly with tools like Ember.js and Google Analytics at your disposal.\n\nAt kpit.com, we help companies like yours unlock the full potential of their data to drive efficiency, reduce costs, and enhance overall project outcomes through our specialized services.\n\nI'd love to discuss how our expertise can support Eastman's construction projects and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Jack Ac***d",
+            "recipient_company": "Eastman",
+            "subject_line": "Optimizing Construction Projects with Data-Driven Insights",
+            "body": "Hi Jack,\n\nAs a Construction Manager at Eastman, you likely oversee complex projects that rely on precise timing and resource allocation, and leveraging tools like Ember.js and Google Analytics can provide valuable insights to inform your decisions.\n\nAt kpit.com, we help customers like you streamline their operations and improve project outcomes by providing expert guidance on data analysis and implementation, enabling you to make more informed decisions and drive business growth.\n\nI'd love to discuss how our expertise can support your goals at Eastman, and explore potential solutions in a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Chelsia Ki***e",
+            "recipient_company": "Eastman",
+            "subject_line": "Optimizing Construction Projects with Data-Driven Insights",
+            "body": "Hi Chelsia,\n\nAs a Construction Manager at Eastman, you likely appreciate the importance of streamlined project management, and with Ember.js and Google Analytics already in your tech stack, you're well on your way to leveraging data for informed decisions.\n\nAt kpit.com, we specialize in helping companies like yours unlock the full potential of their data, driving efficiency and reducing costs in the process, which can be a game-changer for construction projects.\n\nI'd love to discuss how our expertise can support your goals with a quick 15-minute call.\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Ember.js",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Hersch Be***m",
+            "recipient_company": "Eagleroofing",
+            "subject_line": "Optimizing Eagleroofing's Digital Presence",
+            "body": "Hi Hersch,\n\nAs the Operations Manager at Eagleroofing, you oversee the intricate details of your company's daily activities, and with your website built on WordPress and utilizing PHP, I'm sure you understand the importance of a seamless online experience. Your use of Google Analytics indicates a data-driven approach to decision-making, which is crucial in today's competitive market.\n\nAt kpit.com, we specialize in enhancing digital capabilities, ensuring that our clients' online platforms are not only efficient but also provide valuable insights that drive business growth. By streamlining and optimizing your digital operations, we can help Eagleroofing improve its overall performance and customer engagement.\n\nI'd like to discuss how our expertise can specifically benefit Eagleroofing; would you be available for a quick 15-minute call to explore potential opportunities?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "WordPress",
+                "PHP",
+                "Google Analytics"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Jeff Lo***z",
+            "recipient_company": "Willdan",
+            "subject_line": "Optimizing Construction Projects with Technology",
+            "body": "Hi Jeff,\n\nAs a Construction Manager at Willdan, you likely oversee multiple projects simultaneously, and leveraging the right tools is crucial for success. Given Willdan's use of Bootstrap and Google Tag Manager, it's clear that the company values innovative solutions.\n\nAt kpit.com, we help customers like you streamline their operations and improve project efficiency by providing tailored technology solutions. Our expertise can help Willdan enhance its construction management capabilities.\n\nI'd love to discuss how our solutions can support your team's goals and explore potential collaboration opportunities - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Company's use of Bootstrap",
+                "Company's use of Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Steven Ve***o",
+            "recipient_company": "Willdan",
+            "subject_line": "Optimizing Construction Projects with Technology",
+            "body": "Hi Steven,\n\nAs a Construction Manager at Willdan, you likely oversee numerous projects simultaneously, and leveraging the right technologies like Bootstrap and Google Tag Manager can significantly streamline your operations. Your company's use of these tools indicates a forward-thinking approach to project management.\n\nAt kpit.com, we specialize in helping construction companies like yours enhance their project delivery through tailored technology solutions, improving efficiency and reducing costs. Our expertise can help Willdan further optimize its construction projects and enhance overall performance.\n\nI'd appreciate the opportunity to discuss how our solutions can support Willdan's goals; would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Their company uses Bootstrap",
+                "Their company uses Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Shaquille El***t",
+            "recipient_company": "Willdan",
+            "subject_line": "Optimizing Construction Projects with Technology",
+            "body": "Hi Shaquille,\n\nAs a Construction Manager at Willdan, you likely oversee complex projects that require precise coordination and efficient execution, and tools like Bootstrap and Google Tag Manager can play a significant role in streamlining these processes.\n\nAt kpit.com, we specialize in helping companies like yours leverage technology to enhance project management, reduce costs, and improve overall performance by providing tailored solutions that address specific pain points.\n\nI'd love to discuss how our expertise can support Willdan's goals and explore potential areas of collaboration, would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Company technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "David Ch***g",
+            "recipient_company": "Willdan",
+            "subject_line": "Optimizing Construction Management with Technology",
+            "body": "Hi David,\n\nAs a Construction Manager at Willdan, you likely understand the importance of streamlining processes and leveraging technology to drive efficiency, particularly with tools like Bootstrap and Google Tag Manager.\n\nAt kpit.com, we help companies like yours enhance their operational capabilities and reduce costs by implementing tailored solutions that address specific pain points, thereby improving overall project management and delivery.\n\nI would appreciate the opportunity to discuss how our expertise can support Willdan's goals and explore potential areas of collaboration, would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Their company uses Bootstrap",
+                "Their company uses Google Tag Manager"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        },
+        {
+            "recipient_email": "email_not_unlocked@domain.com",
+            "recipient_name": "Cesar Ca***a",
+            "recipient_company": "Willdan",
+            "subject_line": "Enhancing Operational Efficiency at Willdan",
+            "body": "Hi Cesar,\n\nAs a Construction Manager and OAR at Willdan, you likely oversee complex projects that rely on seamless integration of technologies like Bootstrap and Google Tag Manager. By optimizing these tools, you can significantly enhance your team's productivity and project delivery timelines.\n\nAt kpit.com, we specialize in helping companies like yours streamline their operations and improve bottom-line results by leveraging technology and process improvements. Our expertise can help Willdan reduce operational costs and improve project outcomes.\n\nI'd love to discuss how our solutions can address specific challenges you're facing at Willdan and explore potential areas of collaboration - would you be available for a quick 15-minute call?\n\nBest regards,\nNikhil Kumar\nkpit.com",
+            "personalization_used": [
+                "First Name",
+                "Full Name",
+                "Job Title",
+                "Company",
+                "Company technologies used"
+            ],
+            "tone": "professional",
+            "cta": "call",
+            "generation_status": "success"
+        }
+    ],
+    "emails_sheet_url": "https://docs.google.com/spreadsheets/d/1t1d-weLTslDnsPha8_oLxMHb4tfzb9336h7JlxEe_BY"
+}

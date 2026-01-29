@@ -1,0 +1,242 @@
+{
+    "generated_at": "2026-01-23T02:56:43.438664",
+    "source_url": "https://sbarconstruction.com",
+    "icp": {
+        "what_they_sell": "Commercial construction, renovation, and interiors services",
+        "customer_industry": "Industrial facilities, Commercial real estate, Manufacturing plants",
+        "customer_company_size": "Mid-market to Enterprise ($10M-$500M revenue)",
+        "target_buyers": [
+            "Construction Manager",
+            "Facilities Director",
+            "Operations Manager"
+        ],
+        "ideal_customer_characteristics": [
+            "Has large commercial property portfolio",
+            "Needs regular facility maintenance and renovation",
+            "Values on-time project completion and high-quality results"
+        ],
+        "customer_geography": "Western United States",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [
+                "CA",
+                "NV",
+                "AZ",
+                "OR",
+                "WA"
+            ],
+            "notes": "Licensed and operating in Western US states only"
+        }
+    },
+    "prospects_found": 18,
+    "prospects": [
+        {
+            "name": "Calpine Corporation",
+            "domain": "calpine.com",
+            "confidence": 0.87,
+            "why_good_fit": "Calpine is a service provider in the energy and power industry, which aligns with the target industry, and might need commercial construction, renovation, and interiors services for their own facilities or projects.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Menlo Group",
+            "domain": "menlocre.com",
+            "confidence": 0.62,
+            "why_good_fit": "Menlo Group is a commercial real estate brokerage that may be a buyer of the seller's construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "LevRose Commercial Real Estate",
+            "domain": "levrose.com",
+            "confidence": 0.78,
+            "why_good_fit": "Levrose is a commercial real estate advisory firm that might be a potential buyer of the seller's product if they need construction services for their clients.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Protofab, Inc.",
+            "domain": "protofabinc.com",
+            "confidence": 0.57,
+            "why_good_fit": "Protofabinc is a service provider in the industrial facilities and manufacturing plants industry, likely an end-user of construction services, and would realistically purchase the seller's product.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Cisco Air Systems",
+            "domain": "ciscoair.com",
+            "confidence": 0.53,
+            "why_good_fit": "Cisco Air Systems is an end-user in the industrial facilities and commercial real estate industries that would benefit from commercial construction, renovation, and interiors services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Lpc",
+            "domain": "lpc.com",
+            "confidence": 0.9,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Jbbrown",
+            "domain": "jbbrown.com",
+            "confidence": 0.78,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Cresa",
+            "domain": "cresa.com",
+            "confidence": 0.77,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Northrimpdx",
+            "domain": "northrimpdx.com",
+            "confidence": 0.9,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Blackstone",
+            "domain": "blackstone.com",
+            "confidence": 0.53,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Pcl",
+            "domain": "pcl.com",
+            "confidence": 1.0,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Jacksonmain",
+            "domain": "jacksonmain.com",
+            "confidence": 0.55,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Grahambuilds",
+            "domain": "grahambuilds.com",
+            "confidence": 0.75,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Goodwin Gc",
+            "domain": "goodwin-gc.com",
+            "confidence": 0.63,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kcmre",
+            "domain": "kcmre.com",
+            "confidence": 0.75,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Calcomm",
+            "domain": "calcomm.org",
+            "confidence": 0.73,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kppm",
+            "domain": "kppm.com",
+            "confidence": 0.52,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Crowncommercialpropertymanagement",
+            "domain": "crowncommercialpropertymanagement.com",
+            "confidence": 0.47,
+            "why_good_fit": "LLM unavailable - accepting",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "Crowncommercialpropertymanagement",
+            "domain": "crowncommercialpropertymanagement.com",
+            "contacts": []
+        },
+        {
+            "company": "Kppm",
+            "domain": "kppm.com",
+            "contacts": []
+        },
+        {
+            "company": "Calpine Corporation",
+            "domain": "calpine.com",
+            "contacts": [
+                {
+                    "name": "Terry Hartman",
+                    "title": "Construction Manager",
+                    "email": "terry.hartman@calpine.com",
+                    "linkedin_url": "http://www.linkedin.com/in/terry-hartman-149aa61b",
+                    "phone": "",
+                    "location": "Columbus, Ohio, United States",
+                    "email_verified": true,
+                    "person_id": "54a3ba3074686938ac39240e",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFI0OrGXUk03w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697574038184?e=2147483647&v=beta&t=ST8x3dN5UkljSC98XUNM1yI9dDGd1KMK8zGx3E8x7to",
+                    "headline": "Construction manager"
+                },
+                {
+                    "name": "Ron Chasse",
+                    "title": "Operations Manager",
+                    "email": "rchasse@calpine.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ron-chasse-99358a18",
+                    "phone": "",
+                    "location": "Gorham, Maine, United States",
+                    "email_verified": true,
+                    "person_id": "54a4f9df7468693442f8d372",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Operations Manager"
+                },
+                {
+                    "name": "Shane Anderson",
+                    "title": "Operations Manager",
+                    "email": "shane.anderson@calpine.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shane-anderson-4b12676b",
+                    "phone": "",
+                    "location": "Bakersfield, California, United States",
+                    "email_verified": true,
+                    "person_id": "612a517a3bdd700001553d8c",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQGeUMa12jHS2w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517469626642?e=2147483647&v=beta&t=ob-n5s5RmKtRTiPzgjCMJQ7b84yFF3nS3FsGU__WhCc",
+                    "headline": "Operations Manager at Calpine"
+                },
+                {
+                    "name": "Zach Drain",
+                    "title": "Operations Manager",
+                    "email": "zach.drain@calpine.com",
+                    "linkedin_url": "http://www.linkedin.com/in/zach-drain-524422151",
+                    "phone": "",
+                    "location": "McAlester, Oklahoma, United States",
+                    "email_verified": true,
+                    "person_id": "61989559965813000118f396",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHtO4kYD1Q-Ww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720588929024?e=2147483647&v=beta&t=EWvznGHUOfG2S-69onpZGGWXXerigjZes9jwSBC6F8M",
+                    "headline": "Operations Manager at Calpine"
+                },
+                {
+                    "name": "Jack Lowery",
+                    "title": "Operations Manager",
+                    "email": "jack.lowery@calpine.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jack-lowery-0b7278a6",
+                    "phone": "",
+                    "location": "Portland, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "66fcf2afd8fffb000190674a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Operations Manager at Calpine"
+                }
+            ]
+        }
+    ],
+    "total_contacts": 5
+}

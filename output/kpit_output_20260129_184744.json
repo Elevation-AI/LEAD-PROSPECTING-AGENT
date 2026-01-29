@@ -1,0 +1,165 @@
+{
+    "generated_at": "2026-01-29T18:47:44.946678",
+    "input_sources": [
+        "Website: https://kpit.com"
+    ],
+    "source_url": "https://kpit.com",
+    "icp": {
+        "seller_business_type": "engineering_services",
+        "what_they_sell": "Automotive software development services, including autonomous driving & ADAS, body electronics, chassis, cockpit, propulsion, Vehicle.OS, E/E architecture, network & middleware, embedded & smart engineering, virtual engineering, integrated diagnostics & aftersales transformation, cloud, edge analytics & data management, and vehicle engineering & design.",
+        "customer_industry": "Automotive OEMs (car manufacturers), Electric vehicle startups, Commercial vehicle manufacturers, Automotive Tier-1 suppliers needing software expertise, Automotive companies transitioning to Software-Defined Vehicles (SDV)",
+        "customer_company_size": "Mid-sized to large enterprises",
+        "target_buyers": [
+            "Chief Technology Officer (CTO)",
+            "VP of Engineering",
+            "Director of Software Engineering",
+            "Head of Autonomous Driving",
+            "Head of EV Development",
+            "E/E Architecture Director"
+        ],
+        "ideal_customer_characteristics": [
+            "Developing electric or autonomous vehicles",
+            "Needs to outsource software development",
+            "Transitioning from ICE to EV platforms",
+            "Does NOT have large in-house software team",
+            "Requires expertise in specific automotive software domains (e.g., ADAS, Vehicle.OS)",
+            "Looking for a strategic technology partner for long-term software development needs"
+        ],
+        "customer_geography": "Global",
+        "serviceable_geography": {
+            "scope": "global",
+            "countries": [],
+            "states_or_regions": [],
+            "notes": "KPIT has a global reach with software centers of excellence worldwide."
+        },
+        "avoid_company_types": [
+            "Automotive software companies (COMPETITORS: Bosch, Continental, Aptiv, ZF)",
+            "Tier-1 suppliers with own software divisions",
+            "IT services companies focused on general IT, not automotive-specific software",
+            "Automotive consulting firms focused on strategy, not software development"
+        ]
+    },
+    "prospects_found": 14,
+    "prospects": [
+        {
+            "name": "General Motors",
+            "domain": "gm.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large OEM, GM likely outsources some software development, especially in areas like autonomous driving, Vehicle.OS, and new EV platforms, to augment their internal teams.",
+            "what_they_do": "General Motors designs, manufactures, and markets vehicles across various brands.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "SparkCharge",
+            "domain": "sparkcharge.io",
+            "confidence": 0.9,
+            "why_good_fit": "SparkCharge, as an EV charging solutions provider, likely needs automotive software development services to enhance their charging infrastructure, optimize energy management, and develop advanced features for their platform, especially in areas like Vehicle.OS integration or cloud data management.",
+            "what_they_do": "SparkCharge provides mobile and stationary EV charging solutions and services for fleets, offering Charging-as-a-Service (CaaS) and related infrastructure.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Rivian",
+            "domain": "rivian.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an EV manufacturer, Rivian likely needs automotive software development services, especially for areas like autonomous driving, Vehicle.OS, and cloud/edge analytics, and may outsource some of this work to accelerate development and innovation.",
+            "what_they_do": "Rivian is an electric vehicle manufacturer that designs, develops, and produces electric trucks and SUVs.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "QuantumScape",
+            "domain": "quantumscape.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a battery manufacturer for EVs, QuantumScape likely needs automotive software development services for battery management systems, vehicle integration, and related applications, especially as they scale up production and integrate with automotive OEMs.",
+            "what_they_do": "QuantumScape develops solid-state lithium-metal battery technology for electric vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "NanoGraf Corporation",
+            "domain": "nanograf.com",
+            "confidence": 0.9,
+            "why_good_fit": "NanoGraf, as a battery technology company focused on improving EV battery performance, likely needs automotive software development services for battery management systems, vehicle integration, and data analytics related to battery performance, fitting the seller's expertise.",
+            "what_they_do": "NanoGraf develops and manufactures silicon-based anode materials for lithium-ion batteries, aiming to improve battery performance for electric vehicles and other applications.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Tesla",
+            "domain": "teslarati.com",
+            "confidence": 0.9,
+            "why_good_fit": "Tesla, as an automotive OEM, could potentially outsource specific software development tasks related to autonomous driving, Vehicle.OS, or other areas where they need specialized expertise or to augment their internal teams.",
+            "what_they_do": "Tesla designs, develops, manufactures, and sells electric vehicles, energy generation and storage systems, and related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Daimler Truck AG",
+            "domain": "daimlertruck.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large commercial vehicle manufacturer, Daimler Truck is likely developing new electric and autonomous vehicle technologies and may need to outsource software development for specific projects or to augment their internal teams.",
+            "what_they_do": "Daimler Truck is one of the world's largest commercial vehicle manufacturers, offering light, medium, and heavy-duty trucks, buses, and financial services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Amplify Cell Technologies",
+            "domain": "amplifycelltech.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a new battery cell manufacturer for EVs, they likely need software development services for battery management systems, vehicle integration, and related applications.",
+            "what_they_do": "Amplify Cell Technologies manufactures battery cells for heavy and medium-duty electric vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Volkswagen Group",
+            "domain": "volkswagen-group.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large automotive OEM, Volkswagen likely outsources some software development, especially in areas like autonomous driving, Vehicle.OS, and other advanced technologies, making them a potential buyer.",
+            "what_they_do": "Volkswagen Group is a multinational automotive manufacturer that designs, manufactures, and sells a wide range of vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "International",
+            "domain": "international.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a commercial vehicle manufacturer, especially with their stated focus on electrification, International could require automotive software development services for their electric vehicle programs, autonomous features, or connected services.",
+            "what_they_do": "International manufactures commercial trucks, buses, engines, and parts, serving various industries and increasingly focusing on electrification.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Ford",
+            "domain": "ford.com",
+            "confidence": 0.9,
+            "why_good_fit": "Ford is actively developing electric and autonomous vehicles and may need to outsource software development for specific projects or to augment their internal teams.",
+            "what_they_do": "Ford is an automotive manufacturer that designs, engineers, manufactures, markets, and services a full line of connected, increasingly electrified passenger and commercial vehicles.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ChargePoint",
+            "domain": "chargepoint.com",
+            "confidence": 0.85,
+            "why_good_fit": "ChargePoint could use automotive software development services to enhance their EV charging platform, particularly in areas like Vehicle.OS integration, cloud data management, and enhanced driver experience features within the vehicle's infotainment system.",
+            "what_they_do": "ChargePoint provides EV charging solutions, including hardware and software, for businesses and individuals.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Commercial Vehicle Group",
+            "domain": "cvgrp.com",
+            "confidence": 0.85,
+            "why_good_fit": "CVG is expanding into electric vehicles and may need software development services for their assemblies and systems, especially given their focus on integrating technology and equipment.",
+            "what_they_do": "Commercial Vehicle Group (CVG) is a leading supplier of electric vehicle assemblies, electrical wire harnesses, seating systems, mechanical assemblies, and plastic products primarily to the commercial vehicle, electric vehicle, e-commerce, and other markets.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "REV Group",
+            "domain": "revgroup.com",
+            "confidence": 0.75,
+            "why_good_fit": "As a manufacturer of various vehicle types, REV Group could potentially require automotive software development services for their vehicles, especially as they integrate more advanced technologies.",
+            "what_they_do": "REV Group designs and manufactures specialty vehicles, including fire apparatus, emergency vehicles, commercial infrastructure vehicles, and recreational vehicles.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "REV Group",
+            "domain": "revgroup.com",
+            "contacts": []
+        }
+    ],
+    "total_contacts": 0
+}

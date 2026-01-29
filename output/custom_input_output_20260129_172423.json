@@ -1,0 +1,281 @@
+{
+    "generated_at": "2026-01-29T17:24:23.025605",
+    "input_sources": [
+        "PDF: 24-MFI-Global-Company-Brochure-merged-compressed-24-MFI-Global-Company-Brochure-HighRes.pdf",
+        "Raw Text"
+    ],
+    "source_url": "multi-input",
+    "icp": {
+        "seller_business_type": "b2b_supplier",
+        "what_they_sell": "Build-to-print contract manufacturing of metal and plastic parts, including metal stampings, forgings, castings, fasteners, machining, extrusions, and plastic injection molding.",
+        "customer_industry": "Original Equipment Manufacturers (OEMs) across various industries including hardware, railroad, agriculture, military, mining, hand tools, automotive, trucking, medical, musical instruments, and consumer products.",
+        "customer_company_size": "Ranges from startups to large global OEMs.",
+        "target_buyers": [
+            "Supply Chain Manager",
+            "Procurement Manager",
+            "Manufacturing Engineer",
+            "Director of Operations",
+            "VP of Sourcing"
+        ],
+        "ideal_customer_characteristics": [
+            "Requires high-volume production of metal or plastic parts.",
+            "Seeks cost savings through offshore manufacturing.",
+            "Needs a reliable and vertically integrated manufacturing partner.",
+            "Requires ISO/TS16949 or ISO9001 certified manufacturing.",
+            "Outsources manufacturing to reduce capital expenditure."
+        ],
+        "customer_geography": "North America, Asia, and Europe",
+        "serviceable_geography": {
+            "scope": "global",
+            "countries": [
+                "USA",
+                "China",
+                "India",
+                "Vietnam",
+                "Thailand",
+                "Malaysia",
+                "Philippines"
+            ],
+            "states_or_regions": [],
+            "notes": "Production facilities are located in China, India, Vietnam, Thailand, Malaysia and Philippines. Sales and support presence in the United States."
+        },
+        "avoid_company_types": [
+            "Other contract manufacturers (competitors)",
+            "Companies with in-house manufacturing capabilities",
+            "Raw material suppliers",
+            "Distributors of manufactured parts"
+        ]
+    },
+    "prospects_found": 20,
+    "prospects": [
+        {
+            "name": "AGCO Corporation",
+            "domain": "agcocorp.com",
+            "confidence": 0.95,
+            "why_good_fit": "As an OEM of agricultural equipment, AGCO likely requires build-to-print manufacturing of metal and plastic parts for their equipment.",
+            "what_they_do": "AGCO Corporation designs, manufactures, and distributes agricultural equipment and solutions.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Dell",
+            "domain": "dell.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM of computers and related products, Dell likely requires contract manufacturing for metal and plastic parts used in their products.",
+            "what_they_do": "Dell is a technology company that develops, manufactures, sells, and supports computers, related products, and services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Guardian Access & Door Hardware",
+            "domain": "adhguardianusa.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a manufacturer of garage door components, they would need build-to-print contract manufacturing services for metal and plastic parts.",
+            "what_they_do": "Guardian Access & Door Hardware is a B2B distributor of garage door operators, components, and hardware.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Zebra Technologies",
+            "domain": "zebra.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a manufacturer of hardware products, Zebra likely requires build-to-print contract manufacturing for metal and plastic parts used in their devices.",
+            "what_they_do": "Zebra Technologies provides hardware and software solutions to digitize and automate operations across various industries, including mobile computers, scanners, printers, and RFID technology.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Snap-on Incorporated",
+            "domain": "snapon.com",
+            "confidence": 0.9,
+            "why_good_fit": "Snap-on, as a manufacturer of tools and equipment, likely outsources the production of various metal and plastic components used in their products, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "Snap-on Incorporated manufactures and distributes high-end tools and equipment for professional technicians and other users.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "BNSF Railway",
+            "domain": "bnsf.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railway, BNSF likely requires a high volume of metal and plastic parts for railcars, infrastructure, and other equipment, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "BNSF Railway is a freight railroad network operating in North America, transporting goods across the nation.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "R. J. Corman Railroad Group",
+            "domain": "rjcorman.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad services company involved in construction, maintenance, and expansion projects, R. J. Corman likely needs build-to-print metal and plastic parts for rail infrastructure and rolling stock.",
+            "what_they_do": "R. J. Corman Railroad Group provides a wide range of services to the railroad industry, including construction, maintenance, emergency services, material sales, and short line railroad operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Norfolk Southern",
+            "domain": "norfolksouthern.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad company, Norfolk Southern likely requires a variety of metal and plastic parts for the maintenance, repair, and operation of its trains and infrastructure, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "Norfolk Southern is a major freight railroad company that transports goods and materials across a large network in the eastern United States.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "RailWorks",
+            "domain": "railworks.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a rail infrastructure company, RailWorks likely needs build-to-print manufacturing for metal and plastic parts used in rail construction and maintenance.",
+            "what_they_do": "RailWorks provides rail construction, maintenance, and technology solutions for various industries and clients.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Loram Maintenance of Way, Inc.",
+            "domain": "loram.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM of railway maintenance equipment, Loram likely requires manufactured metal and plastic parts for their equipment, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "Loram provides railway maintenance equipment, services, and technology solutions, including rail grinding, ballast maintenance, and track inspection.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Patriot Rail Company",
+            "domain": "patriotrail.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad operator, Patriot Rail likely requires metal and plastic parts for railcar maintenance, repair, and infrastructure development, aligning with the seller's build-to-print contract manufacturing services.",
+            "what_they_do": "Patriot Rail Company operates short line and regional freight railroads, providing transloading and other rail services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Anacostia Rail Holdings Company",
+            "domain": "anacostia.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad company, they likely require metal and plastic parts for railcar maintenance, track repair, and infrastructure development, aligning with the seller's build-to-print manufacturing capabilities.",
+            "what_they_do": "Anacostia Rail Holdings owns and operates freight railroads in the United States, providing services like car switching, track maintenance, freight trans-loading, and train dispatching.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Nutrien",
+            "domain": "nutrien.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM in the agriculture industry, Nutrien likely requires manufactured metal and plastic parts for their equipment and products.",
+            "what_they_do": "Nutrien is a leading provider of crop inputs and services, helping growers increase food production in a sustainable manner.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Inspectron",
+            "domain": "inspectrontools.com",
+            "confidence": 0.85,
+            "why_good_fit": "Inspectron partners with other tool companies to develop and manufacture their videoscope programs, indicating they outsource manufacturing and could need build-to-print services for metal and plastic parts.",
+            "what_they_do": "Inspectron designs, engineers, and manufactures professional-grade borescopes, inspection tools, and systems for visual diagnostics.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Kason Industries",
+            "domain": "kasonind.com",
+            "confidence": 0.85,
+            "why_good_fit": "Kason Industries, as a manufacturer of hardware and accessories, could potentially outsource the production of metal and plastic parts to the seller, especially if they are looking for cost savings or increased production capacity.",
+            "what_they_do": "Kason Industries manufactures and supplies commercial hardware and accessories for the foodservice, industrial, and truck body industries.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "MiX Telematics",
+            "domain": "mixtelematics.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a hardware and software provider for fleet management, they likely outsource the manufacturing of their hardware components like telematics devices, dashcams, and other sensors.",
+            "what_they_do": "MiX Telematics provides fleet management, driver safety, and vehicle tracking solutions as a SaaS platform.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Samsara",
+            "domain": "samsara.com",
+            "confidence": 0.85,
+            "why_good_fit": "Samsara, as a company that manages fleets and industrial equipment, likely needs metal and plastic parts for the vehicles and equipment they support, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "Samsara provides a connected operations platform that uses data from cameras, sensors, and workflows to improve safety, efficiency, and sustainability for businesses that operate fleets and industrial equipment.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Corteva Agriscience™",
+            "domain": "corteva.com",
+            "confidence": 0.85,
+            "why_good_fit": "As an OEM in the agriculture industry, Corteva likely requires metal and plastic parts for their equipment and seed application technologies, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "Corteva Agriscience is a global agriculture company that provides farmers with crop protection, seeds, and other agricultural products and services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "East Broad Top Railroad",
+            "domain": "eastbroadtop.com",
+            "confidence": 0.8,
+            "why_good_fit": "As a historical railroad, they likely require replacement parts for their locomotives, rolling stock, and infrastructure, making them a potential customer for build-to-print manufacturing.",
+            "what_they_do": "The East Broad Top Railroad is a historical railroad offering train rides, tours, and special events, preserving and showcasing America's industrial past.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "McDonald's",
+            "domain": "mcdonalds.com",
+            "confidence": 0.75,
+            "why_good_fit": "McDonald's uses metal and plastic parts in their restaurant equipment, food preparation tools, and potentially in their restaurant structures, making them a potential customer for build-to-print contract manufacturing.",
+            "what_they_do": "McDonald's is a global fast-food restaurant chain.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "AGCO Corporation",
+            "domain": "agcocorp.com",
+            "contacts": [
+                {
+                    "name": "Daiane Robledo",
+                    "title": "Supply Chain Manager",
+                    "email": "daiane.robledo@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/daiane-robledo-95210156",
+                    "phone": "",
+                    "location": "Brazil",
+                    "email_verified": true,
+                    "person_id": "5fb6b15a00a8250001464eca",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Manager at AGCO Corporation"
+                },
+                {
+                    "name": "Quentin Devoldere",
+                    "title": "Project Supply Chain Manager",
+                    "email": "quentin.devoldere@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/quentindevoldere",
+                    "phone": "",
+                    "location": "Les Andelys, Normandy, France",
+                    "email_verified": true,
+                    "person_id": "54a214f074686930c268220b",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEfwDJyDKYY9g/profile-displayphoto-shrink_200_200/B4EZd9LksuH0AY-/0/1750151875857?e=2147483647&v=beta&t=kJ8ruHSZkgiy07rsx0OTfsyo-mX1Cyexy21dtglE0ak",
+                    "headline": "Project Supply Chain Manager"
+                },
+                {
+                    "name": "Rajmohan Mangaonkar",
+                    "title": "Manufacturing Engineer",
+                    "email": "rajmohan.mangaonkar@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/rajmohan-mangaonkar",
+                    "phone": "",
+                    "location": "Wichita, Kansas, United States",
+                    "email_verified": true,
+                    "person_id": "67ca8911ed36e10001767f8e",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Manufacturing Engineer @ AGCO Corporation | Process Validation, Quality Control"
+                },
+                {
+                    "name": "Jason Hill",
+                    "title": "Manufacturing Engineer",
+                    "email": "jason.hill@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jason-hill-42274661",
+                    "phone": "",
+                    "location": "Newton, Kansas, United States",
+                    "email_verified": true,
+                    "person_id": "5b2a7749a6da988b1e368a6a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Manufacturing Engineer @ AGCO Corporation"
+                },
+                {
+                    "name": "Frank Schreimel",
+                    "title": "Manufacturing Engineer",
+                    "email": "frank.schreimel@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/frank-schreimel-731a93188",
+                    "phone": "",
+                    "location": "Nuremberg, Bavaria, Germany",
+                    "email_verified": true,
+                    "person_id": "61309bc065bab8000171ead2",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Manufacturing Engineer bei AGCO Corporation"
+                }
+            ]
+        }
+    ],
+    "total_contacts": 5
+}

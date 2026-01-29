@@ -1,0 +1,6 @@
+.env
+.claude
+__pycache__
+config/oauth-credentials.json
+config/token.json
+config/token.pickle
