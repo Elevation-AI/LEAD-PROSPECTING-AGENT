@@ -27,6 +27,9 @@ from src.icp.icp_generator import ICPGenerator
 from src.search.company_finder import ProspectFinder
 from src.enrichment.apollo_enricher import ApolloEnricher
 from src.utils.helpers import validate_url
+from src.input.pdf_extractor import PDFExtractor
+from src.input.raw_text_handler import RawTextHandler
+from src.input.content_aggregator import ContentAggregator
 
 # =============================================================================
 # IMPORTS - Agent 02 (from Agent_02/)
@@ -40,11 +43,14 @@ def save_full_output(url, icp, prospects, apollo_enriched, deep_enriched, sheet_
     os.makedirs(output_dir, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    company_slug = url.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].split(".")[0]
+    company_slug = (
+        url.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].split(".")[0]
+        if url else "custom_input"
+    )
 
     full_output = {
         "generated_at": datetime.now().isoformat(),
-        "source_url": url,
+        "source_url": url if url else "multi-input",
         "pipeline_version": "Agent01 + Agent02",
         "icp": icp,
         "prospects_found": len(prospects),
@@ -71,42 +77,90 @@ def main():
     print("   Agent 01 + Agent 02 Combined")
     print("=" * 60)
 
-    # ---------------------------------------------------
-    # GET URL FROM USER
-    # ---------------------------------------------------
-    url = input("\nEnter company website URL: ").strip()
+    contexts = []
+    url = None
 
-    if not validate_url(url):
-        print("❌ Invalid URL format. Example: https://asana.com")
+    # ===================================================
+    # AGENT 01: STEP 1a - WEBSITE INPUT (OPTIONAL)
+    # ===================================================
+    print("\n" + "-" * 60)
+    print("📥 STEP 1a: Website Input")
+    print("-" * 60)
+
+    url = input("\nEnter company website URL (or press Enter to skip): ").strip()
+    if url:
+        if not validate_url(url):
+            print("❌ Invalid URL format. Example: https://asana.com")
+            return
+
+        scraper = WebsiteScraper()
+        scraped = scraper.scrape_website(url)
+
+        if scraped and len(scraped.get("combined_text", "")) > 200:
+            contexts.append({
+                "source": "website",
+                "content": scraped["combined_text"]
+            })
+            print(f"✅ Website content added. ({scraped['content_length']} characters)")
+        else:
+            print("⚠️ Website content could not be used.")
+
+    # ===================================================
+    # AGENT 01: STEP 1b - PDF INPUT (OPTIONAL)
+    # ===================================================
+    print("\n" + "-" * 60)
+    print("📄 STEP 1b: PDF Input")
+    print("-" * 60)
+
+    pdf_path = input("\nEnter PDF file path (or press Enter to skip): ").strip()
+    if pdf_path:
+        try:
+            pdf_extractor = PDFExtractor()
+            pdf_context = pdf_extractor.extract_text(pdf_path)
+            contexts.append(pdf_context)
+            print("✅ PDF content added.")
+        except Exception as e:
+            print(f"⚠️ PDF skipped: {e}")
+
+    # ===================================================
+    # AGENT 01: STEP 1c - RAW TEXT INPUT (OPTIONAL)
+    # ===================================================
+    print("\n" + "-" * 60)
+    print("📝 STEP 1c: Raw Text Input")
+    print("-" * 60)
+
+    raw_text = input("\nPaste raw text about your company (or press Enter to skip): ").strip()
+    if raw_text:
+        try:
+            raw_handler = RawTextHandler()
+            raw_context = raw_handler.process(raw_text)
+            contexts.append(raw_context)
+            print("✅ Raw text added.")
+        except Exception as e:
+            print(f"⚠️ Raw text skipped: {e}")
+
+    # ===================================================
+    # VALIDATE: At least one input required
+    # ===================================================
+    if not contexts:
+        print("\n❌ No valid input provided. Exiting.")
         return
 
     # ===================================================
-    # AGENT 01: STEP 1 - SCRAPE WEBSITE
+    # AGENT 01: STEP 2 - AGGREGATE & GENERATE ICP
     # ===================================================
     print("\n" + "-" * 60)
-    print("📥 STEP 1: Scraping website content...")
+    print("🎯 STEP 2: Aggregating context & Generating ICP...")
     print("-" * 60)
 
-    scraper = WebsiteScraper()
-    scraped = scraper.scrape_website(url)
-
-    if not scraped or len(scraped["combined_text"]) < 200:
-        print("❌ Could not extract useful content from website.")
-        return
-
-    print(f"✅ Scraping successful! Extracted {scraped['content_length']} characters.")
-
-    # ===================================================
-    # AGENT 01: STEP 2 - GENERATE ICP
-    # ===================================================
-    print("\n" + "-" * 60)
-    print("🎯 STEP 2: Generating ICP using LLM...")
-    print("-" * 60)
+    aggregator = ContentAggregator()
+    final_context_text = aggregator.aggregate(contexts)
+    print(f"📊 Unified context: {len(final_context_text)} characters from {len(contexts)} source(s)")
 
     icp_gen = ICPGenerator()
 
     try:
-        icp = icp_gen.generate_icp(scraped["combined_text"])
+        icp = icp_gen.generate_icp(final_context_text)
         print("\n✅ ICP Generated Successfully:\n")
         print(json.dumps(icp, indent=4))
 
@@ -161,7 +215,7 @@ def main():
     # Flatten contacts from Apollo output
     all_contacts = []
     for company in apollo_enriched:
-        company_name = company.get("company_name", "Unknown")
+        company_name = company.get("company", "Unknown")
         domain = company.get("domain", "")
 
         for contact in company.get("contacts", []):
@@ -169,7 +223,7 @@ def main():
                 "name": contact.get("name", ""),
                 "title": contact.get("title", ""),
                 "email": contact.get("email", ""),
-                "email_verified": contact.get("email_status") == "verified",
+                "email_verified": contact.get("email_verified", False),
                 "linkedin_url": contact.get("linkedin_url", ""),
                 "company": company_name,
                 "domain": domain
@@ -226,7 +280,10 @@ def main():
         export_sheets = input("Export to Google Sheets? [yes/no]: ").lower() == 'yes'
 
         if export_sheets:
-            company_slug = url.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].split(".")[0]
+            company_slug = (
+                url.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0].split(".")[0]
+                if url else "custom_input"
+            )
             sheet_name = f"Leads_{company_slug}_{datetime.now():%Y%m%d_%H%M}"
 
             sheets_exporter = SheetsExporterOAuth()

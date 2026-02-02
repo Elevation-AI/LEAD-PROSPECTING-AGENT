@@ -1,0 +1,1040 @@
+{
+    "generated_at": "2026-01-31T19:09:57.608378",
+    "source_url": "multi-input",
+    "pipeline_version": "Agent01 + Agent02",
+    "icp": {
+        "seller_business_type": "b2b_supplier",
+        "what_they_sell": "Contract manufacturing of metal and plastic parts, including metal stampings, forgings, castings, fasteners, machining, extrusions, and plastic injection molding.",
+        "customer_industry": "Original Equipment Manufacturers (OEMs) across various industries including hardware, railroad, agriculture, military, mining, hand tools, automotive, trucking, medical, musical instruments, and consumer products.",
+        "customer_company_size": "Small to large enterprises, including startups and global OEMs.",
+        "target_buyers": [
+            "Supply Chain Manager",
+            "Procurement Manager",
+            "Sourcing Manager",
+            "Engineering Manager"
+        ],
+        "pain_points_solved": [
+            "High manufacturing costs",
+            "Supply chain complexities",
+            "Quality control issues",
+            "Need for diverse manufacturing capabilities"
+        ],
+        "ideal_customer_characteristics": [
+            "Requires build-to-print manufacturing services.",
+            "Seeks cost savings through offshore manufacturing.",
+            "Needs high-volume production capabilities.",
+            "Requires ISO/TS16949 and ISO9001 certified manufacturing.",
+            "Looking for a vertically integrated manufacturing partner."
+        ],
+        "customer_geography": "North America, Asia, and Europe",
+        "serviceable_geography": {
+            "scope": "global",
+            "countries": [
+                "USA",
+                "China",
+                "India",
+                "Vietnam",
+                "Thailand",
+                "Malaysia",
+                "Philippines"
+            ],
+            "states_or_regions": [],
+            "notes": "Countries: USA, China, India, Vietnam, Thailand, Malaysia, Philippines"
+        },
+        "customer_business_model": "outsourcing_oem",
+        "avoid_company_types": [
+            "Other contract manufacturers (competitors)",
+            "Companies with in-house manufacturing capabilities",
+            "Raw material suppliers",
+            "Distributors of manufactured parts"
+        ]
+    },
+    "prospects_found": 18,
+    "prospects": [
+        {
+            "name": "Dell",
+            "domain": "dell.com",
+            "confidence": 0.95,
+            "why_good_fit": "As an OEM, Dell requires contract manufacturing for metal and plastic parts used in their computers, monitors, and other hardware products.",
+            "what_they_do": "Dell is a multinational computer technology company that develops, sells, repairs, and supports computers and related products and services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Snap-on Incorporated",
+            "domain": "snapon.com",
+            "confidence": 0.95,
+            "why_good_fit": "Snap-on manufactures tools and equipment, and likely outsources the manufacturing of metal and plastic parts to contract manufacturers to reduce costs and focus on core competencies.",
+            "what_they_do": "Snap-on Incorporated manufactures and distributes high-end tools and equipment for professional technicians and other users.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "AGCO Corporation",
+            "domain": "agcocorp.com",
+            "confidence": 0.95,
+            "why_good_fit": "As an OEM of agricultural equipment, AGCO likely requires contract manufacturing for metal and plastic parts used in their equipment.",
+            "what_they_do": "AGCO Corporation designs, manufactures, and distributes agricultural equipment and related replacement parts.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Inspectron",
+            "domain": "inspectrontools.com",
+            "confidence": 0.9,
+            "why_good_fit": "Inspectron partners with other tool companies to develop and manufacture their videoscope programs, indicating a need for contract manufacturing services for metal and plastic parts used in their products.",
+            "what_they_do": "Inspectron designs, engineers, and manufactures professional-grade borescopes, inspection tools, and systems for visual diagnostics, and partners with other tool companies as an OEM.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Zebra Technologies",
+            "domain": "zebra.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM of hardware solutions, Zebra likely requires contract manufacturing for metal and plastic parts used in their products, especially given their focus on manufacturing solutions.",
+            "what_they_do": "Zebra Technologies provides hardware and software solutions to digitize and automate operations across various industries, including retail, healthcare, manufacturing, and transportation & logistics.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "KKT Chillers USA",
+            "domain": "kkt-chillersusa.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a chiller manufacturer, KKT Chillers USA likely needs contract manufacturing services for metal and plastic parts used in their chillers, such as metal stampings, fasteners, and plastic injection molded components.",
+            "what_they_do": "KKT Chillers USA manufactures industrial chillers for various applications, including medical, packaging, and laser technology.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Juniper Systems",
+            "domain": "junipersys.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a manufacturer of rugged computing devices, Juniper Systems likely requires contract manufacturing services for metal and plastic parts used in their products.",
+            "what_they_do": "Juniper Systems designs and manufactures rugged tablets, handhelds, precision GNSS receivers, mapping software, and custom OEM solutions for field data collection.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Guardian Access & Door Hardware",
+            "domain": "adhguardianusa.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a manufacturer of garage door components, they likely outsource the manufacturing of metal and plastic parts used in their products, aligning with the seller's contract manufacturing services.",
+            "what_they_do": "Guardian Access & Door Hardware designs, manufactures, and distributes garage door operators, components, and hardware.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "BNSF Railway",
+            "domain": "bnsf.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railway company, BNSF likely requires a variety of metal and plastic parts for maintaining and repairing their railcars and infrastructure, aligning with the seller's contract manufacturing services.",
+            "what_they_do": "BNSF Railway is a freight railroad network operating in North America.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "R. J. Corman Railroad Group",
+            "domain": "rjcorman.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad services company involved in construction, maintenance, and expansion projects, R. J. Corman likely requires manufactured metal and plastic parts such as fasteners, metal stampings, and potentially custom components for their rail infrastructure and rolling stock.",
+            "what_they_do": "R. J. Corman Railroad Group provides a wide range of services to the railroad industry, including construction, maintenance, emergency services, material sales, and short line railroad operations.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Norfolk Southern",
+            "domain": "norfolksouthern.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a railroad company, Norfolk Southern likely requires a variety of metal and plastic parts for maintaining and repairing its locomotives, railcars, and infrastructure, making them a potential customer for contract manufacturing services.",
+            "what_they_do": "Norfolk Southern is a major freight railroad company that transports goods and materials across a large network in the United States.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "RailWorks",
+            "domain": "railworks.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a rail infrastructure company, RailWorks likely needs manufactured metal and plastic parts for construction and maintenance of rail systems, fitting the seller's build-to-print manufacturing services.",
+            "what_they_do": "RailWorks provides rail construction, maintenance, and technology solutions for various industries and clients.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Loram Maintenance of Way, Inc.",
+            "domain": "loram.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM of railway maintenance equipment, Loram likely requires contract manufacturing for metal and plastic parts used in their machines and systems.",
+            "what_they_do": "Loram provides railway maintenance equipment, services, and technology solutions, including rail grinding, ballast maintenance, track inspection, and friction management.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Anacostia Rail Holdings",
+            "domain": "anacostia.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a rail company, they likely require metal and plastic parts for railcar maintenance, repair, and potentially even manufacturing or refurbishment, fitting the seller's target industry and build-to-print manufacturing needs.",
+            "what_they_do": "Anacostia Rail Holdings owns and operates freight railroads in the United States, providing services like car switching, track maintenance, and freight trans-loading.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Nutrien",
+            "domain": "nutrien.com",
+            "confidence": 0.9,
+            "why_good_fit": "As an OEM in the agriculture industry, Nutrien likely requires manufactured metal and plastic parts for their equipment and products.",
+            "what_they_do": "Nutrien is a leading provider of crop inputs and services, helping growers increase food production in a sustainable manner.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "MiX by Powerfleet",
+            "domain": "mixtelematics.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a hardware and software provider for fleet management, they likely outsource the manufacturing of their hardware components like telematics devices, dashcams, and other sensors.",
+            "what_they_do": "MiX by Powerfleet provides fleet management, driver safety, and vehicle tracking solutions as a SaaS platform.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Patriot Rail Company",
+            "domain": "patriotrail.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a railroad operator, Patriot Rail likely requires metal and plastic parts for railcar maintenance, repair, and infrastructure, fitting the seller's build-to-print manufacturing services.",
+            "what_they_do": "Patriot Rail Company operates short line and regional freight railroads, providing transloading and other rail services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Corteva Agriscience™",
+            "domain": "corteva.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a large agricultural company, Corteva likely requires manufactured metal and plastic parts for their equipment, seed application technologies, and other agricultural solutions.",
+            "what_they_do": "Corteva Agriscience is a global agriculture company that provides farmers with crop protection, seeds, and other agricultural products and services.",
+            "source": "web_search_verified"
+        }
+    ],
+    "apollo_enriched": [
+        {
+            "company": "Dell",
+            "domain": "dell.com",
+            "contacts": [
+                {
+                    "name": "Naomi Smyth",
+                    "title": "Procurement Supply Chain Manager",
+                    "email": "naomi.smyth@dell.com",
+                    "linkedin_url": "http://www.linkedin.com/in/naomismyth",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "55d78c0ff3e5bb6940001686",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFcT8Tb5XPwvQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516863575289?e=2147483647&v=beta&t=kIIFpcIlpxw45Mq_3Z176GgY6LbW2zaR2WgRavsHpvk",
+                    "headline": "Supply Chain Manager"
+                },
+                {
+                    "name": "Kartik Josyula",
+                    "title": "Supply Chain Manager",
+                    "email": "kartik.josyula@dell.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kartik-josyula-378874a0",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "65b151168db9e60001c04896",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQF5ScQ2RmyuyA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1527788453961?e=2147483647&v=beta&t=J04DIQUVzO0nkgs7UxQAiTgItgdPZIT-zLuoKpbBX-g",
+                    "headline": "Supply Chain Manager | Digital Transformation and Modernization"
+                },
+                {
+                    "name": "Justin Chapman",
+                    "title": "Supply Chain Manager",
+                    "email": "justin.chapman1@dell.com",
+                    "linkedin_url": "http://www.linkedin.com/in/justinallenchapman",
+                    "phone": "",
+                    "location": "Belmont, Massachusetts, United States",
+                    "email_verified": true,
+                    "person_id": "5b1fe5d6a6da98e1f45b512c",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Manager - Storage Solutions"
+                },
+                {
+                    "name": "Cynthia Lee",
+                    "title": "Supply Chain Manager",
+                    "email": "c.lee@dell.com",
+                    "linkedin_url": "http://www.linkedin.com/in/cynthialee",
+                    "phone": "",
+                    "location": "Taipei, Taiwan",
+                    "email_verified": true,
+                    "person_id": "67312281390af80001ac9b00",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Generative AI, Strategy and Portfolio Planning"
+                },
+                {
+                    "name": "Daniel Yang",
+                    "title": "Supply Chain Manager",
+                    "email": "daniel_yang@dell.com",
+                    "linkedin_url": "http://www.linkedin.com/in/daniel-yang-3200a748",
+                    "phone": "",
+                    "location": "Taiwan",
+                    "email_verified": true,
+                    "person_id": "5e6825e953f3250001e2faae",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQHhn-1xJgsupQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1648960051023?e=2147483647&v=beta&t=K2KBSVMvXMwLxrsoPs18P-Xp46WvcKy_DfLw-QfRPJU",
+                    "headline": "Dell EMC Supply Chain Manager"
+                }
+            ]
+        },
+        {
+            "company": "Snap-on Incorporated",
+            "domain": "snapon.com",
+            "contacts": [
+                {
+                    "name": "Joe Kuryanowicz",
+                    "title": "Supply Chain Manager",
+                    "email": "joe.kuryanowicz@snapon.com",
+                    "linkedin_url": "http://www.linkedin.com/in/joe-kuryanowicz-a5a4768a",
+                    "phone": "",
+                    "location": "Kenosha, Wisconsin, United States",
+                    "email_verified": true,
+                    "person_id": "54a1c58a746869401234d10f",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Planner Manager at Snap-on Incorporated"
+                },
+                {
+                    "name": "George Papageorge",
+                    "title": "Procurement Manager",
+                    "email": "george.papageorge@snapon.com",
+                    "linkedin_url": "http://www.linkedin.com/in/george-papageorge-8a901013",
+                    "phone": "",
+                    "location": "Waukesha, Wisconsin, United States",
+                    "email_verified": true,
+                    "person_id": "54a8071f74686965d951c05c",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Global Supply Chain Manager"
+                },
+                {
+                    "name": "Hanh Tran",
+                    "title": "Procurement Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/hanh-tran-3b9aa412",
+                    "phone": "",
+                    "location": "Kenosha, Wisconsin, United States",
+                    "email_verified": false,
+                    "person_id": "60b4e34c345edb00011cffe9",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Procurement Manager at Snap-on Tools"
+                },
+                {
+                    "name": "Rich Bothmann",
+                    "title": "Engineering Manager",
+                    "email": "richard.d.bothmann@snapon.com",
+                    "linkedin_url": "http://www.linkedin.com/in/rich-bothmann-2389b87",
+                    "phone": "",
+                    "location": "Round Lake, Illinois, United States",
+                    "email_verified": true,
+                    "person_id": "54c210c1746869163909ea73",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQGGovR5ecysPA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1554815316728?e=2147483647&v=beta&t=WFJ3l9_yD42kf8kvp7FFzE7yh2C3Da5ny0qtpx3baAU",
+                    "headline": "Engineering Manager at Snap-On Tools"
+                },
+                {
+                    "name": "Tyler Gibney",
+                    "title": "Engineering Manager",
+                    "email": "tyler.m.gibney@snapon.com",
+                    "linkedin_url": "http://www.linkedin.com/in/tmgibney",
+                    "phone": "",
+                    "location": "Algona, Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "54a29e1874686938250ce030",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Engineering Manager at Snap-on Tools"
+                }
+            ]
+        },
+        {
+            "company": "AGCO Corporation",
+            "domain": "agcocorp.com",
+            "contacts": [
+                {
+                    "name": "Daiane Robledo",
+                    "title": "Supply Chain Manager",
+                    "email": "daiane.robledo@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/daiane-robledo-95210156",
+                    "phone": "",
+                    "location": "Brazil",
+                    "email_verified": true,
+                    "person_id": "5fb6b15a00a8250001464eca",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Manager at AGCO Corporation"
+                },
+                {
+                    "name": "Quentin Devoldere",
+                    "title": "Project Supply Chain Manager",
+                    "email": "quentin.devoldere@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/quentindevoldere",
+                    "phone": "",
+                    "location": "Les Andelys, Normandy, France",
+                    "email_verified": true,
+                    "person_id": "54a214f074686930c268220b",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEfwDJyDKYY9g/profile-displayphoto-shrink_200_200/B4EZd9LksuH0AY-/0/1750151875857?e=2147483647&v=beta&t=kJ8ruHSZkgiy07rsx0OTfsyo-mX1Cyexy21dtglE0ak",
+                    "headline": "Project Supply Chain Manager"
+                },
+                {
+                    "name": "Chunlei Liu",
+                    "title": "Sourcing Manager",
+                    "email": "chunlei.liu@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/%e6%98%a5%e5%9e%92-%e5%88%98-93a0b3bb",
+                    "phone": "",
+                    "location": "Weifang, Shandong, China",
+                    "email_verified": false,
+                    "person_id": "6375d91f004cd2000174527b",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQFLzUMLRYXZdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516953909215?e=2147483647&v=beta&t=ofH4cxurTr4OWaRhZYewM3yq26jyME6JqJ4HUQkSjQU",
+                    "headline": "AGCO Corporation — sourcing\n manager"
+                },
+                {
+                    "name": "Francis Obembe",
+                    "title": "Procurement Manager",
+                    "email": "francis.obembe@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/francis-obembe-8b978712",
+                    "phone": "",
+                    "location": "Lille, Nord-Pas-de-Calais, France",
+                    "email_verified": true,
+                    "person_id": "557138657369644f018e1000",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQGAKGw9Es2WxA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516431325367?e=2147483647&v=beta&t=bxeiTuLaNRbItaVIepuAafQhIYqLp8LrTqB1BHqxfio",
+                    "headline": "Procurement manager chez AGCO Corporation"
+                },
+                {
+                    "name": "Mariano Somoza Bosch",
+                    "title": "Procurement Manager",
+                    "email": "mariano.somoza@agcocorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/mariano-somoza-bosch-706464196",
+                    "phone": "",
+                    "location": "Argentina",
+                    "email_verified": true,
+                    "person_id": "5f1088d8f10090000101f47b",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQFKonnjjVJBKQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714483430163?e=2147483647&v=beta&t=t-u-7au0SlbfibULCihkkQ9SqFHQpRQ6Hv6FsLH08Fo",
+                    "headline": "Procurement Manager at AGCO  Corporation |  Procurement Strategy & Sourcing Leader | Agricultural Supply Chain | LATAM Focus"
+                }
+            ]
+        },
+        {
+            "company": "Inspectron",
+            "domain": "inspectrontools.com",
+            "contacts": [
+                {
+                    "name": "Yunxia Pan",
+                    "title": "Supply Chain Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/yunxia-pan-b1a93038",
+                    "phone": "",
+                    "location": "Brussels, Brussels, Belgium",
+                    "email_verified": false,
+                    "person_id": "5d45df19a3ae61bafd41895d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Manager at Inspectron Inc."
+                }
+            ]
+        },
+        {
+            "company": "Zebra Technologies",
+            "domain": "zebra.com",
+            "contacts": [
+                {
+                    "name": "Shammi Balgobin",
+                    "title": "Supply Chain Manager",
+                    "email": "shammi.balgobin@zebra.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shammi-balgobin-7b6215389",
+                    "phone": "",
+                    "location": "Central Islip, New York, United States",
+                    "email_verified": true,
+                    "person_id": "57db7834a6da986893a104ac",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Manager Supply Chain Planning at Zebra Technologies"
+                },
+                {
+                    "name": "Michele Felix",
+                    "title": "Supply Chain Manager",
+                    "email": "michele.felix@zebra.com",
+                    "linkedin_url": "http://www.linkedin.com/in/michele-felix-35679b100",
+                    "phone": "",
+                    "location": "New York, New York, United States",
+                    "email_verified": true,
+                    "person_id": "57db9e78a6da986893a1d95e",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Procurement Analyst at Zebra Technologies"
+                },
+                {
+                    "name": "Saltanat Arkharova",
+                    "title": "Senior Supply Chain Manager",
+                    "email": "saltanat.arkharova@zebra.com",
+                    "linkedin_url": "http://www.linkedin.com/in/saltanat-arkharova-5b82625",
+                    "phone": "",
+                    "location": "Czechia",
+                    "email_verified": true,
+                    "person_id": "54a4830f74686938ac75c44d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Demand Planning / Forecasting"
+                },
+                {
+                    "name": "Janice Ling",
+                    "title": "Senior Supply Chain Manager",
+                    "email": "janice.ling@zebra.com",
+                    "linkedin_url": "http://www.linkedin.com/in/janice-ling-7a7508303",
+                    "phone": "",
+                    "location": "Singapore, Singapore",
+                    "email_verified": true,
+                    "person_id": "663b4a5c586dce000197f1f3",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Supply Chain Manager at Zebra Technologies"
+                },
+                {
+                    "name": "Emma Kavanagh",
+                    "title": "Sourcing Manager",
+                    "email": "emma.kavanagh@zebra.com",
+                    "linkedin_url": "http://www.linkedin.com/in/emma-kavanagh-7a7b5b55",
+                    "phone": "",
+                    "location": "Preston, England, United Kingdom",
+                    "email_verified": true,
+                    "person_id": "5adefd44a6da984e0cc2593e",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQETamV4RwpnQg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1635413347957?e=2147483647&v=beta&t=UuNWHdLAF20mNXtm_HLOc-Iv-4J4QPvt_4wxkXtwd0c",
+                    "headline": "Zebra Technologies EMEA Supplies"
+                }
+            ]
+        },
+        {
+            "company": "KKT Chillers USA",
+            "domain": "kkt-chillersusa.com",
+            "contacts": []
+        },
+        {
+            "company": "Juniper Systems",
+            "domain": "junipersys.com",
+            "contacts": [
+                {
+                    "name": "Louis Koberstein",
+                    "title": "Mechanical Engineering Manager",
+                    "email": "louis@junipersys.com",
+                    "linkedin_url": "http://www.linkedin.com/in/louis-koberstein-13ba6815",
+                    "phone": "",
+                    "location": "Logan, Utah, United States",
+                    "email_verified": true,
+                    "person_id": "54abd27574686930073d360f",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQGylsDXC7cGMg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680905721559?e=2147483647&v=beta&t=LPshmbNqlrxCpej10e1hsTs7oY3bvNbk7PqvjNN6yR4",
+                    "headline": "Mechanical Engineering Manager"
+                },
+                {
+                    "name": "Cameron Butler",
+                    "title": "Manufacturing Engineer Manager",
+                    "email": "cameron.butler@junipersys.com",
+                    "linkedin_url": "http://www.linkedin.com/in/cameron-butler-9a164a74",
+                    "phone": "",
+                    "location": "Logan, Utah, United States",
+                    "email_verified": true,
+                    "person_id": "5aa80b2ea6da98b1a8b65fe8",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFy4O8mmdbMAg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732058395237?e=2147483647&v=beta&t=PpIMDBx3NifyhPg5gpGuUFYSbZ4tvwQh-mK16icORu0",
+                    "headline": "A leader should spend as much time as possible designing the future."
+                }
+            ]
+        },
+        {
+            "company": "Guardian Access & Door Hardware",
+            "domain": "adhguardianusa.com",
+            "contacts": []
+        },
+        {
+            "company": "BNSF Railway",
+            "domain": "bnsf.com",
+            "contacts": [
+                {
+                    "name": "Jeromy Corey",
+                    "title": "Strategic Sourcing Manager",
+                    "email": "jeromy.corey@bnsf.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jeromy-corey-81767a383",
+                    "phone": "",
+                    "location": "Fort Worth, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "68e55353516428000106e984",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQECFwLKaNrdYg/profile-displayphoto-scale_200_200/B4EZkxKYbRHEAY-/0/1757466430124?e=2147483647&v=beta&t=10tOhlpI7xA0fwdS3pH4AWrZP5qxAD4y0q_Bl5tu12E",
+                    "headline": "Strategic Sourcing Manager at BNSF Railway"
+                },
+                {
+                    "name": "Adam Price",
+                    "title": "Strategic Sourcing Manager",
+                    "email": "dbemanager@bnsf.com",
+                    "linkedin_url": "http://www.linkedin.com/in/adam-price-55335042",
+                    "phone": "",
+                    "location": "Burleson, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "5ae42b90a6da98d36d7c1f6e",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Strategic Sourcing Manager at BNSF Railway"
+                },
+                {
+                    "name": "Sara Fields",
+                    "title": "Strategic Sourcing Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/sara-rieke-fields-616a6868",
+                    "phone": "",
+                    "location": "Dallas, Texas, United States",
+                    "email_verified": false,
+                    "person_id": "5ab36f78a6da987087637da9",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQETnoZ09eLGYA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517408712211?e=2147483647&v=beta&t=hiMcUtDEg82Yd3p7Vn6tzJr5U5Um5IiOOr5yJbcuu6k",
+                    "headline": "Strategic Sourcing Manager at BNSF Railway"
+                },
+                {
+                    "name": "Andrew Moscrey",
+                    "title": "Strategic Sourcing Manager",
+                    "email": "andrew.moscrey@bnsf.com",
+                    "linkedin_url": "http://www.linkedin.com/in/andrew-moscrey-70178183",
+                    "phone": "",
+                    "location": "Fort Worth, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "54a766e7746869705a03b631",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Over the Counter OEM Locomotive Materials Sales and Warranty"
+                },
+                {
+                    "name": "Scott S",
+                    "title": "Strategic Sourcing Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/scott-s-435b19151",
+                    "phone": "",
+                    "location": "Dallas, Texas, United States",
+                    "email_verified": false,
+                    "person_id": "5f4e139ba8fd2d0001171d6a",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFloH_Sjc-peg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1536074844094?e=2147483647&v=beta&t=wmXfR5OoNzPxvhYCRob4dC5jRHlhJ6NQTx6Sc39AMtw",
+                    "headline": "Sr. Manager - Strategic Sourcing & Supply at BNSF Railway"
+                }
+            ]
+        },
+        {
+            "company": "R. J. Corman Railroad Group",
+            "domain": "rjcorman.com",
+            "contacts": []
+        },
+        {
+            "company": "Norfolk Southern",
+            "domain": "norfolksouthern.com",
+            "contacts": [
+                {
+                    "name": "Demonte Anderson",
+                    "title": "Engineering Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/demonte-anderson-90aab275",
+                    "phone": "",
+                    "location": "Atlanta, Georgia, United States",
+                    "email_verified": false,
+                    "person_id": "54a398a67468692cf0853f04",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Communication Engineer"
+                },
+                {
+                    "name": "Richard Steele",
+                    "title": "Engineering Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/richard-pat%e2%80%8b-steele-3308b7130",
+                    "phone": "",
+                    "location": "Midlothian, Virginia, United States",
+                    "email_verified": false,
+                    "person_id": "5d4d4951f651250421ccd967",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Engineering Manager at Norfolk Southern Corporation"
+                },
+                {
+                    "name": "Annelle McQuerry",
+                    "title": "Manager, Procurement",
+                    "email": "annelle.mcquerry@nscorp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/annellemcquerry",
+                    "phone": "",
+                    "location": "Atlanta, Georgia, United States",
+                    "email_verified": true,
+                    "person_id": "610982285cbaee0001dcd72b",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Manager, Procurement  - IT Software"
+                },
+                {
+                    "name": "Cheryl Mulligan",
+                    "title": "IT Software Engineering Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/cheryl-mulligan",
+                    "phone": "",
+                    "location": "Rocky Mount, Virginia, United States",
+                    "email_verified": false,
+                    "person_id": "60d4e006ec0b680001af2d69",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "IT Systems Development Manager Locomotion Applications at Norfolk Southern Corporation"
+                },
+                {
+                    "name": "Derek B",
+                    "title": "Group Manager Sourcing Projects",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/derek-b-76948ab",
+                    "phone": "",
+                    "location": "Norfolk, Virginia, United States",
+                    "email_verified": false,
+                    "person_id": "5e5fed453cf61c0001a08baf",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Group Manager Sourcing Projects"
+                }
+            ]
+        },
+        {
+            "company": "RailWorks",
+            "domain": "railworks.com",
+            "contacts": [
+                {
+                    "name": "Donal Crampton",
+                    "title": "Field Engineer / Engineering Manager",
+                    "email": "dcrampton@railworks.com",
+                    "linkedin_url": "http://www.linkedin.com/in/donal-crampton-239ab338",
+                    "phone": "",
+                    "location": "Ossining, New York, United States",
+                    "email_verified": true,
+                    "person_id": "54a5b10d7468693b8cec17a1",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Engineer at LK Comstock"
+                }
+            ]
+        },
+        {
+            "company": "Loram Maintenance of Way, Inc.",
+            "domain": "loram.com",
+            "contacts": [
+                {
+                    "name": "Brook Zach",
+                    "title": "Procurement Manager",
+                    "email": "brook.a.zach@loram.com",
+                    "linkedin_url": "http://www.linkedin.com/in/brook-zach-74195025",
+                    "phone": "",
+                    "location": "Rogers, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "54a4b63a7468692abf7b455d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Procurement Manager"
+                },
+                {
+                    "name": "Thomas Lowe",
+                    "title": "Procurement Manager",
+                    "email": "thomas.lowe@loram.com",
+                    "linkedin_url": "http://www.linkedin.com/in/thomas-lowe-78aa7b10",
+                    "phone": "",
+                    "location": "Osseo, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "5ae0c108a6da984d5a6b2241",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Procurement Manager at Loram Maintenance of Way, Inc."
+                },
+                {
+                    "name": "Josh Graham",
+                    "title": "Engineering Manager",
+                    "email": "josh.graham@loram.com",
+                    "linkedin_url": "http://www.linkedin.com/in/joshua-a-graham",
+                    "phone": "",
+                    "location": "Georgetown, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "60d43c2d5f1b85000139cc2a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Engineering Manager at Loram Technologies Inc."
+                },
+                {
+                    "name": "Tom Holbrook",
+                    "title": "Strategic Sourcing Manager-Indirect",
+                    "email": "tholbrook@loram.com",
+                    "linkedin_url": "http://www.linkedin.com/in/tom-holbrook-89453510",
+                    "phone": "",
+                    "location": "Elk River, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "54ec1dfa746869444ceb1453",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Purchasing Manager, Strategic Sourcing and Procurement"
+                },
+                {
+                    "name": "Ananda H",
+                    "title": "Global Strategic Sourcing Manager",
+                    "email": "ananda.h@loram.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ananda-p-h-a9a85614b",
+                    "phone": "",
+                    "location": "Bengaluru, Karnataka, India",
+                    "email_verified": true,
+                    "person_id": "5d5dfb1980f93ef0bfc72dc0",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQE3k-yaojdGnA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1623569336106?e=2147483647&v=beta&t=JMLjKgxlVw4PEfD8UNgKkDT8VbJErD9TLQBExjQUtwg",
+                    "headline": "Global Strategic Sourcing Manager"
+                }
+            ]
+        },
+        {
+            "company": "Anacostia Rail Holdings",
+            "domain": "anacostia.com",
+            "contacts": []
+        },
+        {
+            "company": "Nutrien",
+            "domain": "nutrien.com",
+            "contacts": [
+                {
+                    "name": "Karen Siegfried",
+                    "title": "Procurement Manager",
+                    "email": "karen.siegfried@nutrien.com",
+                    "linkedin_url": "http://www.linkedin.com/in/karen-siegfried-scmp-9562a396",
+                    "phone": "",
+                    "location": "Canada",
+                    "email_verified": true,
+                    "person_id": "61ece8c54c987500017a6a1d",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQEJKY3Uq2AnEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1631797198371?e=2147483647&v=beta&t=epIUCgbkZjAj1ML61D9W7Kw8sEJ8mM9j4PWXLWBPQfo",
+                    "headline": "Manager Procurement Lanigan"
+                },
+                {
+                    "name": "Teresa Beeson",
+                    "title": "Procurement Manager",
+                    "email": "teresa.beeson@nutrien.com",
+                    "linkedin_url": "http://www.linkedin.com/in/teresa-beeson-mpa-35707620",
+                    "phone": "",
+                    "location": "Aiken, South Carolina, United States",
+                    "email_verified": true,
+                    "person_id": "611d077e2e89f30001d17aeb",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Procurement Manager"
+                },
+                {
+                    "name": "Heath Zimbowski",
+                    "title": "Procurement Manager",
+                    "email": "heath.zimbowski@nutrien.com",
+                    "linkedin_url": "http://www.linkedin.com/in/heath-zimbowski-3bab25102",
+                    "phone": "",
+                    "location": "Langdon, Alberta, Canada",
+                    "email_verified": true,
+                    "person_id": "57d76592a6da984f96019e59",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQHFPcBocGY3TQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522604228134?e=2147483647&v=beta&t=HW7YS32Ew5HvGSRtDIEqKtLnC-505oBEj0la7XA1ndw",
+                    "headline": "SCMP"
+                },
+                {
+                    "name": "Rob Carpenter",
+                    "title": "Procurement Manager",
+                    "email": "rob.carpenter@nutrien.com",
+                    "linkedin_url": "http://www.linkedin.com/in/rob-carpenter-cpsm-5080b169",
+                    "phone": "",
+                    "location": "Delphos, Ohio, United States",
+                    "email_verified": true,
+                    "person_id": "65965873ff66730001c147ca",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQEqhToH_Xy2Xg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1564486657442?e=2147483647&v=beta&t=J3lBdehFlXzEF2OfCuQc367NdP9dJ82eG-QrNxPNzk8",
+                    "headline": "Procurement Manager at Nutrien"
+                },
+                {
+                    "name": "Bai Kaira",
+                    "title": "Procurement Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/bai-bintou-kaira",
+                    "phone": "",
+                    "location": "Canada",
+                    "email_verified": false,
+                    "person_id": "62ebae40ade31900017ab269",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQEoFoiVaC5fXA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1686541898502?e=2147483647&v=beta&t=MnKCpNYY6SrHZ_ox3nIAmXj20Iq-PN5Tkmx_97-9JPw",
+                    "headline": "P. Eng.,MBA | Manager, Procurement | Co-Founder"
+                }
+            ]
+        },
+        {
+            "company": "MiX by Powerfleet",
+            "domain": "mixtelematics.com",
+            "contacts": []
+        },
+        {
+            "company": "Patriot Rail Company",
+            "domain": "patriotrail.com",
+            "contacts": []
+        },
+        {
+            "company": "Corteva Agriscience™",
+            "domain": "corteva.com",
+            "contacts": [
+                {
+                    "name": "Stephanie Cruzen",
+                    "title": "Supply Chain Manager",
+                    "email": "stephanie.cruzen@corteva.com",
+                    "linkedin_url": "http://www.linkedin.com/in/stephanie-cruzen-35531335",
+                    "phone": "",
+                    "location": "Des Moines, Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "625f7f05abe38c0001e418d7",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQHqYToVjWpXMQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1539896868096?e=2147483647&v=beta&t=xXmD6mjpX9nsUF_oaWi814ANVUyfNHpr1zqTHyMRlu0",
+                    "headline": "Supply Chain Manager at Corteva Agriscience"
+                },
+                {
+                    "name": "Abby Price",
+                    "title": "Supply Chain Manager",
+                    "email": "abby.price@corteva.com",
+                    "linkedin_url": "http://www.linkedin.com/in/abby-price-b4350a41",
+                    "phone": "",
+                    "location": "Johnston, Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "54a9d68574686930adc31919",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQEevvayrNs_KQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1652724836429?e=2147483647&v=beta&t=6p-FeJcQ5xxX6AQ_BF3DWSyD7xO2UiE39uoj_9JsKJ8",
+                    "headline": "Supply Chain Manager at Corteva Agriscience"
+                },
+                {
+                    "name": "Matt Cope",
+                    "title": "Supply Chain Manager",
+                    "email": "matt.cope@corteva.com",
+                    "linkedin_url": "http://www.linkedin.com/in/matt-cope-36182626",
+                    "phone": "",
+                    "location": "Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "54a3dcc67468693676fbed18",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHhb1C9-E4BZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715913513057?e=2147483647&v=beta&t=YaRfSOXCieNMiIVJwJDX_xVE2UD3Qv72YbO70NF4PNA",
+                    "headline": "Supply Chain Manager at Corteva Agriscience"
+                },
+                {
+                    "name": "Andrew Syme",
+                    "title": "Supply Chain Manager",
+                    "email": "andrew.syme@corteva.com",
+                    "linkedin_url": "http://www.linkedin.com/in/andrew-syme-191b6249",
+                    "phone": "",
+                    "location": "New Zealand",
+                    "email_verified": true,
+                    "person_id": "54a74cf17468696b7f7ca627",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQGRmbzxG07_2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522013741746?e=2147483647&v=beta&t=eVK5_hJA5kVVrJe33tZKYKHrNhJya8C5mgccMkhF9Bw",
+                    "headline": "Supply Chain Manager at Corteva Agriscience"
+                },
+                {
+                    "name": "Ajeng Amelia",
+                    "title": "Supply Chain Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ajeng-dwi-intan-amelia",
+                    "phone": "",
+                    "location": "Jakarta, Special Capital Region of Jakarta, Indonesia",
+                    "email_verified": false,
+                    "person_id": "57d8d8e0a6da98728af8bda7",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Supply Chain Manager at Corteva Agriscience"
+                }
+            ]
+        }
+    ],
+    "deep_enriched": [
+        {
+            "name": "Naomi Smyth",
+            "title": "Procurement Supply Chain Manager",
+            "email": "naomi.smyth@dell.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/naomismyth/",
+            "company": "Unknown",
+            "domain": "dell.com",
+            "full_name": "Naomi Smyth, PMP",
+            "headline": "Supply Chain Manager",
+            "bio_snippet": "Driven Supply Chain professional with 8+ years of experience across Supply Chain Planning, Procurement, Logistics Enablement and Strategy in the high-tech industry. I believe that every strong organiz",
+            "location": "Austin, Texas, United States",
+            "current_title": "Procurement Supply Chain Manager",
+            "current_company": "Dell Technologies",
+            "time_in_role": "3 yr 9 mo",
+            "connections": 830,
+            "company_tech_stack": [
+                "Dell AI Chat"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            },
+            "about_company": "Dell Technologies provides IT infrastructure products and services. They serve businesses and individuals. Their offerings include servers, data storage, and networking solutions."
+        },
+        {
+            "name": "Kartik Josyula",
+            "title": "Supply Chain Manager",
+            "email": "kartik.josyula@dell.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/kartik-josyula-378874a0/",
+            "company": "Unknown",
+            "domain": "dell.com",
+            "full_name": "Kartik Josyula",
+            "headline": "Supply Chain Manager | Digital Transformation and Modernization",
+            "bio_snippet": "Supply Chain Professional with experience in Global Logistics and Transportation Procurement and Fulfilment Operations at Dell.",
+            "location": "Austin, Texas, United States",
+            "current_title": "Supply Chain Manager",
+            "current_company": "Dell Technologies",
+            "time_in_role": "3 yr 0 mo",
+            "connections": 881,
+            "company_tech_stack": [
+                "Dell AI Chat"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            },
+            "about_company": "Dell Technologies provides IT infrastructure products and services. They serve businesses and individuals. Their offerings include servers, data storage, and networking solutions."
+        },
+        {
+            "name": "Justin Chapman",
+            "title": "Supply Chain Manager",
+            "email": "justin.chapman1@dell.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/justinallenchapman/",
+            "company": "Unknown",
+            "domain": "dell.com",
+            "full_name": "Justin C.",
+            "headline": "Supply Chain Manager - Storage Solutions",
+            "bio_snippet": "As a Supply Chain Manager with a diverse background in Project Management, IT, Sales, and Customer Service, I bring a unique blend of skills to the table. With a passion for optimizing processes and m",
+            "location": "Belmont, Massachusetts, United States",
+            "current_title": "Supply Chain Advisor - Primary Storage",
+            "current_company": "Dell Technologies",
+            "time_in_role": "1 yr 8 mo",
+            "connections": 589,
+            "company_tech_stack": [
+                "Dell AI Chat"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            },
+            "about_company": "Dell Technologies provides IT infrastructure products and services. They serve businesses and individuals. Their offerings include servers, data storage, and networking solutions."
+        },
+        {
+            "name": "Cynthia Lee",
+            "title": "Supply Chain Manager",
+            "email": "c.lee@dell.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/cynthialee/",
+            "company": "Unknown",
+            "domain": "dell.com",
+            "full_name": "Cynthia Lee, MBA",
+            "headline": "Generative AI, Strategy and Portfolio Planning",
+            "bio_snippet": "Specialties: Generative AI, Data Privacy and Governance, Corporate Strategy, IT Strategy and Portfolio Planning, Executive Communication and Presentations, Product Development, Program Management, Mas",
+            "location": "Austin, Texas, United States",
+            "current_title": "Generative AI, Strategy and Portfolio Planning, Product Line Management, Data Privacy and Governance",
+            "current_company": "Dell Technologies",
+            "time_in_role": "14 yr 6 mo",
+            "connections": 543,
+            "company_tech_stack": [
+                "Dell AI Chat"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            },
+            "about_company": "Dell Technologies provides IT infrastructure products and services. They serve businesses and individuals. Their offerings include servers, data storage, and networking solutions."
+        },
+        {
+            "name": "Daniel Yang",
+            "title": "Supply Chain Manager",
+            "email": "daniel_yang@dell.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/daniel-yang-3200a748/",
+            "company": "Unknown",
+            "domain": "dell.com",
+            "full_name": "Daniel Yang",
+            "headline": "Dell EMC Supply Chain Manager",
+            "bio_snippet": "",
+            "location": "Taiwan",
+            "current_title": "Supply Chain Manager",
+            "current_company": "Dell Technologies",
+            "time_in_role": "8 yr 6 mo",
+            "connections": 531,
+            "company_tech_stack": [
+                "Dell AI Chat"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": null,
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": null
+            },
+            "about_company": "Dell Technologies provides IT infrastructure products and services. They serve businesses and individuals. Their offerings include servers, data storage, and networking solutions."
+        }
+    ],
+    "google_sheet_url": "https://docs.google.com/spreadsheets/d/135rwSponoGY0fNAqbB_yZ8c4pI7rR41nGpxZscnkdic",
+    "total_contacts": 5
+}

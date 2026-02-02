@@ -131,12 +131,13 @@ class DeepEnricher:
             except Exception as e:
                 self.logger.error(f" LinkedIn enrichment failed: {e}")
             
-            # Add company tech stack
+            # Add company tech stack + company summary
             domain = contact.get('domain')
             if domain and domain in self.tech_cache:
                 tech_data = self.tech_cache[domain]
                 enriched['company_tech_stack'] = tech_data.get('tech_stack', [])
                 enriched['company_description'] = tech_data.get('categories', {})
+                enriched['about_company'] = tech_data.get('company_summary', 'N/A')
             
             enriched_contacts.append(enriched)
             

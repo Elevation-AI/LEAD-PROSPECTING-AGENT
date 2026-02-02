@@ -89,8 +89,8 @@ class SheetsExporterOAuth:
             "First Name", "Last Name", "Full Name", "Job Title",
             "Email", "Email Verified", "LinkedIn URL", "Time in Role",
             "Location", "Bio Snippet", "Company", "Company Domain",
-            "Company Tech Stack", "Primary Framework", "Hosting Provider",
-            "Analytics Tools", "Enrichment Date"
+            "About the Company", "Company Tech Stack", "Primary Framework",
+            "Hosting Provider", "Analytics Tools", "Enrichment Date"
         ]
 
     def _row(self, contact: Dict) -> List[str]:
@@ -120,6 +120,7 @@ class SheetsExporterOAuth:
             (contact.get("bio_snippet") or contact.get("headline", ""))[:100],
             contact.get("company", contact.get("current_company", "N/A")),
             contact.get("domain", "N/A"),
+            contact.get("about_company", "N/A"),
             tech_stack_str,
             primary_framework,
             hosting,

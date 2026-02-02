@@ -66,6 +66,33 @@ def test_imports():
         print(f"   ❌ helpers: {e}")
         results.append(("helpers", False))
 
+    # Agent 01 Input Modules
+    print("\n📦 Agent 01 Input Modules (src/input/):")
+
+    try:
+        from src.input.pdf_extractor import PDFExtractor
+        print("   ✅ PDFExtractor")
+        results.append(("PDFExtractor", True))
+    except Exception as e:
+        print(f"   ❌ PDFExtractor: {e}")
+        results.append(("PDFExtractor", False))
+
+    try:
+        from src.input.raw_text_handler import RawTextHandler
+        print("   ✅ RawTextHandler")
+        results.append(("RawTextHandler", True))
+    except Exception as e:
+        print(f"   ❌ RawTextHandler: {e}")
+        results.append(("RawTextHandler", False))
+
+    try:
+        from src.input.content_aggregator import ContentAggregator
+        print("   ✅ ContentAggregator")
+        results.append(("ContentAggregator", True))
+    except Exception as e:
+        print(f"   ❌ ContentAggregator: {e}")
+        results.append(("ContentAggregator", False))
+
     # Agent 02 imports
     print("\n📦 Agent 02 Modules (Agent_02/):")
 
