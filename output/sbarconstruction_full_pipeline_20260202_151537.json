@@ -1,0 +1,1185 @@
+{
+    "generated_at": "2026-02-02T15:15:37.946032",
+    "source_url": "https://sbarconstruction.com",
+    "pipeline_version": "Agent01 + Agent02",
+    "icp": {
+        "seller_business_type": "physical_service",
+        "what_they_sell": "Commercial construction, renovation, tenant improvements, roofing, site services, and building inspection & maintenance.",
+        "customer_industry": "Commercial real estate developers, Retail chains expanding locations, Healthcare systems building new facilities, Hospitality companies developing new properties, Industrial companies expanding or renovating facilities, Corporate headquarters relocations and renovations.",
+        "customer_company_size": "Small to large businesses",
+        "target_buyers": [
+            "Real Estate Development Manager",
+            "Construction Manager",
+            "Facilities Manager",
+            "Project Manager",
+            "Director of Construction"
+        ],
+        "pain_points_solved": [
+            "Need for reliable and high-quality construction services",
+            "Meeting project deadlines",
+            "Maintaining high levels of safety",
+            "Ensuring client satisfaction",
+            "Managing construction projects efficiently"
+        ],
+        "ideal_customer_characteristics": [
+            "Actively developing or expanding commercial properties",
+            "Requires construction, renovation, or tenant improvement services",
+            "Values quality, integrity, and client satisfaction",
+            "Has upcoming construction projects with specific deadlines",
+            "Needs a construction partner with a strong safety record"
+        ],
+        "customer_geography": "Primarily within the states where they have completed projects.",
+        "serviceable_geography": {
+            "scope": "regional",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [],
+            "notes": "Countries: USA"
+        },
+        "customer_business_model": "developer",
+        "avoid_company_types": [
+            "Other construction companies (competitors)",
+            "Residential construction companies",
+            "Architecture/engineering firms (partners, not customers)",
+            "Property management companies (maintain, don't build)",
+            "Companies with in-house construction teams"
+        ]
+    },
+    "prospects_found": 15,
+    "prospects": [
+        {
+            "name": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a real estate developer, Inland likely requires commercial construction, renovation, and tenant improvement services for their projects.",
+            "what_they_do": "Inland is a vertically integrated commercial real estate investment, finance, and operating group that develops and manages commercial properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Greenberg Gibbons",
+            "domain": "ggcommercial.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a commercial real estate developer, Greenberg Gibbons would likely need commercial construction, renovation, and related services for their projects.",
+            "what_they_do": "Greenberg Gibbons is a commercial real estate company that develops, invests in, and owns commercial, mixed-use, residential, retail, and flex/R&D spaces.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hammes Company",
+            "domain": "hammes.com",
+            "confidence": 0.95,
+            "why_good_fit": "Hammes develops healthcare and commercial properties and would likely need commercial construction, renovation, tenant improvements, roofing, site services, and building inspection & maintenance services for their projects.",
+            "what_they_do": "Hammes Company is a vertically integrated real estate solutions platform specializing in healthcare and commercial development, providing services like real estate strategy, project management, and property management.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Lincoln",
+            "domain": "lpc.com",
+            "confidence": 0.95,
+            "why_good_fit": "Lincoln engages in real estate development and redevelopment projects, making them a potential buyer for commercial construction, renovation, and related services.",
+            "what_they_do": "Lincoln is a global commercial real estate services and investment firm that provides services across the real estate lifecycle, including development and redevelopment projects.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hudson",
+            "domain": "hudsongroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "Hudson is actively expanding and renovating their retail spaces in airports, making them a potential customer for commercial construction, renovation, and tenant improvement services.",
+            "what_they_do": "Hudson Group is a travel retailer that operates duty-paid and duty-free stores in airports and transportation terminals across North America.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Stream Realty Partners",
+            "domain": "streamrealty.com",
+            "confidence": 0.9,
+            "why_good_fit": "Stream Realty Partners develops commercial properties and uses construction management services, making them a potential client for commercial construction, renovation, and related services.",
+            "what_they_do": "Stream Realty Partners is a commercial real estate firm offering development, construction management, property management, and other related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Walmart",
+            "domain": "walmart.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large retail chain, Walmart is likely expanding and renovating locations, requiring commercial construction, renovation, and maintenance services.",
+            "what_they_do": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "M&T Bank",
+            "domain": "mtb.com",
+            "confidence": 0.9,
+            "why_good_fit": "Banks often expand, renovate existing branches, and build new facilities, making them a potential client for commercial construction and renovation services.",
+            "what_they_do": "M&T Bank is a regional bank providing personal and business banking, mortgage, loan, and investment services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hy-Vee",
+            "domain": "hy-vee.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Hy-Vee likely expands and renovates locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Hy-Vee is a grocery store chain offering online ordering, pick-up, and delivery services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Tractor Supply Co.",
+            "domain": "tractorsupply.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Tractor Supply Co. likely expands to new locations and renovates existing stores, requiring commercial construction services.",
+            "what_they_do": "Tractor Supply Co. is a retailer of farm supplies, pet and animal feed, clothing, tools, and fencing.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Oatly",
+            "domain": "oatly.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a growing food and beverage company, Oatly likely requires construction, renovation, or tenant improvement services for their production facilities, offices, and retail spaces as they expand.",
+            "what_they_do": "Oatly is a food and beverage company that produces oat-based dairy alternatives.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Home Depot",
+            "domain": "homedepot.com",
+            "confidence": 0.9,
+            "why_good_fit": "Home Depot expands and renovates its retail locations, requiring commercial construction, renovation, and maintenance services.",
+            "what_they_do": "Home Depot is a large home improvement retailer selling building materials, home improvement products, and related services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Target",
+            "domain": "target.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large retail chain, Target is likely expanding and renovating locations, requiring commercial construction, renovation, and maintenance services.",
+            "what_they_do": "Target is a general merchandise retailer offering a variety of products including apparel, home goods, food, and electronics.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "BP p.l.c.",
+            "domain": "bp.com",
+            "confidence": 0.8,
+            "why_good_fit": "BP's expansion projects, such as the Atlantis Drill Center 1, suggest they require commercial construction, site services, and building inspection & maintenance, making them a potential buyer.",
+            "what_they_do": "BP is an integrated energy company involved in oil and gas exploration, production, refining, and trading, as well as renewable energy sources.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ByHeart",
+            "domain": "byheart.com",
+            "confidence": 0.8,
+            "why_good_fit": "As a growing manufacturer, ByHeart likely needs construction, renovation, or tenant improvement services for their facilities, especially given the recent recall and potential need to upgrade or expand their manufacturing processes.",
+            "what_they_do": "ByHeart is an infant formula company that manufactures and sells its own brand of formula.",
+            "source": "web_search_verified"
+        }
+    ],
+    "apollo_enriched": [
+        {
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "contacts": [
+                {
+                    "name": "Al Jones",
+                    "title": "Facilities Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/al-jones-77abb442",
+                    "phone": "",
+                    "location": "Baltimore, Maryland, United States",
+                    "email_verified": false,
+                    "person_id": "5b37282fa6da980c644d77c7",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Facilities Manager at The Inland Real Estate Group of Companies, Inc."
+                },
+                {
+                    "name": "Matthew McDonough",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/matthew-mcdonough-5b72766",
+                    "phone": "",
+                    "location": "Germantown, Maryland, United States",
+                    "email_verified": false,
+                    "person_id": "62bad6c0d649720001d9f7b0",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Miwest Real Estate Equities"
+                },
+                {
+                    "name": "Donna Gibbons",
+                    "title": "Development Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/donna-gibbons-1332b910",
+                    "phone": "",
+                    "location": "Bloomingdale, Illinois, United States",
+                    "email_verified": false,
+                    "person_id": "5e7fee1be1bbeb0001c37d67",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Development Project Manager at Inland Real Estate"
+                },
+                {
+                    "name": "Cindy Salvesen",
+                    "title": "Facilities Office Manager",
+                    "email": "salvesen@inlandgroup.com",
+                    "linkedin_url": "http://www.linkedin.com/in/cindy-ann-salvesen-a0678938",
+                    "phone": "",
+                    "location": "Oak Brook, Illinois, United States",
+                    "email_verified": true,
+                    "person_id": "54a3b0e17468692fa2260f0b",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Facilities Office Manager at The Inland Real Estate Group of Companies, Inc."
+                },
+                {
+                    "name": "Spero Pagonis",
+                    "title": "Project Manager - The Inland Real Estate Group",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/spero-pagonis-7b300620",
+                    "phone": "",
+                    "location": "Oak Brook, Illinois, United States",
+                    "email_verified": false,
+                    "person_id": "54ec3e3b7468694311dfb66d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager - The Inland Real Estate Group of Companies, Inc."
+                }
+            ]
+        },
+        {
+            "company": "Greenberg Gibbons",
+            "domain": "ggcommercial.com",
+            "contacts": []
+        },
+        {
+            "company": "Hammes Company",
+            "domain": "hammes.com",
+            "contacts": [
+                {
+                    "name": "Robert Wild",
+                    "title": "Construction Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/robert-wild-7a054a1b7",
+                    "phone": "",
+                    "location": "Dallas, Texas, United States",
+                    "email_verified": false,
+                    "person_id": "64fdf85642fa480001db5cfc",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQEtqpEqT01JfQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1600811140122?e=2147483647&v=beta&t=lzhFbUI_JHYhLNb-ORNLW9KXWY-xz_Zx3ziJ7EvAu0U",
+                    "headline": "Construction Project Manager at Hammes Company"
+                },
+                {
+                    "name": "Nicole Butto",
+                    "title": "Project Manager",
+                    "email": "nbutto@hammes.com",
+                    "linkedin_url": "http://www.linkedin.com/in/nicole-butto-364066115",
+                    "phone": "",
+                    "location": "Miami, Florida, United States",
+                    "email_verified": true,
+                    "person_id": "5f0ce77decdc8300012d3d22",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Hammes"
+                },
+                {
+                    "name": "Harrison Spanyer",
+                    "title": "Project Manager",
+                    "email": "hspanyer@hammes.com",
+                    "linkedin_url": "http://www.linkedin.com/in/harrison-spanyer-21613198",
+                    "phone": "",
+                    "location": "Dallas, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "5f5674fd3c65cc00015abb7e",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFHfCE6oIACrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729529336820?e=2147483647&v=beta&t=B551VIKnVLKkxn5KZuk4I6DDlOPhIQRdrjkxhhmW6x4",
+                    "headline": "Project Manager at Hammes"
+                },
+                {
+                    "name": "Angela Ebcp",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/angela-jeffries-ccm-leed-ap-ebcp-250a73132",
+                    "phone": "",
+                    "location": "Cleveland, Ohio, United States",
+                    "email_verified": false,
+                    "person_id": "6421804fd7e70c000157b4db",
+                    "photo_url": "https://media.licdn.com/dms/image/D5603AQHtI845wRemOg/profile-displayphoto-shrink_200_200/0/1664235721644?e=1685577600&v=beta&t=HRpEWTEYxXIKMwVqKeOkDvvjCuj3s5RAa8E6lws_FAY",
+                    "headline": "Director, Project Controls Management"
+                },
+                {
+                    "name": "Samira Pasha",
+                    "title": "Project Executive",
+                    "email": "spasha@hammes.com",
+                    "linkedin_url": "http://www.linkedin.com/in/samirapasha",
+                    "phone": "",
+                    "location": "Washington, District of Columbia, United States",
+                    "email_verified": true,
+                    "person_id": "54a3325f74686930c2c9d25b",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQHPEd8zLUsBIg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661357338896?e=2147483647&v=beta&t=Vf09HLyF3KQZt6tYHx7L0e0NkFY88egFns4lyAPhFgU",
+                    "headline": "Project Executive at Hammes"
+                }
+            ]
+        },
+        {
+            "company": "Lincoln",
+            "domain": "lpc.com",
+            "contacts": [
+                {
+                    "name": "Eugene Irvine",
+                    "title": "Facilities Manager",
+                    "email": "eirvine@lpc.com",
+                    "linkedin_url": "http://www.linkedin.com/in/eugene-irvine-b6a086aa",
+                    "phone": "",
+                    "location": "Blackstone, Massachusetts, United States",
+                    "email_verified": true,
+                    "person_id": "54a5c0757468693209918ea5",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQEJzi56G02BdQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517557568464?e=2147483647&v=beta&t=a70puPFuUOZdwTkHSMcxTeH5WY4s91Ziy0ZUXfyarYE",
+                    "headline": "Director of facilities \nSales Specialist and Construction Consultant"
+                },
+                {
+                    "name": "Darin Shay",
+                    "title": "Facilities Manager",
+                    "email": "darin.shay@lincolnharris.com",
+                    "linkedin_url": "http://www.linkedin.com/in/darin-shay-55955698",
+                    "phone": "",
+                    "location": "Waxhaw, North Carolina, United States",
+                    "email_verified": true,
+                    "person_id": "55714c3173696458456d5000",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQG979QA7r6F_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1633376179270?e=2147483647&v=beta&t=V5NVF_krbOxKpt38BZD1UsN2JU6WayqDli6AgnluIkE",
+                    "headline": "Commercial Real Estate Professional"
+                },
+                {
+                    "name": "Shannon Boyd",
+                    "title": "Facilities Manager",
+                    "email": "shannon.boyd@lincolnharris.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shannon-boyd-322859115",
+                    "phone": "",
+                    "location": "Tallahassee, Florida, United States",
+                    "email_verified": true,
+                    "person_id": "66f50a69f2b8c600019043a4",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5103AQEx6x4YrdkmEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517438806629?e=2147483647&v=beta&t=FAuw65R4r9Z6lZz3fGomxOBh5Hl_stFYaQqyuXBODNw",
+                    "headline": "Real Estate Broker"
+                },
+                {
+                    "name": "Dan Price",
+                    "title": "Facilities Manager",
+                    "email": "dprice@lpc.com",
+                    "linkedin_url": "http://www.linkedin.com/in/dan-price-29220b132",
+                    "phone": "",
+                    "location": "United States",
+                    "email_verified": true,
+                    "person_id": "675d37a90f41400001130edd",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Facilities Manager at Lincoln Harris"
+                },
+                {
+                    "name": "Tonya Floyd",
+                    "title": "Facilities Manager",
+                    "email": "tfloyd@lpc.com",
+                    "linkedin_url": "http://www.linkedin.com/in/tonya-floyd-647124102",
+                    "phone": "",
+                    "location": "Saint Petersburg, Florida, United States",
+                    "email_verified": true,
+                    "person_id": "66fc6d51c4d98c0001878273",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Facilities Manager at Lincoln Harris"
+                }
+            ]
+        },
+        {
+            "company": "Hudson",
+            "domain": "hudsongroup.com",
+            "contacts": [
+                {
+                    "name": "Brian Wires",
+                    "title": "Project Manager",
+                    "email": "bwires@hudsoncompanies.net",
+                    "linkedin_url": "http://www.linkedin.com/in/brian-wires-85741565",
+                    "phone": "",
+                    "location": "Cortland, Ohio, United States",
+                    "email_verified": true,
+                    "person_id": "57d9afaca6da987292874e83",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "at"
+                },
+                {
+                    "name": "Danny Mullins",
+                    "title": "Project Manager",
+                    "email": "danny.mullins@hudsongroup.com",
+                    "linkedin_url": "http://www.linkedin.com/in/danny-mullins-77725250",
+                    "phone": "",
+                    "location": "East Rutherford, New Jersey, United States",
+                    "email_verified": true,
+                    "person_id": "5b331e48a6da98712336f303",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Hudson Inc"
+                },
+                {
+                    "name": "Michael Spina",
+                    "title": "Project Manager",
+                    "email": "mspina@hudsongroup.com",
+                    "linkedin_url": "http://www.linkedin.com/in/michael-spina-7982b45a",
+                    "phone": "",
+                    "location": "Jersey City, New Jersey, United States",
+                    "email_verified": false,
+                    "person_id": "54a6facb74686975f8fcfb09",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Specializing in Healthcare and Commercial Construction"
+                },
+                {
+                    "name": "Deanna Fit",
+                    "title": "Manager, IT Services and Project Delivery",
+                    "email": "dfit@hudsongroup.com",
+                    "linkedin_url": "http://www.linkedin.com/in/deanna-fit-4220661b5",
+                    "phone": "",
+                    "location": "Rutherford, New Jersey, United States",
+                    "email_verified": true,
+                    "person_id": "66f6f541a3aaf100015f5f44",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFe_BusR3Yp3g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1628730139554?e=2147483647&v=beta&t=wu4LOHaoIpDOBVg81hC4guM6IXKuiwsZpJEv5myCPDs",
+                    "headline": "Manager, IT Services and Project Delivery at Hudson"
+                }
+            ]
+        },
+        {
+            "company": "Stream Realty Partners",
+            "domain": "streamrealty.com",
+            "contacts": [
+                {
+                    "name": "Michaela Roberts",
+                    "title": "Construction Manager",
+                    "email": "michaela.roberts@streamrealty.com",
+                    "linkedin_url": "http://www.linkedin.com/in/michaela-roberts-558b3141",
+                    "phone": "",
+                    "location": "Atlanta, Georgia, United States",
+                    "email_verified": true,
+                    "person_id": "66f9aaa583ba0c00015e5bbc",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQGPWmvenByo2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516959440439?e=2147483647&v=beta&t=dPpE6ftgbVCsZYdazwbWY9vFsYyRp5YFLASmzbZJmEQ",
+                    "headline": "Construction Manager at Stream Realty Partners"
+                },
+                {
+                    "name": "Jordan Rice",
+                    "title": "Construction Manager",
+                    "email": "jordan.rice@streamrealty.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jordan-rice-b60606158",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "5e5bc7d9165cfb000184a9b1",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQFlsfo-M5ek9A/profile-displayphoto-shrink_200_200/B56ZRZNTaOHoAc-/0/1736663448704?e=2147483647&v=beta&t=TxUI4yBACtD-dD9kCKHhIuts0wqZ9xshZrwxME7wyao",
+                    "headline": "Construction Manager at Stream Realty Partners"
+                },
+                {
+                    "name": "Wayde Adler",
+                    "title": "Construction Manager",
+                    "email": "wayde.adler@streamrealty.com",
+                    "linkedin_url": "http://www.linkedin.com/in/wayde-adler-96a14015b",
+                    "phone": "",
+                    "location": "Austin, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "5fe8b53f392bea0001e84bcf",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQGFk7EyhjRtqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1703104975557?e=2147483647&v=beta&t=AkxFuiwdYkFgBZCiJJTZ6ta_J5JLj_zJHuNXFbwBDxg",
+                    "headline": "Construction Manager at Stream Realty Partners"
+                },
+                {
+                    "name": "Charles Stouffer",
+                    "title": "Construction Manager",
+                    "email": "charles.stouffer@streamrealty.com",
+                    "linkedin_url": "http://www.linkedin.com/in/charles-stouffer-6006311a8",
+                    "phone": "",
+                    "location": "Atlanta, Georgia, United States",
+                    "email_verified": true,
+                    "person_id": "66fea8175956ef00012b5f53",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQFgz06E7a1tBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706051653654?e=2147483647&v=beta&t=9ihj1g-bBDoNYDbdT3-AaZZ5AeZDG5hfIEQKI1HCm_o",
+                    "headline": "Construction Manager at Stream Realty Partners"
+                },
+                {
+                    "name": "Brandon Dillon",
+                    "title": "Construction Manager",
+                    "email": "brandon.dillon@streamrealty.com",
+                    "linkedin_url": "http://www.linkedin.com/in/brandon-dillon-313948158",
+                    "phone": "",
+                    "location": "Houston, Texas, United States",
+                    "email_verified": true,
+                    "person_id": "5d5838e580f93e31f9658a4b",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at Stream Realty Partners"
+                }
+            ]
+        },
+        {
+            "company": "Walmart",
+            "domain": "walmart.com",
+            "contacts": [
+                {
+                    "name": "Yan Deng",
+                    "title": "Senior Real Estate Development Manager",
+                    "email": "yan.deng@walmart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/%e5%a6%8d-%e9%82%93-146176132",
+                    "phone": "",
+                    "location": "Shenzhen, Guangdong, China",
+                    "email_verified": false,
+                    "person_id": "68c71d9ec7ab7b0001b2938a",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQFn_K6MIMBL0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516997684098?e=2147483647&v=beta&t=5-xexRfPS0iN3zP3vApXv2_iryaxPTE2k98RRFS_cMk",
+                    "headline": "--"
+                },
+                {
+                    "name": "Sherley Leon",
+                    "title": "Project and Construction Manager",
+                    "email": "sherley.leon@walmart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/sherley-leon-a41a10202",
+                    "phone": "",
+                    "location": "Bentonville, Arkansas, United States",
+                    "email_verified": true,
+                    "person_id": "66fb6e08b5ed39000192b941",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQE4V0qc0epdJQ/profile-displayphoto-scale_200_200/B4EZeqI5o3HsAc-/0/1750906150189?e=2147483647&v=beta&t=VURKOTgwEauWLPJI0lICtK6RrwENxbkgUUkm_9OaGWQ",
+                    "headline": "“Project & Construction Manager | Delivering Quality, Efficiency & On-Time Results”"
+                },
+                {
+                    "name": "Kerry Swanson",
+                    "title": "Director of Construction",
+                    "email": "kerry.swanson@walmart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kerryswanson",
+                    "phone": "",
+                    "location": "Bentonville, Arkansas, United States",
+                    "email_verified": true,
+                    "person_id": "54a347e47468697dacab2900",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Director of Construction at Walmart"
+                },
+                {
+                    "name": "Michael Lauver",
+                    "title": "Director of Construction",
+                    "email": "michael.lauver@walmart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/michael-lauver-00655a24",
+                    "phone": "",
+                    "location": "Centerton, Arkansas, United States",
+                    "email_verified": true,
+                    "person_id": "57e1780ca6da987d94b5340d",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQGtBPKHP5qzEQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517079223998?e=2147483647&v=beta&t=WAW98KMOr_qL4tLJHIpEu9zFeCF5M00aG5cW3PZuOSU",
+                    "headline": "Director of Construction at Walmart"
+                },
+                {
+                    "name": "Michael Swinnen",
+                    "title": "Director of Construction",
+                    "email": "michael.swinnen@walmart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/michael-swinnen-8227061b4",
+                    "phone": "",
+                    "location": "Bentonville, Arkansas, United States",
+                    "email_verified": true,
+                    "person_id": "61f4f4194bd2480001c62e87",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQEr8joKy5_Zcw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596826196827?e=2147483647&v=beta&t=8Nf1pRaAHlLxBNW1Rvxfo8cjxRsT1fcTHkKg22XkE0Q",
+                    "headline": "Director of Construction"
+                }
+            ]
+        },
+        {
+            "company": "M&T Bank",
+            "domain": "mtb.com",
+            "contacts": [
+                {
+                    "name": "Petr Jindra",
+                    "title": "Facilities Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/petr-jindra-233076152",
+                    "phone": "",
+                    "location": "Czechia",
+                    "email_verified": false,
+                    "person_id": "615681dcf348cd0001b370c9",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Facilities Manager ve společnosti M&T Bank"
+                },
+                {
+                    "name": "Oussama Dadoun",
+                    "title": "Facilities Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/oussama-dadoun-3a1500133",
+                    "phone": "",
+                    "location": "Lebanon",
+                    "email_verified": false,
+                    "person_id": "61567b5a08010a0001b9b563",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQHKLFM72M-KiQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517056136027?e=2147483647&v=beta&t=uqyh_bEO81-qvYZmIn7nxGZuCkAxx__xdXn0vhYnvoA",
+                    "headline": "--"
+                },
+                {
+                    "name": "Sandy Mancuso",
+                    "title": "Construction Manager",
+                    "email": "smancuso@mtb.com",
+                    "linkedin_url": "http://www.linkedin.com/in/sandy-mancuso-ra-pmp-89782449",
+                    "phone": "",
+                    "location": "Batavia, New York, United States",
+                    "email_verified": true,
+                    "person_id": "671c87688f3157000153962f",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQGODzrctrENtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706267840140?e=2147483647&v=beta&t=N0YRwQ9M1tNC_6Bvkk63onmsyeT9qVbxbAcjJ3wODFs",
+                    "headline": "Sr. Construction Manager at M&T Bank"
+                },
+                {
+                    "name": "Mike Hyman",
+                    "title": "Construction Manager",
+                    "email": "mhyman@mtb.com",
+                    "linkedin_url": "http://www.linkedin.com/in/mike-hyman-a1584443",
+                    "phone": "",
+                    "location": "Rochester, New York, United States",
+                    "email_verified": true,
+                    "person_id": "57d84398a6da9809c6ef2268",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at M&T Bank"
+                },
+                {
+                    "name": "John Olaf",
+                    "title": "Construction Manager",
+                    "email": "jolaf@mtb.com",
+                    "linkedin_url": "http://www.linkedin.com/in/john-james-olaf-8369b225",
+                    "phone": "",
+                    "location": "New York, United States",
+                    "email_verified": true,
+                    "person_id": "54abf77f7468692a6bd2bb18",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "--"
+                }
+            ]
+        },
+        {
+            "company": "Hy-Vee",
+            "domain": "hy-vee.com",
+            "contacts": [
+                {
+                    "name": "Steve Kinney",
+                    "title": "Construction Project Manager",
+                    "email": "skinney@hy-vee.com",
+                    "linkedin_url": "http://www.linkedin.com/in/steve-kinney-791b826b",
+                    "phone": "",
+                    "location": "Adel, Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "5ba2abcbf874f73dc4b6c218",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Project Manager at Hy Vee"
+                },
+                {
+                    "name": "Shelby Jenkins",
+                    "title": "Project Manager",
+                    "email": "sjenkins@hy-vee.com",
+                    "linkedin_url": "http://www.linkedin.com/in/shelby-jenkins-9803b92b",
+                    "phone": "",
+                    "location": "Waukee, Iowa, United States",
+                    "email_verified": true,
+                    "person_id": "61b449a778748300012ffdce",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager"
+                },
+                {
+                    "name": "Ed Reiss",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ed-reiss-269b0b36",
+                    "phone": "",
+                    "location": "West Des Moines, Iowa, United States",
+                    "email_verified": false,
+                    "person_id": "55714c4b7369642c097f5200",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Hy Vee"
+                },
+                {
+                    "name": "Leo Broughton",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/leo-broughton-13244637b",
+                    "phone": "",
+                    "location": "Cedar Rapids, Iowa, United States",
+                    "email_verified": false,
+                    "person_id": "690991e75bf2bc00019b2927",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQEirH6gPviJ7A/profile-displayphoto-shrink_100_100/B56Zi87S_qHMAU-/0/1755516318002?e=2147483647&v=beta&t=YN51Emjzjf6K5XnG1c2g5rsHlL4fRgqBt1B_Pc9pvvo",
+                    "headline": "Project Manager at Hy-Vee, Inc."
+                },
+                {
+                    "name": "Kevin Schulze",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kevin-schulze-0780bb15",
+                    "phone": "",
+                    "location": "Alleman, Iowa, United States",
+                    "email_verified": false,
+                    "person_id": "54a289897468693fda78752a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Hy-Vee, Inc."
+                }
+            ]
+        },
+        {
+            "company": "Tractor Supply Co.",
+            "domain": "tractorsupply.com",
+            "contacts": [
+                {
+                    "name": "Ryan Orscheln",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ryan-orscheln-40704a1aa",
+                    "phone": "",
+                    "location": "Kansas City, Missouri, United States",
+                    "email_verified": false,
+                    "person_id": "61d93d1ccd6ca0000156f0f8",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Orscheln Farm and Home LLC"
+                },
+                {
+                    "name": "Abbi Fowlkes",
+                    "title": "Strategic Sourcing Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/abbi-fowlkes-95791517a",
+                    "phone": "",
+                    "location": "Moberly, Missouri, United States",
+                    "email_verified": false,
+                    "person_id": "668ccb446201120001756c70",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQHY9ZJ6K1GLYQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1686790652351?e=2147483647&v=beta&t=I_JN5ENQYx3FnRLqR4ii2PqDQPOrxQvBEvlgfu1gx4g",
+                    "headline": "Entrepreneur"
+                }
+            ]
+        },
+        {
+            "company": "Oatly",
+            "domain": "oatly.com",
+            "contacts": [
+                {
+                    "name": "Anna H",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/anna-h%c3%a4ggstr%c3%b6m",
+                    "phone": "",
+                    "location": "Malmoe, Skane County, Sweden",
+                    "email_verified": false,
+                    "person_id": "5f5b51066ed6c30001878c5e",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager, Oatly"
+                },
+                {
+                    "name": "Margarita Fisenko",
+                    "title": "Project Manager",
+                    "email": "margarita.fisenko@oatly.com",
+                    "linkedin_url": "http://www.linkedin.com/in/%d0%bc%d0%b0%d1%80%d0%b3%d0%b0%d1%80%d0%b8%d1%82%d0%b0-%d1%84%d0%b8%d1%81%d0%b5%d0%bd%d0%ba%d0%be-499b96247",
+                    "phone": "",
+                    "location": "Dnipro, Dnipropetrovsk Oblast, Ukraine",
+                    "email_verified": false,
+                    "person_id": "690732370f2e140001f2097e",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQEA3OscrPkrCQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660051008696?e=2147483647&v=beta&t=CfXVvVYeu-URm8ZolXnj7Pd96xkwpIKdMidynxFPGhA",
+                    "headline": "n"
+                },
+                {
+                    "name": "Erica Lowe",
+                    "title": "Brand Project Manager",
+                    "email": "erica.lowe@oatly.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ekplowe",
+                    "phone": "",
+                    "location": "London, England, United Kingdom",
+                    "email_verified": true,
+                    "person_id": "66fe3602fc12c200011b17a2",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Brand Project Manager at Oatly - Event, Social, Partnerships + Culture Lead ✨"
+                },
+                {
+                    "name": "Richi Wagner",
+                    "title": "Brand Project Manager",
+                    "email": "richi.wagner@oatly.com",
+                    "linkedin_url": "http://www.linkedin.com/in/richiwagner",
+                    "phone": "",
+                    "location": "Berlin, Berlin, Germany",
+                    "email_verified": true,
+                    "person_id": "64f4c6f51e6ea60001486fc7",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Brand Project Manager at Oatly"
+                },
+                {
+                    "name": "Stephanie Elgegren",
+                    "title": "Brand Project Manager",
+                    "email": "stephanie.elgegren@oatly.com",
+                    "linkedin_url": "http://www.linkedin.com/in/stephanieelgegren",
+                    "phone": "",
+                    "location": "London, England, United Kingdom",
+                    "email_verified": true,
+                    "person_id": "66ffc7acad72e90001a58b34",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4D03AQGZaov58S6pYg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1681718761592?e=2147483647&v=beta&t=Snr9kf2uyOV0FfHJHJG4BAq2oNTkXqtDhKAtM2_eX0g",
+                    "headline": "Brand Project Manager at Oatly"
+                }
+            ]
+        },
+        {
+            "company": "Home Depot",
+            "domain": "homedepot.com",
+            "contacts": [
+                {
+                    "name": "Latas Riley",
+                    "title": "Director of Construction",
+                    "email": "latas_riley@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/latas-riley-b659297",
+                    "phone": "",
+                    "location": "Marietta, Georgia, United States",
+                    "email_verified": true,
+                    "person_id": "68a5b8ceff390a00018d9d75",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQGerY8njFvfVQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1647207981843?e=2147483647&v=beta&t=tBL505N2KGMGG0Okj2OxDSGEQynqIwpVu26wHXR8MEs",
+                    "headline": "Director of Construction at The Home Depot"
+                },
+                {
+                    "name": "Thad Anthony",
+                    "title": "Facilities Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/thad-anthony-0a305828",
+                    "phone": "",
+                    "location": "Hampton, Georgia, United States",
+                    "email_verified": false,
+                    "person_id": "54a3ed637468693442816e1e",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4D03AQE07ozUrCg9kQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517481875376?e=1770854400&v=beta&t=kyJLl1WYrqMFRPlDwLWDltk0LrDkC84QtVBNFdwt61E",
+                    "headline": "Facilities Manager at The Home Depot"
+                },
+                {
+                    "name": "Bruce Talvy",
+                    "title": "Construction Manager",
+                    "email": "bruce_talvy@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/bruce-talvy-1194157",
+                    "phone": "",
+                    "location": "South Plainfield, New Jersey, United States",
+                    "email_verified": true,
+                    "person_id": "55e32695f3e5bb5aa10021c8",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at The Home Depot"
+                },
+                {
+                    "name": "Bob Burnside",
+                    "title": "Construction Manager",
+                    "email": "bob_burnside@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/bob-burnside-6508a737",
+                    "phone": "",
+                    "location": "Costa Mesa, California, United States",
+                    "email_verified": true,
+                    "person_id": "54a2ff5a74686930c2ff0e4d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Construction Manager at The Home Depot"
+                },
+                {
+                    "name": "Victor Farias Nieves",
+                    "title": "Construction Project Manager",
+                    "email": "victor_gomez@homedepot.com",
+                    "linkedin_url": "http://www.linkedin.com/in/victor-gomez-farias-nieves-3374a025",
+                    "phone": "",
+                    "location": "Monterrey, Nuevo Leon, Mexico",
+                    "email_verified": true,
+                    "person_id": "54a2be7474686930c218ba39",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQFKt6cf4H7t8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1557161353191?e=2147483647&v=beta&t=1wpw2Vf2Vbtw2U_bRE2VBRV8_4bcUXLpW3emBfyjfZU",
+                    "headline": "Field Capital Project Manager en The Home Depot"
+                }
+            ]
+        },
+        {
+            "company": "Target",
+            "domain": "target.com",
+            "contacts": [
+                {
+                    "name": "Allison Mathern",
+                    "title": "Sr. Real Estate Development Manager",
+                    "email": "allison.mathern@target.com",
+                    "linkedin_url": "http://www.linkedin.com/in/allison-mathern-4b6b554",
+                    "phone": "",
+                    "location": "Philadelphia, Pennsylvania, United States",
+                    "email_verified": true,
+                    "person_id": "54a3e95b7468692cf008f31c",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Sr. Real Estate Development Manager"
+                },
+                {
+                    "name": "Dane Jaster",
+                    "title": "Sr. Real Estate Development Manager",
+                    "email": "dane.jaster@target.com",
+                    "linkedin_url": "http://www.linkedin.com/in/dane-jaster-20bb7267",
+                    "phone": "",
+                    "location": "Minneapolis, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "66f7821d66ddfb00016efe3d",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQFJ7DSehosQhQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517371413000?e=2147483647&v=beta&t=kfO8WgMkvIhxFvjKFzDRylVrJqFrKdA5xK72kKuBX_0",
+                    "headline": "Sr. Real Estate Development Manager at Target & Real Estate Salesperson at Active Real Estate Group LLC"
+                },
+                {
+                    "name": "Nicholas Popehn",
+                    "title": "Senior Real Estate Development Manager",
+                    "email": "nicholas.popehn@target.com",
+                    "linkedin_url": "http://www.linkedin.com/in/nicholas-popehn-04187b11",
+                    "phone": "",
+                    "location": "Minneapolis, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "66f78f98b982190001618e1b",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Development Manager at Target"
+                },
+                {
+                    "name": "Cecilio Santana",
+                    "title": "Sr. Real Estate Development Manager",
+                    "email": "cecilio.santana@target.com",
+                    "linkedin_url": "http://www.linkedin.com/in/cecilio-santana-3ba30263",
+                    "phone": "",
+                    "location": "Minneapolis, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "66f781778a4a3b000191ed8c",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Sr. Real Estate and Development Manager"
+                },
+                {
+                    "name": "Dan Ahrens",
+                    "title": "Director of Construction",
+                    "email": "dan.ahrens@target.com",
+                    "linkedin_url": "http://www.linkedin.com/in/ahrensdan",
+                    "phone": "",
+                    "location": "Minneapolis, Minnesota, United States",
+                    "email_verified": true,
+                    "person_id": "557077aa736964270b81a000",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHD5t0vzJM-ng/profile-displayphoto-scale_200_200/B56Zh7lXEUG0AY-/0/1754420049525?e=2147483647&v=beta&t=s6H2FOJYZ_0yAzMPy6xkMyfzWiL-K3NLA5ept_Ohr9k",
+                    "headline": "Director - Construction at Target"
+                }
+            ]
+        },
+        {
+            "company": "BP p.l.c.",
+            "domain": "bp.com",
+            "contacts": [
+                {
+                    "name": "Emeka Oti",
+                    "title": "Project Construction Manager",
+                    "email": "emeka.oti@bp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/emeka-oti-72393728",
+                    "phone": "",
+                    "location": "Aberdeen, Scotland, United Kingdom",
+                    "email_verified": true,
+                    "person_id": "62fc9b3486da5e0001a023d2",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQF11gWtGcCwnA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1621595241681?e=2147483647&v=beta&t=YCEwYwhSncdlpVlGptvU1E169eyLavZAEPTD-KAmcDQ",
+                    "headline": "Oil & Gas Projects | Defence | FIMechE"
+                },
+                {
+                    "name": "Tamer Helmy",
+                    "title": "Project Construction Manager",
+                    "email": "tamer.helmy@bp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/tamer-helmy-4aa76b31",
+                    "phone": "",
+                    "location": "Cairo, Cairo Governorate, Egypt",
+                    "email_verified": false,
+                    "person_id": "5f5c7a7e5b08cb0001ecf8d8",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4D03AQFSwy12qPdxww/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678288221361?e=2147483647&v=beta&t=C5CqCrnRTQP9YCEzHSPYQPj3TgLkN0AbOFjcOEtUsIM",
+                    "headline": "Project Manager, PRINCE2®"
+                },
+                {
+                    "name": "Kert Roach",
+                    "title": "Project Construction Manager",
+                    "email": "kert.roach@bp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/kert-roach-8b774916a",
+                    "phone": "",
+                    "location": "Crown Point, Indiana, United States",
+                    "email_verified": true,
+                    "person_id": "61f38c66513604000115ae9a",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Construction Manager at BP"
+                },
+                {
+                    "name": "Gordon Marshall",
+                    "title": "Facilities Manager",
+                    "email": "gordon.marshall@bp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/gordon-marshall-65708247",
+                    "phone": "",
+                    "location": "Norway",
+                    "email_verified": false,
+                    "person_id": "6119f3fc5b72ba0001468100",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C5603AQH6U-soDN4Maw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517448484594?e=2147483647&v=beta&t=pAQNP2We4G3RNV1pSW3-4OWAer5-jeZ2kcAJ1klPAkc",
+                    "headline": "Facilities Manager at DNO NORGE - NORWAY"
+                },
+                {
+                    "name": "Lee Evans",
+                    "title": "Facilities Manager",
+                    "email": "lee.evans@bp.com",
+                    "linkedin_url": "http://www.linkedin.com/in/lee-evans-84aa868a",
+                    "phone": "",
+                    "location": "San Diego, California, United States",
+                    "email_verified": true,
+                    "person_id": "5ac68eb4a6da984079e2f0a6",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/C4E03AQE2lIOLFXmwuw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517340438156?e=2147483647&v=beta&t=N9OFgJCyhJMSKzcW3FYWd0XbOrsyTNAbr6hHMXSHvfI",
+                    "headline": "Facilities manager at BP"
+                }
+            ]
+        },
+        {
+            "company": "ByHeart",
+            "domain": "byheart.com",
+            "contacts": [
+                {
+                    "name": "Keshia Pendigrast",
+                    "title": "Senior Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/keshia-pendigrast",
+                    "phone": "",
+                    "location": "New York, New York, United States",
+                    "email_verified": false,
+                    "person_id": "670086bf18c0de00013ba384",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D5603AQHqa1Y9AvSB8A/profile-displayphoto-scale_200_200/B56ZqzEaBEH8Ac-/0/1763940869760?e=2147483647&v=beta&t=xDPo-u3pzgbHIrnSWND1xz51vTNoymBLZcQqeX4F4Lg",
+                    "headline": "Project Management & Marketing Operations for High Growth Brands!"
+                },
+                {
+                    "name": "Haley Sneed",
+                    "title": "Facilities Recruiting Manager",
+                    "email": "haley.sneed@byheart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/haley-sneed-5ab47a96",
+                    "phone": "",
+                    "location": "United States",
+                    "email_verified": true,
+                    "person_id": "64eb313deb887d00015ef322",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Talent Acquisition"
+                },
+                {
+                    "name": "Jessica Fabrizio",
+                    "title": "Operations Project Manager (Third-Party Business)",
+                    "email": "jessica@byheart.com",
+                    "linkedin_url": "http://www.linkedin.com/in/jessica-fabrizio-pmp-3653719b",
+                    "phone": "",
+                    "location": "Leesburg, Virginia, United States",
+                    "email_verified": true,
+                    "person_id": "6878c9f984a83200013bb90f",
+                    "photo_url": "https://media.licdn.com/dms/image/v2/D4E03AQEwSMmLemPLOg/profile-displayphoto-scale_200_200/B4EZqnZDAIHcAY-/0/1763744953039?e=2147483647&v=beta&t=jb_b-AugwJ6UODS6Q5mx-p_R5ShtyQOwurXtrLeOeyc",
+                    "headline": "Project Manager, PMP | MBA | Army Veteran | CPG Experience | Driving Organizational Change & Operational Excellence"
+                }
+            ]
+        }
+    ],
+    "deep_enriched": [
+        {
+            "name": "Al Jones",
+            "title": "Facilities Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/al-jones-77abb442/",
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "full_name": "Al Jones",
+            "headline": "Facilities Manager at The Inland Real Estate Group of Companies, Inc.",
+            "bio_snippet": "",
+            "location": "Baltimore, Maryland, United States",
+            "current_title": "Facilities Manager",
+            "current_company": "The Inland Real Estate Group of Companies, Inc.",
+            "time_in_role": "Unknown",
+            "connections": 23,
+            "company_tech_stack": [
+                "Drupal",
+                "PHP"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": "Drupal",
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": "Drupal"
+            },
+            "about_company": "Inland Group offers real estate services, investments, and property management. They cater to investors and those seeking commercial properties, self-storage, and residential services."
+        },
+        {
+            "name": "Matthew McDonough",
+            "title": "Project Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/matthew-mcdonough-5b72766/",
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "full_name": "Matthew McDonough",
+            "headline": "Project Manager at Midwest Real Estate Equites",
+            "bio_snippet": "",
+            "location": "Rolling Meadows, Illinois, United States",
+            "current_title": "Project Manager",
+            "current_company": "Midwest Real Estate Equites",
+            "time_in_role": "Unknown",
+            "connections": 11,
+            "company_tech_stack": [
+                "Drupal",
+                "PHP"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": "Drupal",
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": "Drupal"
+            },
+            "about_company": "Inland Group offers real estate services, investments, and property management. They cater to investors and those seeking commercial properties, self-storage, and residential services."
+        },
+        {
+            "name": "Donna Gibbons",
+            "title": "Development Project Manager",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/donna-gibbons-1332b910/",
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "full_name": "Donna Gibbons",
+            "headline": "Development Project Manager at Inland Real Estate",
+            "bio_snippet": "",
+            "location": "Bloomingdale, Illinois, United States",
+            "current_title": "Development Project Manager",
+            "current_company": "The Inland Real Estate Group of Companies, Inc.",
+            "time_in_role": "Unknown",
+            "connections": 1,
+            "company_tech_stack": [
+                "Drupal",
+                "PHP"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": "Drupal",
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": "Drupal"
+            },
+            "about_company": "Inland Group offers real estate services, investments, and property management. They cater to investors and those seeking commercial properties, self-storage, and residential services."
+        },
+        {
+            "name": "Cindy Salvesen",
+            "title": "Facilities Office Manager",
+            "email": "salvesen@inlandgroup.com",
+            "email_verified": true,
+            "linkedin_url": "https://www.linkedin.com/in/cindy-ann-salvesen-a0678938/",
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "full_name": "Cindy Ann Salvesen",
+            "headline": "Facilities Office Manager at The Inland Real Estate Group of Companies, Inc.",
+            "bio_snippet": "",
+            "location": "Oak Brook, Illinois, United States",
+            "current_title": "Facilities Office Manager",
+            "current_company": "The Inland Real Estate Group of Companies, Inc.",
+            "time_in_role": "Unknown",
+            "connections": 662,
+            "company_tech_stack": [
+                "Drupal",
+                "PHP"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": "Drupal",
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": "Drupal"
+            },
+            "about_company": "Inland Group offers real estate services, investments, and property management. They cater to investors and those seeking commercial properties, self-storage, and residential services."
+        },
+        {
+            "name": "Spero Pagonis",
+            "title": "Project Manager - The Inland Real Estate Group",
+            "email": "email_not_unlocked@domain.com",
+            "email_verified": false,
+            "linkedin_url": "https://www.linkedin.com/in/spero-pagonis-7b300620/",
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "full_name": "Spero Pagonis",
+            "headline": "Project Manager - The Inland Real Estate Group of Companies, Inc.",
+            "bio_snippet": "",
+            "location": "Oak Brook, Illinois, United States",
+            "current_title": "Project Manager",
+            "current_company": "Inland Real Estate Corporation",
+            "time_in_role": "17 yr 5 mo",
+            "connections": 222,
+            "company_tech_stack": [
+                "Drupal",
+                "PHP"
+            ],
+            "company_description": {
+                "frontend": null,
+                "backend": "Drupal",
+                "hosting": null,
+                "analytics": [],
+                "crm": [],
+                "cms": "Drupal"
+            },
+            "about_company": "Inland Group offers real estate services, investments, and property management. They cater to investors and those seeking commercial properties, self-storage, and residential services."
+        }
+    ],
+    "google_sheet_url": "https://docs.google.com/spreadsheets/d/1P5P8s7e39rPJ7g7vuRWqsruX8xmkNkXdGAeR4uyfyAc",
+    "total_contacts": 5
+}

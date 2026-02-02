@@ -1,0 +1,12 @@
+.git
+__pycache__
+*.pyc
+.env
+config/.env
+config/token.json
+config/token.pickle
+output/
+Agent_02/
+Agent_03/
+*.md
+.gitignore

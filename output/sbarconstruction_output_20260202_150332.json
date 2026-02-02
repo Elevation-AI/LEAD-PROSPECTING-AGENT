@@ -1,0 +1,241 @@
+{
+    "generated_at": "2026-02-02T15:03:32.712313",
+    "input_sources": [
+        "Website: https://sbarconstruction.com"
+    ],
+    "source_url": "https://sbarconstruction.com",
+    "icp": {
+        "seller_business_type": "physical_service",
+        "what_they_sell": "Commercial construction, renovation, tenant improvements, roofing, site services, and building inspection & maintenance.",
+        "customer_industry": "Commercial real estate developers, Retail chains expanding locations, Healthcare systems building new facilities, Hotel/hospitality companies developing new properties, Corporate headquarters relocations and renovations, Industrial facilities expanding or upgrading.",
+        "customer_company_size": "Small to Large Enterprises",
+        "target_buyers": [
+            "Real Estate Development Manager",
+            "Construction Manager",
+            "Facilities Director",
+            "Project Manager",
+            "VP of Construction"
+        ],
+        "ideal_customer_characteristics": [
+            "Actively developing or expanding real estate portfolio.",
+            "Has announced new location openings or expansions.",
+            "Undergoing corporate relocation or renovation.",
+            "Growing company needing new/larger facilities.",
+            "Requires specialized construction services like roofing or site work.",
+            "Values quality, integrity, and client satisfaction in a construction partner."
+        ],
+        "customer_geography": "Primarily within the states where they have completed projects.",
+        "serviceable_geography": {
+            "scope": "custom",
+            "countries": [
+                "USA"
+            ],
+            "states_or_regions": [
+                "HUSTON",
+                "AUSTIN"
+            ],
+            "notes": "Countries: USA | Regions: HUSTON, AUSTIN"
+        },
+        "avoid_company_types": [
+            "Other construction companies (competitors)",
+            "Architecture/engineering firms (partners, not customers)",
+            "Manufacturers with existing facilities (have in-house maintenance)",
+            "Property management companies (maintain, don't build)",
+            "Residential construction companies"
+        ]
+    },
+    "prospects_found": 16,
+    "prospects": [
+        {
+            "name": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a real estate developer, Inland would likely need commercial construction, renovation, and other related services for their development projects.",
+            "what_they_do": "Inland is a vertically integrated commercial real estate investment, finance, and operating group that develops and manages commercial properties.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Greenberg Gibbons",
+            "domain": "ggcommercial.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a commercial real estate developer, they would likely need commercial construction, renovation, and related services for their projects.",
+            "what_they_do": "Greenberg Gibbons is a commercial real estate developer, investor, and owner of commercial, mixed-use, residential, retail, and flex/R&D spaces.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Lincoln",
+            "domain": "lpc.com",
+            "confidence": 0.95,
+            "why_good_fit": "Lincoln engages in real estate development and redevelopment projects, making them a potential customer for commercial construction, renovation, and related services.",
+            "what_they_do": "Lincoln is a global commercial real estate services and investment firm that provides services across the real estate lifecycle, including development and redevelopment projects.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hudson",
+            "domain": "hudsongroup.com",
+            "confidence": 0.95,
+            "why_good_fit": "Hudson is actively expanding and opening new stores in airports, which requires commercial construction, renovation, and tenant improvement services.",
+            "what_they_do": "Hudson Group is a travel retailer that operates duty-paid and duty-free stores in airports and transportation hubs across North America.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Home Depot",
+            "domain": "homedepot.com",
+            "confidence": 0.95,
+            "why_good_fit": "Home Depot is constantly expanding and renovating its retail locations, requiring commercial construction, renovation, and maintenance services.",
+            "what_they_do": "Home Depot is a large retail chain specializing in home improvement and construction products and services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Target",
+            "domain": "target.com",
+            "confidence": 0.95,
+            "why_good_fit": "As a large retail chain, Target frequently expands and renovates its stores, making them a potential customer for commercial construction, renovation, and related services.",
+            "what_they_do": "Target is a general merchandise retailer offering a variety of products including apparel, home goods, food, and electronics.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Stream Realty Partners",
+            "domain": "streamrealty.com",
+            "confidence": 0.9,
+            "why_good_fit": "They offer development and construction management services, suggesting they could need subcontractors for specialized construction tasks like roofing or site services, or potentially building inspection & maintenance.",
+            "what_they_do": "Stream Realty Partners is a commercial real estate firm offering services like development, construction management, and property management.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "JLL India",
+            "domain": "jll.com",
+            "confidence": 0.9,
+            "why_good_fit": "JLL manages construction projects for their clients, and would likely need commercial construction, renovation, tenant improvements, roofing, site services, and building inspection & maintenance services.",
+            "what_they_do": "JLL India provides commercial real estate services and property investment strategies, working with owners, tenants, and investors.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Walmart",
+            "domain": "walmart.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a large retail chain, Walmart is likely expanding and renovating locations, making them a potential customer for commercial construction, renovation, and related services.",
+            "what_they_do": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Hy-Vee, Inc.",
+            "domain": "hy-vee.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Hy-Vee likely expands and renovates locations, requiring commercial construction, renovation, and related services.",
+            "what_they_do": "Hy-Vee is a grocery store chain offering online ordering, pick-up, delivery, and various shopping services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Framebridge",
+            "domain": "framebridge.com",
+            "confidence": 0.9,
+            "why_good_fit": "Framebridge has retail locations and may need commercial construction, renovation, tenant improvements, or building inspection & maintenance services for their stores.",
+            "what_they_do": "Framebridge is a retailer that provides custom picture framing services online and in retail stores.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Tractor Supply Co.",
+            "domain": "tractorsupply.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a retail chain, Tractor Supply Co. likely expands to new locations and renovates existing stores, requiring commercial construction and related services.",
+            "what_they_do": "Tractor Supply Co. is a retailer of farm supplies, pet and animal feed, clothing, tools, and fencing.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "Oatly",
+            "domain": "oatly.com",
+            "confidence": 0.9,
+            "why_good_fit": "As a growing food and beverage company, Oatly likely expands its production facilities and offices, requiring commercial construction, renovation, and maintenance services.",
+            "what_they_do": "Oatly is a food and beverage company that produces oat-based dairy alternatives.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "M&T Bank",
+            "domain": "mtb.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a growing bank with numerous locations, M&T Bank likely requires commercial construction, renovation, and maintenance services for its branches and corporate facilities.",
+            "what_they_do": "M&T Bank is a regional bank providing personal and business banking, mortgage, loan, and investment services.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "BP p.l.c.",
+            "domain": "bp.com",
+            "confidence": 0.85,
+            "why_good_fit": "BP's expansion projects, such as the Atlantis Drill Center 1, suggest they require commercial construction, site services, and building inspection & maintenance for their facilities.",
+            "what_they_do": "BP is an integrated energy company involved in oil and gas exploration, production, refining, and trading, as well as renewable energy sources.",
+            "source": "web_search_verified"
+        },
+        {
+            "name": "ByHeart",
+            "domain": "byheart.com",
+            "confidence": 0.85,
+            "why_good_fit": "As a manufacturer, ByHeart likely needs construction, renovation, and maintenance services for its facilities, especially given the recent recall and investigation, suggesting potential upgrades or expansions to their manufacturing processes and facilities.",
+            "what_they_do": "ByHeart is an infant formula company that manufactures and sells its own brand of formula.",
+            "source": "web_search_verified"
+        }
+    ],
+    "enriched_contacts": [
+        {
+            "company": "Greenberg Gibbons",
+            "domain": "ggcommercial.com",
+            "contacts": [
+                {
+                    "name": "Eric Allen",
+                    "title": "Senior Vice President - Construction & Development",
+                    "email": "eallen@ggcommercial.com",
+                    "linkedin_url": "http://www.linkedin.com/in/eric-allen-a7582a10",
+                    "phone": "",
+                    "location": "Baltimore, Maryland, United States",
+                    "email_verified": true,
+                    "person_id": "66f8becf1cc13a0001f96a10",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Senior Vice President of Construction & Development for Greenberg Gibbons"
+                }
+            ]
+        },
+        {
+            "company": "The Inland Real Estate Group of Companies, Inc.",
+            "domain": "inlandgroup.com",
+            "contacts": [
+                {
+                    "name": "Matthew McDonough",
+                    "title": "Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/matthew-mcdonough-5b72766",
+                    "phone": "",
+                    "location": "Germantown, Maryland, United States",
+                    "email_verified": false,
+                    "person_id": "62bad6c0d649720001d9f7b0",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager at Miwest Real Estate Equities"
+                },
+                {
+                    "name": "Donna Gibbons",
+                    "title": "Development Project Manager",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/donna-gibbons-1332b910",
+                    "phone": "",
+                    "location": "Bloomingdale, Illinois, United States",
+                    "email_verified": false,
+                    "person_id": "5e7fee1be1bbeb0001c37d67",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Development Project Manager at Inland Real Estate"
+                },
+                {
+                    "name": "Spero Pagonis",
+                    "title": "Project Manager - The Inland Real Estate Group",
+                    "email": "email_not_unlocked@domain.com",
+                    "linkedin_url": "http://www.linkedin.com/in/spero-pagonis-7b300620",
+                    "phone": "",
+                    "location": "Oak Brook, Illinois, United States",
+                    "email_verified": false,
+                    "person_id": "54ec3e3b7468694311dfb66d",
+                    "photo_url": "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2",
+                    "headline": "Project Manager - The Inland Real Estate Group of Companies, Inc."
+                }
+            ]
+        }
+    ],
+    "total_contacts": 4
+}
