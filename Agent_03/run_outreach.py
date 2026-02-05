@@ -38,7 +38,7 @@ from email_generator import EmailGenerator
 from sheets_output import EmailSheetsExporter
 
 import gspread
-from google.oauth2.credentials import Credentials
+from google.oauth2.service_account import Credentials
 
 from src.utils.helpers import setup_logger
 
@@ -57,13 +57,22 @@ def load_contacts_from_sheet(sheet_url: str) -> List[Dict]:
     """
     logger.info(f"Loading contacts from Google Sheet...")
 
-    # Authenticate
-    token_path = os.path.join(PROJECT_ROOT, "config", "token.json")
+    # Authenticate with service account
+    creds_path = os.path.join(PROJECT_ROOT, "config", "service-account.json")
 
-    if not os.path.exists(token_path):
-        raise FileNotFoundError("Please run Agent 02 first to authenticate with Google")
+    if not os.path.exists(creds_path):
+        raise FileNotFoundError(
+            f"Service account credentials not found at:\n{creds_path}\n"
+            f"Download from GCP Console → IAM → Service Accounts → Keys → JSON"
+        )
 
-    credentials = Credentials.from_authorized_user_file(token_path)
+    credentials = Credentials.from_service_account_file(
+        creds_path,
+        scopes=[
+            'https://www.googleapis.com/auth/spreadsheets',
+            'https://www.googleapis.com/auth/drive'
+        ]
+    )
     client = gspread.authorize(credentials)
 
     # Extract spreadsheet ID from URL

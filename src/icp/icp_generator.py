@@ -752,7 +752,7 @@ Return ONLY the JSON, no other text.
 
             if has_passive_mistake and not has_active_need:
                 self.logger.warning(
-                    "⚠️  POTENTIAL ICP ISSUE: For physical services (construction/maintenance), "
+                    "  POTENTIAL ICP ISSUE: For physical services (construction/maintenance), "
                     "customers should be companies COMMISSIONING work, not those that HAVE facilities. "
                     f"Current: '{customer_industry[:100]}...'"
                 )

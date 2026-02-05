@@ -1,20 +1,17 @@
 """
-Google Sheets Exporter using OAuth (User Account)
-================================================
-Creates sheets in YOUR Google Drive (not service account)
-Works correctly when run standalone OR inside full pipeline
+Google Sheets Exporter using Service Account
+=============================================
+Creates sheets via GCP Service Account (no browser needed, never expires)
+Works on local dev AND GCP Cloud Run / GCE
 """
 
 import os
 import sys
-import pickle
 from typing import List, Dict
 from datetime import datetime
 
 import gspread
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
+from google.oauth2.service_account import Credentials
 
 # ------------------------------------------------------------------
 #  PROJECT ROOT (CRITICAL FIX)
@@ -32,8 +29,8 @@ from src.utils.helpers import setup_logger
 
 class SheetsExporterOAuth:
     """
-    Export enriched contact data to Google Sheets using OAuth
-    Sheets are created in YOUR Google Drive
+    Export enriched contact data to Google Sheets using Service Account.
+    Set SHEET_OWNER_EMAIL env var to auto-share sheets to your personal Drive.
     """
 
     SCOPES = [
@@ -47,39 +44,24 @@ class SheetsExporterOAuth:
         self._authenticate()
 
     # ------------------------------------------------------------------
-    #  AUTHENTICATION
+    #  AUTHENTICATION (Service Account - works on GCP, never expires)
     # ------------------------------------------------------------------
     def _authenticate(self):
-        creds = None
+        credentials_path = os.path.join(PROJECT_ROOT, "config", "service-account.json")
 
-        token_path = os.path.join(PROJECT_ROOT, "config", "token.pickle")
-        credentials_path = os.path.join(PROJECT_ROOT, "config", "oauth-credentials.json")
+        if not os.path.exists(credentials_path):
+            raise FileNotFoundError(
+                f"Service account credentials not found at:\n{credentials_path}\n"
+                f"Download from GCP Console → IAM → Service Accounts → Keys → JSON"
+            )
 
-        if os.path.exists(token_path):
-            with open(token_path, "rb") as token:
-                creds = pickle.load(token)
-
-        if not creds or not creds.valid:
-            if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
-                if not os.path.exists(credentials_path):
-                    raise FileNotFoundError(
-                        f" OAuth credentials not found at:\n{credentials_path}\n"
-                        f"Download from Google Cloud Console → OAuth Client ID"
-                    )
-
-                flow = InstalledAppFlow.from_client_secrets_file(
-                    credentials_path,
-                    self.SCOPES
-                )
-                creds = flow.run_local_server(port=0)
-
-            with open(token_path, "wb") as token:
-                pickle.dump(creds, token)
+        creds = Credentials.from_service_account_file(
+            credentials_path,
+            scopes=self.SCOPES
+        )
 
         self.client = gspread.authorize(creds)
-        self.logger.info(" Authenticated with YOUR Google account")
+        self.logger.info(" Authenticated with service account")
 
     # ------------------------------------------------------------------
     #  DATA PREPARATION
@@ -94,33 +76,44 @@ class SheetsExporterOAuth:
         ]
 
     def _row(self, contact: Dict) -> List[str]:
-        full_name = contact.get("name", contact.get("full_name", ""))
+        full_name = str(contact.get("name", contact.get("full_name", "")) or "")
         parts = full_name.split(" ", 1)
         first = parts[0] if parts else ""
         last = parts[1] if len(parts) > 1 else ""
 
         tech_stack = contact.get("company_tech_stack", [])
-        tech_stack_str = ", ".join(tech_stack) if tech_stack else "Not detected"
+        if isinstance(tech_stack, list):
+            tech_stack_str = ", ".join(str(t) for t in tech_stack) if tech_stack else "Not detected"
+        else:
+            tech_stack_str = str(tech_stack) if tech_stack else "Not detected"
 
         categories = contact.get("company_description", {})
-        primary_framework = categories.get("frontend", "N/A")
-        hosting = categories.get("hosting", "N/A")
-        analytics = ", ".join(categories.get("analytics", [])) or "N/A"
+        if not isinstance(categories, dict):
+            categories = {}
+        primary_framework = str(categories.get("frontend", "N/A") or "N/A")
+        hosting = str(categories.get("hosting", "N/A") or "N/A")
+        analytics_list = categories.get("analytics", [])
+        if isinstance(analytics_list, list):
+            analytics = ", ".join(str(a) for a in analytics_list) or "N/A"
+        else:
+            analytics = str(analytics_list) if analytics_list else "N/A"
+
+        bio = contact.get("bio_snippet") or contact.get("headline") or ""
 
         return [
             first,
             last,
             full_name,
-            contact.get("title", contact.get("current_title", "N/A")),
-            contact.get("email", "N/A"),
+            str(contact.get("title", contact.get("current_title", "N/A")) or "N/A"),
+            str(contact.get("email", "N/A") or "N/A"),
             "Yes" if contact.get("email_verified") else "No",
-            contact.get("linkedin_url", "N/A"),
-            contact.get("time_in_role", "N/A"),
-            contact.get("location", "N/A"),
-            (contact.get("bio_snippet") or contact.get("headline", ""))[:100],
-            contact.get("company", contact.get("current_company", "N/A")),
-            contact.get("domain", "N/A"),
-            contact.get("about_company", "N/A"),
+            str(contact.get("linkedin_url", "N/A") or "N/A"),
+            str(contact.get("time_in_role", "N/A") or "N/A"),
+            str(contact.get("location", "N/A") or "N/A"),
+            str(bio)[:100],
+            str(contact.get("company", contact.get("current_company", "N/A")) or "N/A"),
+            str(contact.get("domain", "N/A") or "N/A"),
+            str(contact.get("about_company", "N/A") or "N/A"),
             tech_stack_str,
             primary_framework,
             hosting,
@@ -140,7 +133,11 @@ class SheetsExporterOAuth:
 
         self.logger.info(f" Creating Google Sheet: {sheet_name}")
 
-        spreadsheet = self.client.create(sheet_name)
+        spreadsheet = self.client.create(
+            sheet_name,
+            folder_id="0AIaLj4bNYk2CUk9PVA"
+        )
+
         worksheet = spreadsheet.sheet1
 
         worksheet.append_row(self._headers())
@@ -151,9 +148,13 @@ class SheetsExporterOAuth:
 
         spreadsheet.share("", perm_type="anyone", role="reader")
 
-        self.logger.info(" Google Sheet created successfully")
+        owner_email = os.environ.get("SHEET_OWNER_EMAIL")
+        if owner_email:
+            spreadsheet.share(owner_email, perm_type="user", role="writer", notify=False)
 
+        self.logger.info(" Google Sheet created successfully")
         return spreadsheet.url
+
 
 
 # ------------------------------------------------------------------

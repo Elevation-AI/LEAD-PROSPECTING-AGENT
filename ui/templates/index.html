@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agent01 - Lead Prospecting</title>
+    <title>Lead Prospecting Pipeline - Agent 01 | 02 | 03</title>
     <style>
         * {
             margin: 0;
@@ -56,14 +56,14 @@
         .step {
             flex: 1;
             text-align: center;
-            padding: 15px;
+            padding: 8px 4px;
             position: relative;
         }
 
         .step::after {
             content: '';
             position: absolute;
-            top: 25px;
+            top: 22px;
             right: 0;
             width: 100%;
             height: 2px;
@@ -76,8 +76,8 @@
         }
 
         .step-number {
-            width: 50px;
-            height: 50px;
+            width: 36px;
+            height: 36px;
             border-radius: 50%;
             background: #e2e8f0;
             color: #a0aec0;
@@ -85,8 +85,8 @@
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 1.2em;
-            margin-bottom: 8px;
+            font-size: 0.9em;
+            margin-bottom: 6px;
             position: relative;
             z-index: 1;
         }
@@ -102,7 +102,7 @@
         }
 
         .step-label {
-            font-size: 0.9em;
+            font-size: 0.75em;
             color: #718096;
             font-weight: 500;
         }
@@ -797,39 +797,425 @@
             font-size: 0.8em;
             margin: 2px;
         }
+
+        /* Agent Tabs */
+        .agent-tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 15px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        .agent-tab {
+            flex: 1;
+            padding: 18px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .agent-tab:hover:not(.locked) {
+            background: #f8fafc;
+        }
+
+        .agent-tab.active {
+            border-bottom-color: #4f46e5;
+            background: #f8fafc;
+        }
+
+        .agent-tab.locked {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .agent-tab.completed-tab {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .agent-tab.completed-tab .agent-tab-number {
+            background: #10b981;
+            color: white;
+        }
+
+        .agent-tab-number {
+            background: #e2e8f0;
+            color: #64748b;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.85em;
+        }
+
+        .agent-tab.active .agent-tab-number {
+            background: #4f46e5;
+            color: white;
+        }
+
+        .agent-tab-label {
+            font-weight: 600;
+            color: #334155;
+            font-size: 1em;
+        }
+
+        .agent-tab.active .agent-tab-label {
+            color: #4f46e5;
+        }
+
+        .agent-tab-status {
+            font-size: 0.75em;
+            color: #10b981;
+            font-weight: 600;
+        }
+
+        /* Agent 02 & 03 Styles */
+        .agent-divider {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 0.75em;
+            color: #94a3b8;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .contact-select-card {
+            background: #f9fafb;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 2px solid #e5e7eb;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: border-color 0.2s;
+        }
+
+        .contact-select-card:hover {
+            border-color: #4f46e5;
+        }
+
+        .contact-select-card.selected {
+            border-color: #4f46e5;
+            background: #eef2ff;
+        }
+
+        .contact-select-card.no-linkedin {
+            opacity: 0.6;
+        }
+
+        .contact-select-card input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .contact-select-info {
+            flex: 1;
+        }
+
+        .contact-select-info h4 {
+            margin-bottom: 4px;
+            color: #1a202c;
+        }
+
+        .contact-select-info p {
+            color: #718096;
+            font-size: 0.9em;
+        }
+
+        .no-linkedin-badge {
+            background: #fef3c7;
+            color: #92400e;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+        }
+
+        .progress-container {
+            margin: 20px 0;
+        }
+
+        .progress-bar-wrapper {
+            background: #e2e8f0;
+            border-radius: 8px;
+            height: 24px;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background: #4f46e5;
+            border-radius: 8px;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8em;
+            font-weight: 600;
+            min-width: 40px;
+        }
+
+        .progress-bar-fill.green {
+            background: #10b981;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85em;
+            color: #718096;
+            margin-bottom: 5px;
+        }
+
+        .enriched-contact-card {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            margin-bottom: 12px;
+        }
+
+        .enriched-contact-card h4 {
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .tech-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        /* Agent 03 email config */
+        .config-option-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+
+        .config-option {
+            padding: 12px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        .config-option:hover {
+            border-color: #4f46e5;
+            background: #f8fafc;
+        }
+
+        .config-option.selected {
+            border-color: #4f46e5;
+            background: #eef2ff;
+            color: #4f46e5;
+            font-weight: 600;
+        }
+
+        .config-option .option-label {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .config-option .option-desc {
+            font-size: 0.8em;
+            color: #718096;
+        }
+
+        .config-option.selected .option-desc {
+            color: #6366f1;
+        }
+
+        .email-preview-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .email-preview-header {
+            background: #f9fafb;
+            padding: 12px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .email-preview-header h4 {
+            color: #1a202c;
+        }
+
+        .email-status-badge {
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .email-status-badge.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .email-status-badge.fallback {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .email-preview-meta {
+            padding: 10px 20px;
+            background: #f0fdf4;
+            font-size: 0.85em;
+            color: #4a5568;
+        }
+
+        .email-preview-subject {
+            padding: 10px 20px;
+            font-weight: 600;
+            color: #1a202c;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .email-preview-body {
+            padding: 15px 20px;
+            color: #4a5568;
+            line-height: 1.7;
+            white-space: pre-line;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .email-preview-body.expanded {
+            max-height: none;
+        }
+
+        .email-toggle-btn {
+            padding: 8px 20px;
+            text-align: center;
+            color: #4f46e5;
+            cursor: pointer;
+            font-size: 0.85em;
+            border-top: 1px solid #f3f4f6;
+        }
+
+        .email-toggle-btn:hover {
+            background: #f8fafc;
+        }
+
+        .personalization-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 8px 20px 12px;
+        }
+
+        .personalization-tag {
+            background: #eef2ff;
+            color: #4338ca;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75em;
+        }
+
+        .sheets-link-box {
+            background: #d1fae5;
+            border: 2px solid #10b981;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .sheets-link-box a {
+            color: #065f46;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .time-estimate {
+            background: #fef3c7;
+            border: 1px solid #fbbf24;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            color: #92400e;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎯 Agent01 Lead Prospecting</h1>
-            <p>Interactive pipeline for discovering and enriching B2B leads</p>
-            <p style="margin-top: 8px; color: #10b981; font-size: 0.9em;">
-                ✨ Now supports multiple inputs: Website URL, PDF Upload, or Raw Text
-            </p>
+            <h1>Lead Prospecting Pipeline</h1>
+            <p>End-to-end B2B lead discovery, enrichment, and outreach</p>
         </div>
 
-        <!-- Step Indicator -->
-        <div class="step-indicator">
+        <!-- Agent Tabs -->
+        <div class="agent-tabs">
+            <div class="agent-tab active" data-agent="1" onclick="switchAgentTab(1)">
+                <span class="agent-tab-number">01</span>
+                <span class="agent-tab-label">Discovery</span>
+                <span class="agent-tab-status" id="agent01-status"></span>
+            </div>
+            <div class="agent-tab locked" data-agent="2" onclick="switchAgentTab(2)">
+                <span class="agent-tab-number">02</span>
+                <span class="agent-tab-label">Deep Enrich</span>
+                <span class="agent-tab-status" id="agent02-status"></span>
+            </div>
+            <div class="agent-tab locked" data-agent="3" onclick="switchAgentTab(3)">
+                <span class="agent-tab-number">03</span>
+                <span class="agent-tab-label">Outreach</span>
+                <span class="agent-tab-status" id="agent03-status"></span>
+            </div>
+        </div>
+
+        <!-- Step indicator (within current agent tab) -->
+        <div class="step-indicator" id="step-indicator">
             <div class="step active" data-step="1">
                 <div class="step-number">1</div>
-                <div class="step-label">Input Data</div>
+                <div class="step-label">Input</div>
             </div>
             <div class="step" data-step="2">
                 <div class="step-number">2</div>
-                <div class="step-label">Generate ICP</div>
+                <div class="step-label">ICP</div>
             </div>
             <div class="step" data-step="3">
                 <div class="step-number">3</div>
-                <div class="step-label">Customize ICP</div>
+                <div class="step-label">Customize</div>
             </div>
             <div class="step" data-step="4">
                 <div class="step-number">4</div>
-                <div class="step-label">Find Prospects</div>
+                <div class="step-label">Prospects</div>
             </div>
             <div class="step" data-step="5">
                 <div class="step-number">5</div>
-                <div class="step-label">Enrich Contacts</div>
+                <div class="step-label">Enrich</div>
             </div>
         </div>
 
@@ -841,6 +1227,9 @@
             <div class="spinner"></div>
             <p id="loading-text">Processing...</p>
         </div>
+
+        <!-- AGENT 01 CONTAINER -->
+        <div id="agent01-content">
 
         <!-- Step 1: Multi-Input Section -->
         <div id="section-1" class="section active">
@@ -951,7 +1340,7 @@
                 <div class="input-group">
                     <label>What type of business is the seller?</label>
                     <select id="seller-type-input" style="width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1em;">
-                        <option value="physical_service">🏗️ Physical Service Provider (construction, cleaning, maintenance)</option>
+                        <option value="physical_service">🏗��� Physical Service Provider (construction, cleaning, maintenance)</option>
                         <option value="software_saas">💻 Software/SaaS (tools, platforms, analytics)</option>
                         <option value="b2b_supplier">📦 B2B Supplier (parts, components, materials)</option>
                         <option value="engineering_services">⚙️ Engineering Services (R&D, embedded software, design)</option>
@@ -1032,74 +1421,216 @@
             <div id="enrichment-display"></div>
 
             <div class="btn-group" style="margin-top: 20px;">
-                <button class="btn btn-secondary" onclick="goBackToStep(4)">← Back to Prospects</button>
-                <button class="btn btn-primary" onclick="viewFinalSummary()">View Complete Summary</button>
+                <button class="btn btn-secondary" onclick="goBackToStep(4)">Back to Prospects</button>
+                <button class="btn btn-download" onclick="downloadAllExcel()" id="btn-download-all">Download Agent 01 Report (Excel)</button>
+                <button class="btn btn-primary" onclick="proceedToDeepEnrich()">Proceed to Agent 02 &rarr;</button>
             </div>
         </div>
 
-        <!-- Final Summary -->
-        <div id="section-6" class="section final-summary">
-            <h2 class="section-title">📊 Complete Summary</h2>
+        </div><!-- end agent01-content -->
 
-            <!-- Input Sources Display -->
-            <div id="input-sources-display" style="margin-bottom: 20px;"></div>
+        <!-- ============================================================ -->
+        <!-- AGENT 02 CONTAINER -->
+        <!-- ============================================================ -->
+        <div id="agent02-content" style="display: none;">
 
-            <div class="collapse-section">
-                <div class="collapse-header" onclick="toggleCollapse('icp-final')">
-                    <span>📋 Ideal Customer Profile (ICP)</span>
-                    <span class="arrow">▼</span>
+        <!-- Agent 02 step indicator -->
+        <div class="step-indicator" id="step-indicator-agent02" style="display: flex;">
+            <div class="step active" data-step="6">
+                <div class="step-number">1</div>
+                <div class="step-label">Select Contacts</div>
+            </div>
+            <div class="step" data-step="7">
+                <div class="step-number">2</div>
+                <div class="step-label">Results</div>
+            </div>
+        </div>
+
+        <!-- Step 6: Select Contacts for Deep Enrichment -->
+        <div id="section-6" class="section active">
+            <h2 class="section-title">Select Contacts for LinkedIn Scraping</h2>
+            <p style="color: #718096; margin-bottom: 10px;">
+                Tech stack detection runs for <strong>all companies</strong> (fast).
+                LinkedIn scraping is slow (~90s each) - pick the contacts that matter most.
+            </p>
+
+            <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
+                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                    <input type="checkbox" id="select-all-linkedin" onchange="toggleSelectAllLinkedin()" style="width: 18px; height: 18px;">
+                    <strong>Select All</strong>
+                </label>
+                <span style="color: #718096;">|</span>
+                <span id="linkedin-selected-count" style="color: #4f46e5; font-weight: 600;">0 selected</span>
+                <span id="linkedin-time-estimate" class="time-estimate" style="display: none;"></span>
+            </div>
+
+            <div id="linkedin-contact-list"></div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="switchAgentTab(1); setActiveStep(5);">Back to Agent 01</button>
+                <button class="btn btn-secondary" onclick="startDeepEnrichment(true)">Skip LinkedIn Entirely</button>
+                <button class="btn btn-primary" id="btn-start-deep-enrich" onclick="startDeepEnrichment(false)">Start Deep Enrichment</button>
+            </div>
+        </div>
+
+        <!-- Step 7: Deep Enrichment Progress & Results -->
+        <div id="section-7" class="section">
+            <h2 class="section-title">Deep Enrichment Results</h2>
+
+            <!-- Progress bars (shown during enrichment) -->
+            <div id="deep-enrich-progress" style="display: none;">
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>Tech Stack Detection</span>
+                        <span id="tech-progress-text">0 / 0</span>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div id="tech-progress-bar" class="progress-bar-fill green" style="width: 0%;">0%</div>
+                    </div>
+                    <p id="tech-current" style="font-size: 0.85em; color: #718096;"></p>
                 </div>
-                <div id="icp-final" class="collapse-content">
-                    <div id="icp-final-display" class="icp-grid"></div>
+
+                <div class="progress-container" id="linkedin-progress-section">
+                    <div class="progress-label">
+                        <span>LinkedIn Scraping</span>
+                        <span id="linkedin-progress-text">0 / 0</span>
+                    </div>
+                    <div class="progress-bar-wrapper">
+                        <div id="linkedin-progress-bar" class="progress-bar-fill" style="width: 0%;">0%</div>
+                    </div>
+                    <p id="linkedin-current" style="font-size: 0.85em; color: #718096;"></p>
                 </div>
             </div>
 
-            <div class="collapse-section">
-                <div class="collapse-header" onclick="toggleCollapse('prospects-final')">
-                    <span>🏢 Prospects Found (<span id="prospects-count-final">0</span> companies)</span>
-                    <span class="arrow">▼</span>
-                </div>
-                <div id="prospects-final" class="collapse-content">
-                    <div id="prospects-final-display"></div>
+            <!-- Results (shown after completion) -->
+            <div id="deep-enrich-results" style="display: none;">
+                <div class="stats" id="deep-enrich-stats"></div>
+
+                <div id="deep-enrich-sheets-link"></div>
+
+                <div id="deep-enriched-contacts-display"></div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="goBackToStep(6)">Back</button>
+                <button class="btn btn-download" id="btn-export-agent02-sheets" onclick="exportAgent02Sheets()" disabled>Export to Google Sheets</button>
+                <button class="btn btn-primary" id="btn-proceed-agent03" onclick="proceedToEmailConfig()" disabled>Proceed to Agent 03 &rarr;</button>
+            </div>
+        </div>
+
+        </div><!-- end agent02-content -->
+
+        <!-- ============================================================ -->
+        <!-- AGENT 03 CONTAINER -->
+        <!-- ============================================================ -->
+        <div id="agent03-content" style="display: none;">
+
+        <!-- Agent 03 step indicator -->
+        <div class="step-indicator" id="step-indicator-agent03" style="display: flex;">
+            <div class="step active" data-step="8">
+                <div class="step-number">1</div>
+                <div class="step-label">Configure</div>
+            </div>
+            <div class="step" data-step="9">
+                <div class="step-number">2</div>
+                <div class="step-label">Emails</div>
+            </div>
+        </div>
+
+        <!-- Step 8: Email Configuration -->
+        <div id="section-8" class="section active">
+            <h2 class="section-title">Configure Outreach Emails</h2>
+            <p style="color: #718096; margin-bottom: 20px;">Set the tone, call-to-action, and sender details for your outreach emails.</p>
+
+            <div class="edit-controls">
+                <h4>Email Tone</h4>
+                <div class="config-option-group" id="tone-options">
+                    <div class="config-option selected" data-value="professional" onclick="selectOption('tone', this)">
+                        <div class="option-label">Professional</div>
+                        <div class="option-desc">Formal, business-appropriate</div>
+                    </div>
+                    <div class="config-option" data-value="casual" onclick="selectOption('tone', this)">
+                        <div class="option-label">Casual</div>
+                        <div class="option-desc">Friendly, conversational</div>
+                    </div>
+                    <div class="config-option" data-value="direct" onclick="selectOption('tone', this)">
+                        <div class="option-label">Direct</div>
+                        <div class="option-desc">Concise, to-the-point</div>
+                    </div>
                 </div>
             </div>
 
-            <div class="collapse-section">
-                <div class="collapse-header" onclick="toggleCollapse('enrichment-final')">
-                    <span>👥 Enriched Contacts (<span id="contacts-count-final">0</span> contacts)</span>
-                    <span class="arrow">▼</span>
-                </div>
-                <div id="enrichment-final" class="collapse-content">
-                    <div id="enrichment-final-display"></div>
+            <div class="edit-controls" style="margin-top: 15px;">
+                <h4>Call to Action</h4>
+                <div class="config-option-group" id="cta-options">
+                    <div class="config-option selected" data-value="call" onclick="selectOption('cta', this)">
+                        <div class="option-label">15-min Call</div>
+                        <div class="option-desc">Quick phone call</div>
+                    </div>
+                    <div class="config-option" data-value="demo" onclick="selectOption('cta', this)">
+                        <div class="option-label">Demo</div>
+                        <div class="option-desc">Personalized demo</div>
+                    </div>
+                    <div class="config-option" data-value="pdf" onclick="selectOption('cta', this)">
+                        <div class="option-label">Case Study</div>
+                        <div class="option-desc">Send a PDF/resource</div>
+                    </div>
+                    <div class="config-option" data-value="reply" onclick="selectOption('cta', this)">
+                        <div class="option-label">Reply</div>
+                        <div class="option-desc">Ask them to reply</div>
+                    </div>
+                    <div class="config-option" data-value="meeting" onclick="selectOption('cta', this)">
+                        <div class="option-label">Meeting</div>
+                        <div class="option-desc">Schedule a meeting</div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Download Section -->
-            <div class="download-section">
-                <h4>📥 Download Your Results</h4>
-                <p style="color: #065f46; margin-bottom: 15px;">Download your data in Excel format</p>
-
-                <div class="download-buttons">
-                    <button class="btn btn-download" id="btn-download-all" onclick="downloadAllExcel()" disabled>
-                        📊 Complete Report (Excel)
-                    </button>
-                    <button class="btn btn-download-alt" id="btn-download-prospects-final" onclick="downloadProspectsExcel()" disabled>
-                        🏢 Prospects Only (Excel)
-                    </button>
-                    <button class="btn btn-download-alt" id="btn-download-contacts" onclick="downloadContactsExcel()" disabled>
-                        👥 Contacts Only (Excel)
-                    </button>
+            <div class="edit-controls" style="margin-top: 15px;">
+                <h4>Sender Information</h4>
+                <div class="input-group">
+                    <label for="sender-name">Your Name</label>
+                    <input type="text" id="sender-name" placeholder="e.g., John Smith" />
                 </div>
-
-                <p style="color: #6b7280; font-size: 0.85em; margin-top: 15px;">
-                    Complete Report includes: ICP Summary, Prospect Companies, and Enriched Contacts in separate sheets
-                </p>
+                <div class="input-group">
+                    <label for="sender-company">Your Company</label>
+                    <input type="text" id="sender-company" placeholder="e.g., TechSolutions Inc" />
+                </div>
             </div>
+
+            <div class="edit-controls" style="margin-top: 15px;">
+                <h4>Value Proposition</h4>
+                <div class="input-group">
+                    <label for="value-prop">What problem do you solve? How do you help customers?</label>
+                    <textarea id="value-prop" rows="3" placeholder="e.g., We help operations teams automate repetitive tasks and reduce manual work by 40%"></textarea>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="switchAgentTab(2); setActiveStep(7);">Back to Agent 02</button>
+                <button class="btn btn-primary" onclick="generateEmails()">Generate Emails</button>
+            </div>
+        </div>
+
+        <!-- Step 9: Generated Emails -->
+        <div id="section-9" class="section">
+            <h2 class="section-title">Generated Outreach Emails</h2>
+
+            <div class="stats" id="email-stats"></div>
+
+            <div id="email-sheets-link"></div>
+
+            <div id="generated-emails-display"></div>
 
             <div class="btn-group" style="margin-top: 20px;">
+                <button class="btn btn-secondary" onclick="goBackToStep(8)">Back to Config</button>
+                <button class="btn btn-download" id="btn-export-agent03-sheets" onclick="exportAgent03Sheets()" disabled>Export to Google Sheets</button>
+                <button class="btn btn-download-alt" id="btn-save-emails-local" onclick="saveEmailsLocal()" disabled>Save Local JSON</button>
                 <button class="btn btn-secondary" onclick="location.reload()">Start New Analysis</button>
             </div>
         </div>
+
+        </div><!-- end agent03-content -->
     </div>
 
     <script>
@@ -1371,23 +1902,84 @@
             document.getElementById('loading').classList.remove('show');
         }
 
-        function setActiveStep(step) {
-            // Update step indicators
-            document.querySelectorAll('.step').forEach(s => {
-                const stepNum = parseInt(s.dataset.step);
-                s.classList.remove('active', 'completed');
-                if (stepNum === step) s.classList.add('active');
-                if (stepNum < step) s.classList.add('completed');
-            });
+        // Track which agent tab is currently active and highest completed step
+        let currentAgentTab = 1;
+        let highestCompletedStep = 0;
 
-            // Show active section
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        // Map steps to agents
+        function getAgentForStep(step) {
+            if (step <= 5) return 1;
+            if (step <= 7) return 2;
+            return 3;
+        }
+
+        function switchAgentTab(agentNum) {
+            // Don't allow switching to locked tabs
+            const tab = document.querySelector(`.agent-tab[data-agent="${agentNum}"]`);
+            if (tab.classList.contains('locked')) {
+                showAlert('Complete the current agent before proceeding.', 'info');
+                return;
+            }
+
+            currentAgentTab = agentNum;
+
+            // Update tab styles
+            document.querySelectorAll('.agent-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+
+            // Show/hide containers
+            document.getElementById('agent01-content').style.display = agentNum === 1 ? 'block' : 'none';
+            document.getElementById('agent02-content').style.display = agentNum === 2 ? 'block' : 'none';
+            document.getElementById('agent03-content').style.display = agentNum === 3 ? 'block' : 'none';
+
+            // Show/hide the correct step indicator
+            document.getElementById('step-indicator').style.display = agentNum === 1 ? 'flex' : 'none';
+            const si2 = document.getElementById('step-indicator-agent02');
+            const si3 = document.getElementById('step-indicator-agent03');
+            if (si2) si2.style.display = agentNum === 2 ? 'flex' : 'none';
+            if (si3) si3.style.display = agentNum === 3 ? 'flex' : 'none';
+        }
+
+        function unlockAgentTab(agentNum) {
+            const tab = document.querySelector(`.agent-tab[data-agent="${agentNum}"]`);
+            tab.classList.remove('locked');
+            tab.classList.add('completed-tab');
+        }
+
+        function setActiveStep(step) {
+            const agent = getAgentForStep(step);
+
+            // Switch to the right agent tab if needed
+            if (agent !== currentAgentTab) {
+                switchAgentTab(agent);
+            }
+
+            // Determine which step indicator to update
+            let indicatorId = 'step-indicator';
+            if (agent === 2) indicatorId = 'step-indicator-agent02';
+            if (agent === 3) indicatorId = 'step-indicator-agent03';
+
+            const indicator = document.getElementById(indicatorId);
+            if (indicator) {
+                indicator.querySelectorAll('.step').forEach(s => {
+                    const stepNum = parseInt(s.dataset.step);
+                    s.classList.remove('active', 'completed');
+                    if (stepNum === step) s.classList.add('active');
+                    if (stepNum < step) s.classList.add('completed');
+                });
+            }
+
+            // Show the active section (within the current agent container)
+            const container = document.getElementById(`agent0${agent}-content`);
+            container.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
             document.getElementById(`section-${step}`).classList.add('active');
+
+            // Track highest step
+            if (step > highestCompletedStep) highestCompletedStep = step;
         }
 
         function goBackToStep(step) {
             setActiveStep(step);
-            showAlert(`Returned to Step ${step}`, 'info');
         }
 
         function disableButton(buttonId) {
@@ -1445,6 +2037,11 @@
         }
 
         async function generateICP() {
+            // Guard: if ICP already generated, just show it
+            if (icpData) {
+                setActiveStep(2);
+                return;
+            }
             showLoading('Generating ICP with AI...');
             document.getElementById('btn-process-text').textContent = 'Generating ICP...';
 
@@ -1866,92 +2463,533 @@
             });
         }
 
-        async function viewFinalSummary() {
-            // Check if any companies were enriched
-            if (enrichedData.length === 0) {
-                showAlert('No companies have been enriched yet! Please enrich at least one company before viewing summary.', 'error');
-                return;
-            }
-
-            // Save final output to file
-            showLoading('Saving final output...');
-            try {
-                await fetch('/api/save-final', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ session_id: sessionId })
-                });
-                hideLoading();
-                showAlert('Output saved to file!', 'success');
-            } catch (error) {
-                hideLoading();
-                showAlert('Could not save to file: ' + error.message, 'error');
-            }
-
-            // Show final summary section
-            document.getElementById('section-6').classList.add('show');
-            setActiveStep(5); // Keep step 5 active
-
-            // Update download button states
-            updateDownloadButtons();
-
-            // NEW: Display input sources
-            const inputSourcesDiv = document.getElementById('input-sources-display');
-            if (inputSources && inputSources.length > 0) {
-                inputSourcesDiv.innerHTML = `
-                    <div style="background: #f0fdf4; border: 2px solid #22c55e; padding: 15px; border-radius: 8px;">
-                        <h4 style="color: #166534; margin-bottom: 10px;">📥 Input Sources Used:</h4>
-                        <div>${inputSources.map(src => `<span class="input-sources-badge">${src}</span>`).join(' ')}</div>
-                    </div>
-                `;
-            }
-
-            // Populate ICP
-            displayICP(icpData, 'icp-final-display');
-
-            // Populate Prospects
-            document.getElementById('prospects-count-final').textContent = prospectsData.length;
-            const prospectsContainer = document.getElementById('prospects-final-display');
-            prospectsContainer.innerHTML = prospectsData.map(p => `
-                <div class="prospect-card">
-                    <h3>${p.name}</h3>
-                    <div class="domain">🌐 <a href="https://${p.domain}" target="_blank" class="domain-link">${p.domain}</a></div>
-                    <div class="fit-reason"><strong>Why Good Fit:</strong> ${p.why_good_fit}</div>
-                </div>
-            `).join('');
-
-            // Populate Enrichment
-            const totalContacts = enrichedData.reduce((sum, c) => sum + c.contacts.length, 0);
-            document.getElementById('contacts-count-final').textContent = totalContacts;
-
-            const enrichmentContainer = document.getElementById('enrichment-final-display');
-            enrichmentContainer.innerHTML = enrichedData.map(company => `
-                <div class="contact-card">
-                    <h3>${company.company_name}</h3>
-                    <div class="domain" style="margin-bottom: 15px;">🌐 <a href="https://${company.domain}" target="_blank" class="domain-link">${company.domain}</a></div>
-                    ${company.contacts.map(c => `
-                        <div class="contact-item">
-                            <h4>${c.name}</h4>
-                            ${c.title ? `<div class="contact-detail"><strong>Title:</strong> ${c.title}</div>` : ''}
-                            ${c.email ? `<div class="contact-detail"><strong>Email:</strong> <a href="mailto:${c.email}">${c.email}</a></div>` : ''}
-                            ${c.linkedin_url ? `<div class="contact-detail"><strong>LinkedIn:</strong> <a href="${c.linkedin_url}" target="_blank">View Profile</a></div>` : ''}
-                            ${c.location ? `<div class="contact-detail"><strong>Location:</strong> ${c.location}</div>` : ''}
-                            ${c.headline ? `<div class="contact-detail"><strong>Headline:</strong> ${c.headline}</div>` : ''}
-                        </div>
-                    `).join('')}
-                </div>
-            `).join('');
-
-            // Scroll to summary
-            document.getElementById('section-6').scrollIntoView({ behavior: 'smooth' });
-        }
-
         function toggleCollapse(id) {
             const content = document.getElementById(id);
             const header = content.previousElementSibling;
 
             content.classList.toggle('open');
             header.classList.toggle('open');
+        }
+
+        // =============================================================
+        // AGENT 02: Deep Enrichment Functions
+        // =============================================================
+
+        let linkedinContactsList = [];
+        let selectedLinkedinIndices = new Set();
+        let deepEnrichedData = [];
+        let pollTimer = null;
+
+        function proceedToDeepEnrich() {
+            if (enrichedData.length === 0) {
+                showAlert('No companies enriched. Please enrich at least one company first.', 'error');
+                return;
+            }
+
+            // Mark Agent 01 as completed
+            document.getElementById('agent01-status').textContent = 'Done';
+            unlockAgentTab(2);
+
+            // If contacts already loaded, just switch tab
+            if (linkedinContactsList.length > 0) {
+                switchAgentTab(2);
+                setActiveStep(6);
+                return;
+            }
+
+            showLoading('Loading contacts for deep enrichment...');
+
+            fetch('/api/agent02/get-contacts', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId })
+            })
+            .then(r => r.json())
+            .then(data => {
+                hideLoading();
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    return;
+                }
+
+                linkedinContactsList = data.contacts;
+                renderLinkedinSelection(data.contacts);
+                switchAgentTab(2);
+                setActiveStep(6);
+            })
+            .catch(err => {
+                hideLoading();
+                showAlert('Error: ' + err.message, 'error');
+            });
+        }
+
+        function renderLinkedinSelection(contacts) {
+            const container = document.getElementById('linkedin-contact-list');
+            selectedLinkedinIndices.clear();
+
+            container.innerHTML = contacts.map(c => {
+                const hasLi = c.has_linkedin;
+                return `
+                    <div class="contact-select-card ${hasLi ? '' : 'no-linkedin'}" id="li-card-${c.index}">
+                        <input type="checkbox"
+                            id="li-check-${c.index}"
+                            ${hasLi ? '' : 'disabled'}
+                            onchange="toggleLinkedinContact(${c.index})" />
+                        <div class="contact-select-info">
+                            <h4>${c.name}</h4>
+                            <p>${c.title} @ ${c.company}</p>
+                            ${hasLi
+                                ? `<p style="font-size: 0.8em; color: #4f46e5;">${c.linkedin_url}</p>`
+                                : '<span class="no-linkedin-badge">No LinkedIn URL</span>'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            updateLinkedinCount();
+        }
+
+        function toggleLinkedinContact(index) {
+            const checkbox = document.getElementById(`li-check-${index}`);
+            const card = document.getElementById(`li-card-${index}`);
+            if (checkbox.checked) {
+                selectedLinkedinIndices.add(index);
+                card.classList.add('selected');
+            } else {
+                selectedLinkedinIndices.delete(index);
+                card.classList.remove('selected');
+            }
+            updateLinkedinCount();
+        }
+
+        function toggleSelectAllLinkedin() {
+            const selectAll = document.getElementById('select-all-linkedin').checked;
+            linkedinContactsList.forEach(c => {
+                if (c.has_linkedin) {
+                    const checkbox = document.getElementById(`li-check-${c.index}`);
+                    const card = document.getElementById(`li-card-${c.index}`);
+                    checkbox.checked = selectAll;
+                    if (selectAll) {
+                        selectedLinkedinIndices.add(c.index);
+                        card.classList.add('selected');
+                    } else {
+                        selectedLinkedinIndices.delete(c.index);
+                        card.classList.remove('selected');
+                    }
+                }
+            });
+            updateLinkedinCount();
+        }
+
+        function updateLinkedinCount() {
+            const count = selectedLinkedinIndices.size;
+            document.getElementById('linkedin-selected-count').textContent = `${count} selected`;
+
+            const estimateEl = document.getElementById('linkedin-time-estimate');
+            if (count > 0) {
+                const mins = Math.ceil((count * 90) / 60);
+                estimateEl.textContent = `~${mins} min estimated for LinkedIn`;
+                estimateEl.style.display = 'inline-block';
+            } else {
+                estimateEl.style.display = 'none';
+            }
+        }
+
+        function startDeepEnrichment(skipLinkedin) {
+            const indices = skipLinkedin ? [] : Array.from(selectedLinkedinIndices);
+
+            if (!skipLinkedin && indices.length === 0) {
+                // No LinkedIn selected but not skipping - confirm
+                if (!confirm('No LinkedIn profiles selected. Tech stack detection will still run for all companies. Continue?')) {
+                    return;
+                }
+            }
+
+            setActiveStep(7);
+            document.getElementById('deep-enrich-progress').style.display = 'block';
+            document.getElementById('deep-enrich-results').style.display = 'none';
+
+            if (skipLinkedin || indices.length === 0) {
+                document.getElementById('linkedin-progress-section').style.display = 'none';
+            } else {
+                document.getElementById('linkedin-progress-section').style.display = 'block';
+            }
+
+            fetch('/api/agent02/start-enrichment', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    session_id: sessionId,
+                    linkedin_indices: indices,
+                    skip_linkedin: skipLinkedin
+                })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    return;
+                }
+                // Start polling
+                pollEnrichmentStatus(data.task_id);
+            })
+            .catch(err => {
+                showAlert('Error starting enrichment: ' + err.message, 'error');
+            });
+        }
+
+        function pollEnrichmentStatus(taskId) {
+            if (pollTimer) clearInterval(pollTimer);
+
+            pollTimer = setInterval(() => {
+                fetch(`/api/agent02/enrichment-status/${taskId}`)
+                .then(r => r.json())
+                .then(data => {
+                    // Update tech stack progress
+                    const techPct = data.tech_stack.total > 0
+                        ? Math.round((data.tech_stack.completed / data.tech_stack.total) * 100) : 0;
+                    document.getElementById('tech-progress-bar').style.width = techPct + '%';
+                    document.getElementById('tech-progress-bar').textContent = techPct + '%';
+                    document.getElementById('tech-progress-text').textContent =
+                        `${data.tech_stack.completed} / ${data.tech_stack.total}`;
+                    if (data.tech_stack.current) {
+                        document.getElementById('tech-current').textContent =
+                            `Analyzing: ${data.tech_stack.current}`;
+                    }
+
+                    // Update LinkedIn progress
+                    if (data.linkedin.total > 0) {
+                        const liPct = Math.round((data.linkedin.completed / data.linkedin.total) * 100);
+                        document.getElementById('linkedin-progress-bar').style.width = liPct + '%';
+                        document.getElementById('linkedin-progress-bar').textContent = liPct + '%';
+                        document.getElementById('linkedin-progress-text').textContent =
+                            `${data.linkedin.completed} / ${data.linkedin.total}`;
+                        if (data.linkedin.current) {
+                            document.getElementById('linkedin-current').textContent =
+                                `Scraping: ${data.linkedin.current}`;
+                        }
+                    }
+
+                    // Check if done
+                    if (data.status === 'completed') {
+                        clearInterval(pollTimer);
+                        pollTimer = null;
+                        onDeepEnrichmentComplete();
+                    } else if (data.status === 'failed') {
+                        clearInterval(pollTimer);
+                        pollTimer = null;
+                        showAlert('Deep enrichment failed: ' + (data.error || 'Unknown error'), 'error');
+                    }
+                })
+                .catch(err => {
+                    console.error('Poll error:', err);
+                });
+            }, 3000);
+        }
+
+        function onDeepEnrichmentComplete() {
+            showAlert('Deep enrichment complete!', 'success');
+            document.getElementById('agent02-status').textContent = 'Done';
+
+            fetch('/api/agent02/enrichment-results', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    return;
+                }
+
+                deepEnrichedData = data.contacts;
+                document.getElementById('deep-enrich-progress').style.display = 'none';
+                document.getElementById('deep-enrich-results').style.display = 'block';
+
+                // Stats
+                document.getElementById('deep-enrich-stats').innerHTML = `
+                    <div class="stat-box" style="background: #10b981;">
+                        <span class="number">${data.total}</span>
+                        <span class="label">Contacts Enriched</span>
+                    </div>
+                    <div class="stat-box" style="background: #3b82f6;">
+                        <span class="number">${data.contacts.filter(c => c.tech_stack && c.tech_stack.length > 0).length}</span>
+                        <span class="label">Tech Stacks Detected</span>
+                    </div>
+                    <div class="stat-box" style="background: #8b5cf6;">
+                        <span class="number">${data.contacts.filter(c => c.time_in_role).length}</span>
+                        <span class="label">LinkedIn Profiles</span>
+                    </div>
+                `;
+
+                // Display contacts
+                const container = document.getElementById('deep-enriched-contacts-display');
+                container.innerHTML = data.contacts.map(c => `
+                    <div class="enriched-contact-card">
+                        <h4>${c.name} <span style="color: #718096; font-weight: 400;">- ${c.title}</span></h4>
+                        <div class="contact-detail"><strong>Company:</strong> ${c.company} (${c.domain})</div>
+                        ${c.email ? `<div class="contact-detail"><strong>Email:</strong> ${c.email}</div>` : ''}
+                        ${c.time_in_role ? `<div class="contact-detail"><strong>Time in Role:</strong> ${c.time_in_role}</div>` : ''}
+                        ${c.location ? `<div class="contact-detail"><strong>Location:</strong> ${c.location}</div>` : ''}
+                        ${c.bio_snippet ? `<div class="contact-detail"><strong>Bio:</strong> ${c.bio_snippet}</div>` : ''}
+                        ${c.about_company && c.about_company !== 'N/A' ? `<div class="contact-detail"><strong>About Company:</strong> ${c.about_company}</div>` : ''}
+                        ${c.tech_stack && c.tech_stack.length > 0 ? `
+                            <div class="tech-tags">
+                                ${c.tech_stack.map(t => `<span class="tech-tag">${t}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `).join('');
+
+                // Enable buttons
+                document.getElementById('btn-export-agent02-sheets').disabled = false;
+                document.getElementById('btn-proceed-agent03').disabled = false;
+            })
+            .catch(err => {
+                showAlert('Error fetching results: ' + err.message, 'error');
+            });
+        }
+
+        function exportAgent02Sheets() {
+            showLoading('Exporting to Google Sheets...');
+            document.getElementById('btn-export-agent02-sheets').disabled = true;
+
+            fetch('/api/agent02/export-sheets', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId })
+            })
+            .then(r => r.json())
+            .then(data => {
+                hideLoading();
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    document.getElementById('btn-export-agent02-sheets').disabled = false;
+                    return;
+                }
+
+                document.getElementById('deep-enrich-sheets-link').innerHTML = `
+                    <div class="sheets-link-box">
+                        <p><strong>Exported to Google Sheets:</strong></p>
+                        <a href="${data.sheet_url}" target="_blank">${data.sheet_url}</a>
+                    </div>
+                `;
+                showAlert('Exported to Google Sheets!', 'success');
+            })
+            .catch(err => {
+                hideLoading();
+                showAlert('Export failed: ' + err.message, 'error');
+                document.getElementById('btn-export-agent02-sheets').disabled = false;
+            });
+        }
+
+        // =============================================================
+        // AGENT 03: Email Outreach Functions
+        // =============================================================
+
+        let selectedTone = 'professional';
+        let selectedCta = 'call';
+        let generatedEmails = [];
+
+        function proceedToEmailConfig() {
+            // Mark Agent 02 as completed
+            document.getElementById('agent02-status').textContent = 'Done';
+            unlockAgentTab(3);
+            switchAgentTab(3);
+            setActiveStep(8);
+        }
+
+        function selectOption(type, element) {
+            const group = element.parentElement;
+            group.querySelectorAll('.config-option').forEach(opt => opt.classList.remove('selected'));
+            element.classList.add('selected');
+
+            if (type === 'tone') selectedTone = element.dataset.value;
+            if (type === 'cta') selectedCta = element.dataset.value;
+        }
+
+        async function generateEmails() {
+            // Guard: if emails already generated, just show them
+            if (generatedEmails.length > 0) {
+                setActiveStep(9);
+                return;
+            }
+
+            const senderName = document.getElementById('sender-name').value.trim();
+            const senderCompany = document.getElementById('sender-company').value.trim();
+            const valueProp = document.getElementById('value-prop').value.trim();
+
+            if (!senderName || !senderCompany) {
+                showAlert('Please enter your name and company name.', 'error');
+                return;
+            }
+
+            if (!valueProp) {
+                showAlert('Please enter your value proposition.', 'error');
+                return;
+            }
+
+            showLoading('Configuring email settings...');
+
+            try {
+                // Step 1: Save config
+                await fetch('/api/agent03/configure', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: sessionId,
+                        tone: selectedTone,
+                        cta: selectedCta,
+                        sender_name: senderName,
+                        sender_company: senderCompany,
+                        value_proposition: valueProp
+                    })
+                });
+
+                // Step 2: Generate emails
+                showLoading('Generating personalized emails with AI...');
+                const response = await fetch('/api/agent03/generate-emails', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: sessionId })
+                });
+
+                const data = await response.json();
+                hideLoading();
+
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    return;
+                }
+
+                generatedEmails = data.emails;
+                setActiveStep(9);
+                displayGeneratedEmails(data);
+
+            } catch (err) {
+                hideLoading();
+                showAlert('Error: ' + err.message, 'error');
+            }
+        }
+
+        function displayGeneratedEmails(data) {
+            document.getElementById('agent03-status').textContent = 'Done';
+            // Stats
+            document.getElementById('email-stats').innerHTML = `
+                <div class="stat-box" style="background: #4f46e5;">
+                    <span class="number">${data.total}</span>
+                    <span class="label">Emails Generated</span>
+                </div>
+                <div class="stat-box" style="background: #10b981;">
+                    <span class="number">${data.success_count}</span>
+                    <span class="label">Successful</span>
+                </div>
+                <div class="stat-box" style="background: ${data.total - data.success_count > 0 ? '#f59e0b' : '#10b981'};">
+                    <span class="number">${data.total - data.success_count}</span>
+                    <span class="label">Fallback</span>
+                </div>
+            `;
+
+            // Email cards
+            const container = document.getElementById('generated-emails-display');
+            container.innerHTML = data.emails.map((email, idx) => `
+                <div class="email-preview-card">
+                    <div class="email-preview-header">
+                        <h4>${email.recipient_name} &lt;${email.recipient_email}&gt;</h4>
+                        <span class="email-status-badge ${email.generation_status}">
+                            ${email.generation_status === 'success' ? 'AI Generated' : 'Fallback'}
+                        </span>
+                    </div>
+                    <div class="email-preview-meta">
+                        <strong>Company:</strong> ${email.recipient_company} |
+                        <strong>Tone:</strong> ${email.tone} |
+                        <strong>CTA:</strong> ${email.cta}
+                    </div>
+                    <div class="email-preview-subject">
+                        Subject: ${email.subject_line}
+                    </div>
+                    <div class="email-preview-body" id="email-body-${idx}">
+                        ${email.body}
+                    </div>
+                    <div class="email-toggle-btn" onclick="toggleEmailBody(${idx})">
+                        Show more / less
+                    </div>
+                    ${email.personalization_used && email.personalization_used.length > 0 ? `
+                        <div class="personalization-tags">
+                            <span style="font-size: 0.75em; color: #718096; margin-right: 5px;">Personalized with:</span>
+                            ${email.personalization_used.map(p => `<span class="personalization-tag">${p}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+
+            // Enable export buttons
+            document.getElementById('btn-export-agent03-sheets').disabled = false;
+            document.getElementById('btn-save-emails-local').disabled = false;
+
+            showAlert(`Generated ${data.success_count}/${data.total} emails successfully!`, 'success');
+        }
+
+        function toggleEmailBody(idx) {
+            const body = document.getElementById(`email-body-${idx}`);
+            body.classList.toggle('expanded');
+        }
+
+        function exportAgent03Sheets() {
+            showLoading('Exporting emails to Google Sheets...');
+            document.getElementById('btn-export-agent03-sheets').disabled = true;
+
+            fetch('/api/agent03/export-sheets', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId })
+            })
+            .then(r => r.json())
+            .then(data => {
+                hideLoading();
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    document.getElementById('btn-export-agent03-sheets').disabled = false;
+                    return;
+                }
+
+                document.getElementById('email-sheets-link').innerHTML = `
+                    <div class="sheets-link-box">
+                        <p><strong>Emails exported to Google Sheets:</strong></p>
+                        <a href="${data.sheet_url}" target="_blank">${data.sheet_url}</a>
+                    </div>
+                `;
+                showAlert('Emails exported to Google Sheets!', 'success');
+            })
+            .catch(err => {
+                hideLoading();
+                showAlert('Export failed: ' + err.message, 'error');
+                document.getElementById('btn-export-agent03-sheets').disabled = false;
+            });
+        }
+
+        function saveEmailsLocal() {
+            showLoading('Saving emails locally...');
+
+            fetch('/api/agent03/save-local', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ session_id: sessionId })
+            })
+            .then(r => r.json())
+            .then(data => {
+                hideLoading();
+                if (data.error) {
+                    showAlert(data.error, 'error');
+                    return;
+                }
+                showAlert(data.message, 'success');
+            })
+            .catch(err => {
+                hideLoading();
+                showAlert('Save failed: ' + err.message, 'error');
+            });
         }
     </script>
 </body>

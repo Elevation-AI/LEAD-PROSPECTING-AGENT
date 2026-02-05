@@ -41,10 +41,10 @@ class JavaScriptScraper:
         ]
         
         for method in methods:
-            self.logger.debug(f"🔄 Trying method: {method.__name__}")
+            self.logger.debug(f" Trying method: {method.__name__}")
             result = method(url)
             if result and len(result) > 500:
-                self.logger.info(f"✅ {method.__name__} successful: {len(result)} chars")
+                self.logger.info(f" {method.__name__} successful: {len(result)} chars")
                 return result
         
         return None
@@ -202,15 +202,15 @@ class JavaScriptScraper:
     
     def scrape_javascript_sync(self, url: str) -> Optional[str]:
         """Main method to scrape JavaScript sites"""
-        self.logger.info(f"🌐 Attempting to scrape JavaScript site: {url}")
+        self.logger.info(f" Attempting to scrape JavaScript site: {url}")
         
         result = self.scrape_with_multiple_methods(url)
         
         if result:
-            self.logger.info(f"✅ JavaScript scraping successful: {len(result)} chars")
+            self.logger.info(f" JavaScript scraping successful: {len(result)} chars")
             return result
         else:
-            self.logger.warning("⚠️  All JavaScript scraping methods failed")
+            self.logger.warning("  All JavaScript scraping methods failed")
             return None
 
 if __name__ == "__main__":

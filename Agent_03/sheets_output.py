@@ -2,7 +2,7 @@
 Sheets Output - Export Generated Emails to Google Sheets
 =========================================================
 Exports the generated emails to a Google Sheet for user review.
-User can then copy-paste to send, or use as reference.
+Uses GCP Service Account (no browser needed, never expires).
 
 Part of Agent 03: Outreach Orchestration
 """
@@ -25,9 +25,7 @@ if PROJECT_ROOT not in sys.path:
 # IMPORTS
 # =============================================================================
 import gspread
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
+from google.oauth2.service_account import Credentials
 
 from src.utils.helpers import setup_logger
 
@@ -49,46 +47,29 @@ class EmailSheetsExporter:
 
     SCOPES = [
         'https://www.googleapis.com/auth/spreadsheets',
-        'https://www.googleapis.com/auth/drive.file'
+        'https://www.googleapis.com/auth/drive'
     ]
+
+    SHARED_DRIVE_FOLDER_ID = "0AIaLj4bNYk2CUk9PVA"
 
     def __init__(self):
         self.logger = setup_logger(__name__)
-        self.credentials = None
         self.client = None
         self._authenticate()
 
     def _authenticate(self):
-        """Authenticate with Google using OAuth"""
-        token_path = os.path.join(PROJECT_ROOT, "config", "token.json")
-        creds_path = os.path.join(PROJECT_ROOT, "config", "oauth-credentials.json")
+        """Authenticate with Google using Service Account"""
+        creds_path = os.path.join(PROJECT_ROOT, "config", "service-account.json")
 
-        # Load existing token
-        if os.path.exists(token_path):
-            self.credentials = Credentials.from_authorized_user_file(token_path, self.SCOPES)
+        if not os.path.exists(creds_path):
+            raise FileNotFoundError(
+                f"Service account credentials not found at:\n{creds_path}\n"
+                f"Download from GCP Console → IAM → Service Accounts → Keys → JSON"
+            )
 
-        # Refresh or get new token
-        if not self.credentials or not self.credentials.valid:
-            if self.credentials and self.credentials.expired and self.credentials.refresh_token:
-                self.logger.info("Refreshing expired credentials...")
-                self.credentials.refresh(Request())
-            else:
-                if not os.path.exists(creds_path):
-                    raise FileNotFoundError(
-                        f"OAuth credentials not found at {creds_path}. "
-                        "Please download from Google Cloud Console."
-                    )
-                self.logger.info("Starting OAuth flow...")
-                flow = InstalledAppFlow.from_client_secrets_file(creds_path, self.SCOPES)
-                self.credentials = flow.run_local_server(port=0)
-
-            # Save token
-            with open(token_path, 'w') as f:
-                f.write(self.credentials.to_json())
-            self.logger.info("Credentials saved")
-
-        self.client = gspread.authorize(self.credentials)
-        self.logger.info("✅ Google Sheets authenticated")
+        credentials = Credentials.from_service_account_file(creds_path, scopes=self.SCOPES)
+        self.client = gspread.authorize(credentials)
+        self.logger.info("Authenticated with service account")
 
     def export(self, emails: List[Dict], sheet_name: str = None) -> str:
         """
@@ -106,8 +87,8 @@ class EmailSheetsExporter:
 
         self.logger.info(f"Creating sheet: {sheet_name}")
 
-        # Create new spreadsheet
-        spreadsheet = self.client.create(sheet_name)
+        # Create new spreadsheet in Shared Drive
+        spreadsheet = self.client.create(sheet_name, folder_id=self.SHARED_DRIVE_FOLDER_ID)
         worksheet = spreadsheet.sheet1
         worksheet.update_title("Email Drafts")
 

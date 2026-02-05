@@ -44,8 +44,14 @@ app = Flask(__name__)
 app.secret_key = secrets.token_hex(16)
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 
-# Global storage for current session data
-session_data = {}
+# Global storage for current session data (shared across blueprints)
+from shared import session_data
+
+# Register Agent 02 and Agent 03 Blueprints
+from app_agent02 import agent02_bp
+from app_agent03 import agent03_bp
+app.register_blueprint(agent02_bp)
+app.register_blueprint(agent03_bp)
 
 
 @app.route('/')

@@ -2,5 +2,9 @@
 .claude
 __pycache__
 config/oauth-credentials.json
+config/service-account.json
 config/token.json
 config/token.pickle
+*.json
+!package.json
+elevationai*.json
