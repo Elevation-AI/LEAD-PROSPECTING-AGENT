@@ -101,6 +101,16 @@
             color: white;
         }
 
+        .step.completed,
+        .step.active {
+            cursor: pointer;
+        }
+
+        .step.completed:hover .step-number {
+            transform: scale(1.1);
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+        }
+
         .step-label {
             font-size: 0.75em;
             color: #718096;
@@ -1197,23 +1207,23 @@
 
         <!-- Step indicator (within current agent tab) -->
         <div class="step-indicator" id="step-indicator">
-            <div class="step active" data-step="1">
+            <div class="step active" data-step="1" onclick="navigateToStep(1)">
                 <div class="step-number">1</div>
                 <div class="step-label">Input</div>
             </div>
-            <div class="step" data-step="2">
+            <div class="step" data-step="2" onclick="navigateToStep(2)">
                 <div class="step-number">2</div>
                 <div class="step-label">ICP</div>
             </div>
-            <div class="step" data-step="3">
+            <div class="step" data-step="3" onclick="navigateToStep(3)">
                 <div class="step-number">3</div>
                 <div class="step-label">Customize</div>
             </div>
-            <div class="step" data-step="4">
+            <div class="step" data-step="4" onclick="navigateToStep(4)">
                 <div class="step-number">4</div>
                 <div class="step-label">Prospects</div>
             </div>
-            <div class="step" data-step="5">
+            <div class="step" data-step="5" onclick="navigateToStep(5)">
                 <div class="step-number">5</div>
                 <div class="step-label">Enrich</div>
             </div>
@@ -1420,6 +1430,49 @@
             <div id="enrich-list"></div>
             <div id="enrichment-display"></div>
 
+            <!-- Expandable Agent 01 Summary -->
+            <div id="agent01-summary-wrapper" style="display: none; margin-top: 20px;">
+                <div style="border: 2px solid #e2e8f0; border-radius: 10px; overflow: hidden;">
+                    <div onclick="toggleAgent01Summary()" style="background: #f8fafc; padding: 15px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0;">
+                        <h3 style="margin: 0; color: #1a202c; font-size: 1.1em;">Agent 01 Summary - View All Results</h3>
+                        <span id="agent01-summary-arrow" style="font-size: 1.2em; transition: transform 0.3s; color: #718096;">&#9660;</span>
+                    </div>
+                    <div id="agent01-summary-content" style="display: none; padding: 20px;">
+
+                        <div class="collapse-section" style="margin-bottom: 15px;">
+                            <div class="collapse-header" onclick="toggleCollapse('summary-icp')">
+                                <span>Ideal Customer Profile (ICP)</span>
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div id="summary-icp" class="collapse-content">
+                                <div id="summary-icp-display" class="icp-grid"></div>
+                            </div>
+                        </div>
+
+                        <div class="collapse-section" style="margin-bottom: 15px;">
+                            <div class="collapse-header" onclick="toggleCollapse('summary-prospects')">
+                                <span>Prospect Companies (<span id="summary-prospects-count">0</span>)</span>
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div id="summary-prospects" class="collapse-content">
+                                <div id="summary-prospects-display"></div>
+                            </div>
+                        </div>
+
+                        <div class="collapse-section">
+                            <div class="collapse-header" onclick="toggleCollapse('summary-contacts')">
+                                <span>Enriched Contacts (<span id="summary-contacts-count">0</span>)</span>
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div id="summary-contacts" class="collapse-content">
+                                <div id="summary-contacts-display"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             <div class="btn-group" style="margin-top: 20px;">
                 <button class="btn btn-secondary" onclick="goBackToStep(4)">Back to Prospects</button>
                 <button class="btn btn-download" onclick="downloadAllExcel()" id="btn-download-all">Download Agent 01 Report (Excel)</button>
@@ -1436,11 +1489,11 @@
 
         <!-- Agent 02 step indicator -->
         <div class="step-indicator" id="step-indicator-agent02" style="display: flex;">
-            <div class="step active" data-step="6">
+            <div class="step active" data-step="6" onclick="navigateToStep(6)">
                 <div class="step-number">1</div>
                 <div class="step-label">Select Contacts</div>
             </div>
-            <div class="step" data-step="7">
+            <div class="step" data-step="7" onclick="navigateToStep(7)">
                 <div class="step-number">2</div>
                 <div class="step-label">Results</div>
             </div>
@@ -1527,11 +1580,11 @@
 
         <!-- Agent 03 step indicator -->
         <div class="step-indicator" id="step-indicator-agent03" style="display: flex;">
-            <div class="step active" data-step="8">
+            <div class="step active" data-step="8" onclick="navigateToStep(8)">
                 <div class="step-number">1</div>
                 <div class="step-label">Configure</div>
             </div>
-            <div class="step" data-step="9">
+            <div class="step" data-step="9" onclick="navigateToStep(9)">
                 <div class="step-number">2</div>
                 <div class="step-label">Emails</div>
             </div>
@@ -1980,6 +2033,13 @@
 
         function goBackToStep(step) {
             setActiveStep(step);
+        }
+
+        function navigateToStep(step) {
+            // Only allow navigating to steps that have been reached
+            if (step <= highestCompletedStep || step === 1) {
+                setActiveStep(step);
+            }
         }
 
         function disableButton(buttonId) {
@@ -2444,6 +2504,9 @@
                 // Enable download buttons now that we have enriched data
                 updateDownloadButtons();
 
+                // Update the expandable Agent 01 summary
+                populateAgent01Summary();
+
                 showAlert(`Successfully enriched ${company.name}!`, 'success');
 
             } catch (error) {
@@ -2469,6 +2532,71 @@
 
             content.classList.toggle('open');
             header.classList.toggle('open');
+        }
+
+        function toggleAgent01Summary() {
+            const content = document.getElementById('agent01-summary-content');
+            const arrow = document.getElementById('agent01-summary-arrow');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                arrow.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.display = 'none';
+                arrow.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function populateAgent01Summary() {
+            // ICP
+            if (icpData) {
+                displayICP(icpData, 'summary-icp-display');
+            } else {
+                document.getElementById('summary-icp-display').innerHTML =
+                    '<p style="color:#718096;">No ICP data available yet.</p>';
+            }
+
+            // Prospects
+            const prospectsContainer = document.getElementById('summary-prospects-display');
+            document.getElementById('summary-prospects-count').textContent = prospectsData.length;
+            if (prospectsData.length > 0) {
+                prospectsContainer.innerHTML = prospectsData.map(p => `
+                    <div class="prospect-card">
+                        <h3>${p.name}</h3>
+                        <div class="domain">🌐 <a href="https://${p.domain}" target="_blank" class="domain-link">${p.domain}</a></div>
+                        <div class="fit-reason"><strong>Why Good Fit:</strong> ${p.why_good_fit}</div>
+                    </div>
+                `).join('');
+            } else {
+                prospectsContainer.innerHTML = '<p style="color:#718096;">No prospects data available yet.</p>';
+            }
+
+            // Enriched contacts
+            const contactsContainer = document.getElementById('summary-contacts-display');
+            let totalContacts = 0;
+            enrichedData.forEach(company => {
+                totalContacts += (company.contacts || []).length;
+            });
+            document.getElementById('summary-contacts-count').textContent = totalContacts;
+
+            if (enrichedData.length > 0) {
+                contactsContainer.innerHTML = enrichedData.map(company => `
+                    <div style="margin-bottom: 15px; padding: 15px; background: #f8fafc; border-radius: 8px; border-left: 3px solid #4f46e5;">
+                        <h4 style="margin-bottom: 8px;">${company.company_name || company.company || 'Unknown'} <span style="color:#718096; font-weight:normal;">(${company.domain || ''})</span></h4>
+                        ${(company.contacts || []).map(c => `
+                            <div style="padding: 8px 12px; margin: 4px 0; background: white; border-radius: 6px; font-size: 0.9em;">
+                                <strong>${c.name || 'N/A'}</strong> — ${c.title || 'N/A'}
+                                ${c.email ? ` | ${c.email}` : ''}
+                                ${c.linkedin_url ? ` | <a href="${c.linkedin_url}" target="_blank" style="color:#4f46e5;">LinkedIn</a>` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                `).join('');
+            } else {
+                contactsContainer.innerHTML = '<p style="color:#718096;">No enriched contacts available yet.</p>';
+            }
+
+            // Show the wrapper
+            document.getElementById('agent01-summary-wrapper').style.display = 'block';
         }
 
         // =============================================================
